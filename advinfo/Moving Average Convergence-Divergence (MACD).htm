@@ -1,0 +1,835 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<!-- saved from url=(0071)http://www.stockcharts.com/education/IndicatorAnalysis/indic_MACD1.html -->
+<HTML lang=en xml:lang="en" xmlns="http://www.w3.org/1999/xhtml"><HEAD><TITLE>Moving Average Convergence/Divergence (MACD)</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=utf-8">
+<META id=description 
+content="A popular technical indicator system that combines several moving averages to better show a stock's trend and momentum.">
+<META id=keywords 
+content="Moving Average Convergene Divergence, Gerald Appel, MACD, glossary, GlossaryTerm, technical analysis, stock chart, lagging indicators">
+<META http-equiv=imagetoolbar content=false><LINK media=all 
+href="Moving Average Convergence-Divergence (MACD)_files/sc_xhtml.css" 
+type=text/css rel=stylesheet><LINK media=print 
+href="Moving Average Convergence-Divergence (MACD)_files/sc_xhtml_print.css" 
+type=text/css rel=stylesheet>
+<SCRIPT language=javascript><!--
+function gosearch(f) {
+var s=escape(f["sp-q"].value); 
+if (s=="") return false;
+switch(f.actionDD.selectedIndex){
+case 0:window.location="http://stockcharts.com/def/servlet/SC.web?c="+s; break;
+case 1:window.location="http://stockcharts.com/def/servlet/SC.pnf?c="+s+",P"; break;
+case 2:window.location="http://stockcharts.com/candleglance?"+s; break;
+case 3:window.location="http://stockcharts.com/webcgi/perf.html?"+s; break;
+case 4:window.location="http://stockcharts.com/gallery?"+s; break;
+case 5:window.location="http://stockcharts.com/symsearch?"+s; break;
+case 6:return true;
+}
+return false;}
+
+function gofind(form) {
+var s=document.find.value; 
+if (s=="") return false;
+}
+//-->
+</SCRIPT>
+
+<META content="MSHTML 6.00.2900.2802" name=GENERATOR></HEAD>
+<BODY>
+<DIV class=header id=header>
+<TABLE cellSpacing=0 
+summary="Site title, search, navigation, and ads (where applicable).">
+  <TBODY>
+  <TR>
+    <TD class=logo rowSpan=2>
+      <H1><A href="http://stockcharts.com/"><IMG id=screen_logo 
+      alt="StockCharts.com: Simply the Web's Best Financial Charts" 
+      src="Moving Average Convergence-Divergence (MACD)_files/new_logo.gif"><IMG 
+      id=print_logo height=1 
+      alt="StockCharts.com: Simply the Web's Best Financial Charts" 
+      src="Moving Average Convergence-Divergence (MACD)_files/new_logo_print.gif" 
+      width=1></A></H1></TD>
+    <TD class=ad>
+      <SCRIPT language=javascript><!--
+var s="";
+if(Math.random()>0.2) s="&pop=0";
+document.write('<scr'+'ipt language=javascript src="http://a.tribalfusion.com/j.ad?site=StockChartscom&adSpace=Stocks&size=468x60'+s+'&requestID='+((new Date()).getTime() % 2147483648) + Math.random()+'"></scr'+'ipt>');
+//-->
+</SCRIPT>
+      <NOSCRIPT><A 
+      href="http://a.tribalfusion.com/i.click?site=StockChartscom&amp;adSpace=Stocks&amp;size=468x60&amp;requestID=1253507629" 
+      target=_blank><IMG height=60 alt="Click Here" 
+      src="Moving Average Convergence-Divergence (MACD)_files/ad.htm" width=468 
+      border=0></A> </NOSCRIPT><BR><BR><BR><BR><BR><BR><BR></TD>
+    <TD class=search>
+      <FORM id=search onsubmit="return gosearch(this);" 
+      action=http://search.atomz.com/search/ method=get><INPUT type=hidden 
+      value=00010a6e-sp00000000 name=sp-a> <SELECT id=actionDD 
+        name=actionDD><OPTION selected>SharpChart:</OPTION><OPTION>P&amp;F 
+        Chart:</OPTION><OPTION>CandleGlance:</OPTION><OPTION>PerfChart:</OPTION><OPTION>Gallery 
+        View:</OPTION><OPTION>Symbol Lookup:</OPTION><OPTION>Site 
+        Search:</OPTION></SELECT> <INPUT id=sp-q size=7 value=" " name=sp-q> <INPUT class=formButton type=submit value=Go> <BR><A 
+      href="http://stockcharts.com/charts/catalog/">Symbol&nbsp;Catalog</A> 
+      </FORM></TD></TR></TBODY></TABLE>
+<DIV class=tabs><MAP id=NavMap name=NavMap><AREA shape=RECT alt=Members 
+  coords=417,0,495,22 
+  href="http://stockcharts.com/def/servlet/Favorites.CServlet"><AREA shape=RECT 
+  alt="John Murphy" coords=315,0,417,22 
+  href="http://stockcharts.com/members"><AREA shape=RECT alt=Support 
+  coords=244,0,315,22 href="http://stockcharts.com/support"><AREA shape=RECT 
+  alt="Chart School" coords=146,0,244,22 
+  href="http://stockcharts.com/education"><AREA shape=RECT alt="Free Charts" 
+  coords=59,0,146,22 href="http://stockcharts.com/charts"><AREA shape=RECT 
+  alt=Home coords=0,0,59,22 href="http://stockcharts.com/"></MAP><IMG 
+alt="StockCharts Navigation (see footer for text links)" 
+src="Moving Average Convergence-Divergence (MACD)_files/tabsSchool.gif" 
+useMap=#NavMap><!-- hide IE whitespace
+/--></DIV></DIV>
+<TABLE class=main cellSpacing=0 
+summary="Main page content (some ads may appear for non-subscribed users).">
+  <TBODY>
+  <TR>
+    <TD class=sidebar id=sidebar bgColor=#538c8c>
+      <DIV class=navSearch id=navSearch>
+      <SCRIPT language=javascript type=text/javascript><!--function gofind(form){var s=document.find.value; if(s=="") return false;}//--></SCRIPT>
+
+      <FORM name=find onsubmit="return gofind(this.form);" 
+      action=http://search.atomz.com/search/ method=get>
+      <H3>Search the Site:</H3><INPUT id=search_textbox size=17 name=sp-q> 
+      <BR><INPUT type=image 
+      src="Moving Average Convergence-Divergence (MACD)_files/button_findit.gif" 
+      align=bottom border=0 name="Find It!"> <INPUT type=hidden 
+      value=00010a6e-sp00000000 name=sp-a> <BR><A 
+      href="http://stockcharts.com/support/advanced.html">Advanced Search</A> 
+      </FORM></DIV>
+      <DIV class=navLinks id=navLinks>
+      <DIV class=navSection>
+      <H3><A href="http://www.stockcharts.com/education/index.html">Chart 
+      School</A></H3>
+      <UL>
+        <LI><A 
+        href="http://www.stockcharts.com/education/Overview/index.html">Overview</A> 
+
+        <LI><A 
+        href="http://www.stockcharts.com/education/ChartAnalysis/index.html">Chart 
+        Analysis</A> 
+        <LI class=selected>&gt;<A 
+        href="http://www.stockcharts.com/education/IndicatorAnalysis/index.html">Technical 
+        Indicators and Overlays</A> 
+        <LI><A 
+        href="http://www.stockcharts.com/education/MarketAnalysis/index.html">Market 
+        Analysis</A> 
+        <LI><A 
+        href="http://www.stockcharts.com/education/TradingStrategies/index.html">Trading 
+        Strategies</A> 
+        <LI><A 
+        href="http://www.stockcharts.com/education/GlossaryA.html">Glossary</A> 
+        <LI><A 
+        href="http://www.stockcharts.com/education/links.html">Recommended 
+        Sites</A></LI></UL><!-- end:object482 /--></DIV>
+      <DIV class=navSection>
+      <H3>Additional Resources<BR></H3>
+      <UL>
+        <LI><A href="http://store.yahoo.com/stockcharts">Bookstore</A> 
+        <LI><A 
+        href="http://stockcharts.com/commentary/archives/index.html">Newsletter 
+        Archives</A> 
+        <LI><A href="http://stockcharts.com/siteUse.html">Using 
+        StockCharts.com</A> </LI></UL></DIV>
+      <DIV class=navSection>
+      <H3>Join Now!</H3>
+      <P style="MARGIN: 0pt; TEXT-ALIGN: center"><A 
+      href="http://stockcharts.com/corp/subsmatrix.html"><IMG 
+      src="Moving Average Convergence-Divergence (MACD)_files/subbutton.gif"></A></P></DIV>
+      <DIV class=navSection>
+      <H3>Information</H3>
+      <UL>
+        <LI><A href="http://stockcharts.com/corp/index.html">About Us</A> 
+        <LI><A href="http://stockcharts.com/corp/subscribe.html">Free 
+        Newsletter</A> 
+        <LI><A href="http://stockcharts.com/corp/products/index.html">Business 
+        Products</A> 
+        <LI><A href="http://stockcharts.com/corp/privacy.html">Privacy 
+        Statement</A> </LI></UL></DIV>
+      <DIV class=navSection>
+      <H3>Our Bookstore<BR></H3>
+      <UL>
+        <LI><A href="http://store.yahoo.com/stockcharts">Monthly 
+Specials</A><BR>
+        <LI><A 
+        href="http://store.yahoo.com/stockcharts/chbu.html">ChartWatchers'&nbsp;Bundle</A> 
+
+        <LI><A href="http://store.yahoo.com/stockcharts/adteanbo.html">Tech. 
+        Analysis Books</A> 
+        <LI><A href="http://store.yahoo.com/stockcharts/bobyjomu.html">John 
+        Murphy's Books</A> 
+        <LI><A 
+        href="http://store.yahoo.com/stockcharts/boonpoandfic.html">P&amp;F 
+        Charting Books</A> </LI></UL></DIV></DIV>
+      <DIV class=forceWidth></DIV></TD>
+    <TD class=content id=content>
+      <DIV class=breadcrumbs><A 
+      href="http://www.stockcharts.com/">Home</A>&nbsp;&gt;&nbsp;<A 
+      href="http://www.stockcharts.com/education/index.html">Chart 
+      School</A>&nbsp;&gt;&nbsp;<A 
+      href="http://www.stockcharts.com/education/IndicatorAnalysis/index.html">Technical 
+      Indicators and Overlays</A>&nbsp;&gt;&nbsp;Moving Average 
+      Convergence/Divergence (MACD)<!-- end:object3 /--></DIV>
+      <H1>Moving Average Convergence/Divergence (MACD)</H1>
+      <DIV class=print_link align=right><A 
+      href="javascript:window.print();"><IMG height=13 alt="" hspace=0 
+      src="Moving Average Convergence-Divergence (MACD)_files/blue_print.gif" 
+      width=17 border=0>&nbsp;Print</A> </DIV>
+      <DIV class=clear></DIV><A name=intro></A>
+      <H2>Introduction</H2>
+      <P>Developed by Gerald Appel, Moving Average Convergence/Divergence (MACD) 
+      is one of the simplest and most reliable indicators available. MACD uses 
+      <A title="Glossary: moving average" 
+      href="http://www.stockcharts.com/education/GlossaryM.html#MovingAverage">moving 
+      averages</A>, which are lagging indicators, to include some 
+      trend-following characteristics. These lagging indicators are turned into 
+      a momentum oscillator by subtracting the longer moving average from the 
+      shorter moving average. The resulting plot forms a line that oscillates 
+      above and below zero, without any upper or lower limits. MACD is a 
+      centered oscillator and the <A 
+      href="http://www.stockcharts.com/education/IndicatorAnalysis/indicators3.html#centeredosc">guidelines</A> 
+      for using centered oscillators apply.</P><A name=macdformula></A>
+      <H2>MACD Formula</H2><!-- #BeginLibraryItem "/Library/TribalFusionRectangle.lbi" -->
+      <TABLE class=ad cellPadding=5 width=336 align=right>
+        <TBODY>
+        <TR align=middle>
+          <TD align=middle>Advertisement</TD></TR>
+        <TR>
+          <TD><!-- TF 336x280 JScript VAR code -->
+            <SCRIPT language=javascript><!--
+document.write('<scr'+'ipt language=javascript src="http://a.tribalfusion.com/j.ad?site=StockChartscom&adSpace=TheExperts&size=336x280&type=var&requestID='+((new Date()).getTime() % 2147483648) + Math.random()+'"></scr'+'ipt>');
+//-->
+  </SCRIPT>
+            <NOSCRIPT><A 
+            href="http://a.tribalfusion.com/i.click?site=StockChartscom&amp;adSpace=TheExperts&amp;size=336x280&amp;requestID=817781362" 
+            target=_blank><IMG height=280 alt="Click Here" 
+            src="Moving Average Convergence-Divergence (MACD)_files/473896.jpg" 
+            width=336 align=right border=0></A> </NOSCRIPT><!-- TF 336x280 JScript VAR code --><BR></TD></TR></TBODY></TABLE><!-- #EndLibraryItem -->
+      <P>The most popular formula for the "standard" MACD is the difference 
+      between a security's 26-day and 12-day exponential moving averages. This 
+      is the formula that is used in many popular technical analysis programs, 
+      including <A 
+      href="http://stockcharts.com/charts/SharpCharts/">SharpCharts</A>, and 
+      quoted in most technical analysis books on the subject. Appel and others 
+      have since tinkered with these original settings to come up with a MACD 
+      that is better suited for faster or slower securities. Using shorter 
+      moving averages will produce a quicker, more responsive indicator, while 
+      using longer moving averages will produce a slower indicator, less prone 
+      to whipsaws. For our purposes in this article, the traditional 12/26 MACD 
+      will be used for explanations. Later in the indicator series, we will 
+      address the use of different moving averages in calculating MACD. </P>
+      <P>Of the two moving averages that make up MACD, the 12-day EMA is the 
+      faster and the 26-day EMA is the slower. Closing prices are used to form 
+      the moving averages. Usually, a 9-day EMA of MACD is plotted along side to 
+      act as a trigger line. A bullish crossover occurs when MACD moves above 
+      its 9-day EMA and a bearish crossover occurs when MACD moves below its 
+      9-day EMA. The Merrill Lynch chart below shows the 12-day EMA (thin blue 
+      line) with the 26-day EMA (thin red line) overlaid the price plot. MACD 
+      appears in the box below as the thick black line and its 9-day EMA is the 
+      thin blue line. The histogram represents the difference between MACD and 
+      its 9-day EMA. The histogram is positive when MACD is above its 9-day EMA 
+      and negative when MACD is below its 9-day EMA.</P>
+      <P>&nbsp;<IMG height=401 
+      alt="Merrill Lynch &amp;amp; Co., Inc. (MER) MACD example chart from StockCharts.com" 
+      hspace=0 
+      src="Moving Average Convergence-Divergence (MACD)_files/ta-macd1-mer1.png" 
+      width=517 border=1></P><A name=whatdoesmacddo></A>
+      <H2>What does MACD do?</H2>
+      <P>MACD measures the difference between two moving averages. A positive 
+      MACD indicates that the 12-day EMA is trading above the 26-day EMA. A 
+      negative MACD indicates that the 12-day EMA is trading below the 26-day 
+      EMA. If MACD is positive and rising, then the gap between the 12-day EMA 
+      and the 26-day EMA is widening. This indicates that the rate-of-change of 
+      the faster moving average is higher than the rate-of-change for the slower 
+      moving average. Positive momentum is increasing and this would be 
+      considered bullish. If MACD is negative and declining further, then the 
+      negative gap between the faster moving average (green) and the slower 
+      moving average (blue) is expanding. Downward momentum is accelerating and 
+      this would be considered bearish. MACD centerline crossovers occur when 
+      the faster moving average crosses the slower moving average.</P>
+      <P><IMG height=401 
+      alt="Merrill Lynch &amp;amp; Co., Inc. (MER) MACD example chart from StockCharts.com" 
+      hspace=0 
+      src="Moving Average Convergence-Divergence (MACD)_files/ta-macd1-mer2.png" 
+      width=517 border=1> </P>
+      <P>This Merrill Lynch chart shows MACD as a solid black line and its 9-day 
+      EMA as the thin blue line. Even though moving averages are lagging 
+      indicators, notice that MACD moves faster than the moving averages. In 
+      this example with Merrill Lynch, MACD also provided a few good trading 
+      signals as well.</P>
+      <OL>
+        <LI>In March and April, MACD turned down ahead of both moving averages 
+        and formed a negative divergence ahead of the price peak. 
+        <LI>In May and June, MACD began to strengthen and make higher lows while 
+        both moving averages continued to make lower lows. 
+        <LI>And finally, MACD formed a positive divergence in October while both 
+        moving averages recorded new lows. </LI></OL><A name=bullishsignals></A>
+      <H2>MACD Bullish Signals</H2>
+      <P>MACD generates bullish signals from three main sources:</P>
+      <OL>
+        <LI>Positive divergence 
+        <LI>Bullish moving average crossover 
+        <LI>Bullish centerline crossover </LI></OL>
+      <H3><A name=posdivergence></A>Positive Divergence</H3>
+      <P><STRONG></STRONG><IMG height=402 
+      alt="Novellus Systems, Inc. (NVLS) MACD example chart from StockCharts.com" 
+      hspace=0 
+      src="Moving Average Convergence-Divergence (MACD)_files/ta-macd1-nvls1.png" 
+      width=516 border=1></P>
+      <P>A positive divergence occurs when MACD begins to advance and the 
+      security is still in a downtrend and makes a lower reaction low. MACD can 
+      either form as a series of higher lows or a second low that is higher than 
+      the previous low. Positive divergences are probably the least common of 
+      the three signals, but are usually the most reliable and lead to the 
+      biggest moves.</P>
+      <H3><A name=bmacross></A>Bullish Moving Average Crossover</H3>
+      <P><STRONG></STRONG><IMG height=400 
+      alt="Novellus Systems, Inc. (NVLS) MACD example chart from StockCharts.com" 
+      hspace=0 
+      src="Moving Average Convergence-Divergence (MACD)_files/ta-macd1-nvls2.png" 
+      width=516 border=1></P>
+      <P>A bullish moving average crossover occurs when MACD moves above its 
+      9-day EMA or trigger line. Bullish moving average crossovers are probably 
+      the most common signals and as such are the least reliable. If not used in 
+      conjunction with other technical analysis tools, these crossovers can lead 
+      to <A 
+      href="http://www.stockcharts.com/education/GlossaryW.html#Whipsaw">whipsaws</A> 
+      and many false signals. Moving average crossovers are sometimes used to 
+      confirm a positive divergence. The second low or higher low of a positive 
+      divergence can be considered valid when it is followed by a bullish moving 
+      average crossover.</P>
+      <P>Sometimes it is prudent to apply a price filter to the moving average 
+      crossover in order to ensure that it will hold. An example of a price 
+      filter would be to buy if MACD breaks above the 9-day EMA and remains 
+      above for three days. The buy signal would then commence at the end of the 
+      third day.</P>
+      <H3><A name=bucentercross></A>Bullish Centerline Crossover</H3>
+      <P><IMG height=401 
+      alt="Apple Computer, Inc. (AAPL) MACD example chart from StockCharts.com" 
+      hspace=0 
+      src="Moving Average Convergence-Divergence (MACD)_files/ta-macd1-aapl.png" 
+      width=516 border=1></P>
+      <P>A bullish centerline crossover occurs when MACD moves above the zero 
+      line and into positive territory. This is a clear indication that momentum 
+      has changed from negative to positive, or from bearish to bullish. After a 
+      positive divergence and bullish moving average crossover, the centerline 
+      crossover can act as a confirmation signal. Of the three signals, moving 
+      average crossover are probably the second most common signals.</P>
+      <H3><A name=combinesignals></A>Using a Combination of Signals<BR></H3>
+      <P><IMG height=403 
+      alt="Halliburton Co. (HAL) MACD example chart from StockCharts.com" 
+      hspace=0 
+      src="Moving Average Convergence-Divergence (MACD)_files/ta-macd1-hal.png" 
+      width=518 border=1></P>
+      <P>Even though some traders may use only one of the above signals to form 
+      a buy or a sell signal, using a combination can generate more robust 
+      signals. In the Halliburton example, all three bullish signals were 
+      present and the stock still advanced another 20%. The stock formed a lower 
+      low at the end of February, but MACD formed a higher low, thus creating a 
+      potential positive divergence. MACD then formed a bullish crossover by 
+      moving above its 9-day EMA. And finally, MACD traded above zero to form a 
+      bullish centerline crossover. At the time of the bullish centerline 
+      crossover, the stock was trading at 32 1/4 and went above 40 immediately 
+      after that. In August, the stock traded above 50.&nbsp;</P><A 
+      name=bearishsignals></A>
+      <H2>Bearish Signals</H2><!-- #BeginLibraryItem "/Library/TribalFusionRectangle.lbi" -->
+      <TABLE class=ad cellPadding=5 width=336 align=right>
+        <TBODY>
+        <TR align=middle>
+          <TD align=middle>Advertisement</TD></TR>
+        <TR>
+          <TD><!-- TF 336x280 JScript VAR code -->
+            <SCRIPT language=javascript><!--
+document.write('<scr'+'ipt language=javascript src="http://a.tribalfusion.com/j.ad?site=StockChartscom&adSpace=TheExperts&size=336x280&type=var&requestID='+((new Date()).getTime() % 2147483648) + Math.random()+'"></scr'+'ipt>');
+//-->
+  </SCRIPT>
+            <NOSCRIPT><A 
+            href="http://a.tribalfusion.com/i.click?site=StockChartscom&amp;adSpace=TheExperts&amp;size=336x280&amp;requestID=817781362" 
+            target=_blank><IMG height=280 alt="Click Here" 
+            src="Moving Average Convergence-Divergence (MACD)_files/473896.jpg" 
+            width=336 align=right border=0></A> </NOSCRIPT><!-- TF 336x280 JScript VAR code --><BR></TD></TR></TBODY></TABLE><!-- #EndLibraryItem -->
+      <P>MACD generates bearish signals from three main sources. These signals 
+      are mirror reflections of the bullish signals:</P>
+      <OL>
+        <LI>Negative divergence 
+        <LI>Bearish moving average crossover 
+        <LI>Bearish centerline crossover </LI></OL>
+      <H3><A name=negdivergence></A>Negative Divergence</H3>
+      <P>A negative <A title="Glossary: divergence" 
+      href="http://www.stockcharts.com/education/GlossaryD.html#Divergence">divergence</A> 
+      forms when the security advances or moves sideways and MACD declines. The 
+      negative divergence in MACD can take the form of either a lower high or a 
+      straight decline. Negative divergences are probably the least common of 
+      the three signals, but are usually the most reliable and can warn of an 
+      impending peak.</P>
+      <P><IMG height=400 
+      alt="FedEx Corp. (FDX) MACD example chart from StockCharts.com" hspace=0 
+      src="Moving Average Convergence-Divergence (MACD)_files/ta-macd2-fdx.png" 
+      width=516 border=1></P>
+      <P>The FDX chart shows a negative divergence when MACD formed a lower high 
+      in May and the stock formed a higher high at the same time. This was a 
+      rather blatant negative divergence and signaled that momentum was slowing. 
+      A few days later, the stock broke the uptrend line and MACD formed a lower 
+      low.</P>
+      <P>There are two possible means of confirming a negative divergence. 
+      First, the indicator can form a lower low. This is traditional 
+      peak-and-trough analysis applied to an indicator. With the lower high and 
+      subsequent lower low, the up trend for MACD has changed from bullish to 
+      bearish. Second, a bearish moving average crossover, which is explained 
+      below, can act to confirm a negative divergence. As long as MACD is 
+      trading above its 9-day <A title="Glossary: moving average" 
+      href="http://www.stockcharts.com/education/GlossaryM.html#MovingAverage">EMA</A> 
+      or trigger line, it has not turned down and the lower high is difficult to 
+      confirm. When MACD breaks below its 9-day EMA, it signals that the 
+      short-term trend for the indicator is weakening, and a possible interim 
+      peak has formed.</P>
+      <H3><A name=bearmacross></A>Bearish moving average crossover</H3>
+      <P><STRONG></STRONG>The most common signal for MACD is the moving average 
+      crossover. A bearish moving average crossover occurs when MACD declines 
+      below its 9-day EMA. Not only are these signals the most common, but they 
+      also produce the most false signals. As such, moving average crossovers 
+      should be confirmed with other signals to avoid <A 
+      title="Glossary: whipsaw" 
+      href="http://www.stockcharts.com/education/GlossaryW.html#Whipsaw">whipsaws</A> 
+      and false readings.</P>
+      <P><IMG height=403 
+      alt="Merck &amp;amp;amp;amp; Co., Inc. (MRK) MACD example chart from StockCharts.com" 
+      hspace=0 
+      src="Moving Average Convergence-Divergence (MACD)_files/ta-macd2-mrk.png" 
+      width=517 border=1></P>
+      <P>Sometimes a stock can be in a strong uptrend and MACD will remain above 
+      its trigger line for a sustained period of time. In this case, it is 
+      unlikely that a negative divergence will develop. A different signal is 
+      needed to identify a potential change in momentum. This was the case with 
+      MRK in February and March. The stock advanced in a strong up trend and 
+      MACD remained above its 9-day EMA for 7 weeks. When a bearish moving 
+      average crossover occurred, it signaled that upside momentum was slowing. 
+      This slowing momentum should have served as an alert to monitor the 
+      technical situation for further clues of weakness. Weakness was soon 
+      confirmed when the stock broke its uptrend line and MACD continued its 
+      decline and moved below zero.</P>
+      <H3><A name=bearcentercross></A>Bearish centerline crossover</H3>
+      <P><STRONG></STRONG>A bearish centerline crossover occurs when MACD moves 
+      below zero and into negative territory. This is a clear indication that 
+      momentum has changed from positive to negative, or from bullish to 
+      bearish. The centerline crossover can act as an independent signal, or 
+      confirm a prior signal such as a moving average crossover or negative 
+      divergence. Once MACD crosses into negative territory, momentum, at least 
+      for the short term, has turned bearish.</P>
+      <P><IMG alt="Unisys Corp. (UIS) MACD example chart from StockCharts.com" 
+      src="Moving Average Convergence-Divergence (MACD)_files/ta-macd2-uis.png" 
+      border=1></P>
+      <P>The significance of the centerline crossover will depend on the 
+      previous movements of MACD as well. If MACD is positive for many weeks, 
+      begins to trend down and then crosses into negative territory, it would be 
+      considered bearish. However, if MACD has been negative for a few months, 
+      breaks above zero and then back below, it may be seen as more of a 
+      correction. In order to judge the significance of a centerline crossover, 
+      traditional technical analysis can be applied to see if there has been a 
+      change in trend, higher high or lower low. </P>
+      <P>The UIS chart depicts a bearish centerline crossover that preceded a 
+      25% drop in the stock that occurs just off the right edge of the chart. 
+      Although there was little time to act once this signal appeared, there 
+      were other warnings signs just prior to the dramatic drop.</P>
+      <OL>
+        <LI>After the drop to trend line support , a bearish moving average 
+        crossover formed. 
+        <LI>When the stock rebounded from the drop, MACD did not even break 
+        above the trigger line, indicating weak upside momentum. 
+        <LI>The peak of the reaction rally was marked by a <A 
+        title="Glossary: shooting star candlestick" 
+        href="http://www.stockcharts.com/education/GlossaryS.html#ShootingStar">shooting 
+        star candlestick</A> (blue arrow) and a <A 
+        title="Glossary: Gap up or down" 
+        href="http://www.stockcharts.com/education/GlossaryG.html#GapUpDown">gap</A> 
+        down on increased volume (red arrows). 
+        <LI>After the gap down, the blue trend line extending up from Apr-99 was 
+        broken. </LI></OL>
+      <P>In addition to the signal mentioned above, the bearish centerline 
+      crossover occurred after MACD had been above zero for almost two months. 
+      Since 20-Sept, MACD had been weakening and momentum was slowing. The break 
+      below zero acted as the final straw of a long weakening process.</P><A 
+      name=combinesignals></A>
+      <H2>Combining Signals</H2>
+      <P>As with bullish MACD signals, bearish signals can be combined to create 
+      more robust signals. In most cases, stocks fall faster than they rise. 
+      This was definitely the case with UIS and only two bearish MACD signals 
+      were present. Using momentum indicators like MACD, technical analysis can 
+      sometimes provide clues to impending weakness. While it may be impossible 
+      to predict the length and duration of the decline, being able to spot 
+      weakness can enable traders to take a more defensive position. </P>
+      <P><IMG alt="Intel Corp. (INTC) MACD example chart from StockCharts.com" 
+      hspace=0 
+      src="Moving Average Convergence-Divergence (MACD)_files/ta-macd2-intc.png" 
+      border=1 
+      aobject="load_object2()|image_id==316|alt==|url==http%3A%2F%2Fnifty%2Feducation%2FIndicatorAnalysis%2FImages%2Fta-macd2-intc.png|extras==+width%3D%22453%22+height%3D%22428%22+border%3D%221%22+align%3D%22left%22|tag=="></P>
+      <P>In 2002, Intel dropped from above 36 to below 28 in a few months. Yet 
+      it would seem that smart money began distributing the stock before the 
+      actual decline. Looking at the technical picture, we can spot evidence of 
+      this distribution and a serious loss of momentum.</P>
+      <OL>
+        <LI>In December, a negative divergence formed in MACD. 
+        <LI><A title="Glossary: Chaikin Money Flow" 
+        href="http://www.stockcharts.com/education/GlossaryC.html#ChaikinMoneyFlow">Chaikin 
+        Money Flow</A> turned negative on December 21. 
+        <LI>Also in December, a bearish moving average crossover occurred in 
+        MACD (black arrow). 
+        <LI>The trend line extending up from October was broken on December 20. 
+        <LI>A bearish centerline crossover occurred in MACD on 10-Feb (green 
+        arrow). 
+        <LI>On February 15, support at 31 1/2 was violated (red arrow). </LI></OL>
+      <P>For those waiting for a recovery in the stock, the continued decline of 
+      momentum suggested that selling pressure was increasing, and not about to 
+      decrease. Hindsight is 20/20, but with careful study of past situations, 
+      we can learn how to better read the present and prepare for the 
+      future.</P><A name=macdbenefits></A>
+      <H2>MACD Benefits</H2><!-- #BeginLibraryItem "/Library/TribalFusionRectangle.lbi" -->
+      <TABLE class=ad cellPadding=5 width=336 align=right>
+        <TBODY>
+        <TR align=middle>
+          <TD align=middle>Advertisement</TD></TR>
+        <TR>
+          <TD><!-- TF 336x280 JScript VAR code -->
+            <SCRIPT language=javascript><!--
+document.write('<scr'+'ipt language=javascript src="http://a.tribalfusion.com/j.ad?site=StockChartscom&adSpace=TheExperts&size=336x280&type=var&requestID='+((new Date()).getTime() % 2147483648) + Math.random()+'"></scr'+'ipt>');
+//-->
+  </SCRIPT>
+            <NOSCRIPT><A 
+            href="http://a.tribalfusion.com/i.click?site=StockChartscom&amp;adSpace=TheExperts&amp;size=336x280&amp;requestID=817781362" 
+            target=_blank><IMG height=280 alt="Click Here" 
+            src="Moving Average Convergence-Divergence (MACD)_files/473896.jpg" 
+            width=336 align=right border=0></A> </NOSCRIPT><!-- TF 336x280 JScript VAR code --><BR></TD></TR></TBODY></TABLE><!-- #EndLibraryItem -->
+      <P>One of the primary benefits of MACD is that it incorporates aspects of 
+      both momentum and trend in one indicator. As a trend-following indicator, 
+      it will not be wrong for very long. The use of <A 
+      title="Glossary: moving average" 
+      href="http://www.stockcharts.com/education/GlossaryM.html#MovingAverage">moving 
+      averages</A> ensures that the indicator will eventually follow the 
+      movements of the underlying security. By using exponential moving 
+      averages, as opposed to simple moving averages, some of the lag has been 
+      taken out.</P>
+      <P>As a <A title="Glossary: momentum" 
+      href="http://www.stockcharts.com/education/GlossaryM.html#Momentum">momentum</A> 
+      indicator, MACD has the ability to foreshadow moves in the underlying 
+      security. MACD <A title="Glossary: divergence" 
+      href="http://www.stockcharts.com/education/GlossaryD.html#Divergence">divergences</A> 
+      can be key factors in predicting a trend change. A negative divergence 
+      signals that bullish momentum is waning and there could be a potential 
+      change in trend from bullish to bearish. This can serve as an alert for 
+      traders to take some profits in long positions, or for aggressive traders 
+      to consider initiating a short position.</P>
+      <P>MACD can be applied to daily, weekly or monthly charts. MACD represents 
+      the convergence and divergence of two moving averages. The standard 
+      setting for MACD is the difference between the 12 and 26-period EMA. 
+      However, any combination of moving averages can be used. The set of moving 
+      averages used in MACD can be tailored for each individual security. For 
+      weekly charts, a faster set of moving averages may be appropriate. For 
+      volatile stocks, slower moving averages may be needed to help smooth the 
+      data. No matter what the characteristics of the underlying security, each 
+      individual can set MACD to suit his or her own trading style, objectives 
+      and risk tolerance.</P><A name=macddrawbacks></A>
+      <H2>MACD Drawbacks</H2>
+      <P>One of the beneficial aspects of MACD may also be a drawback. Moving 
+      averages, be they simple, exponential or weighted, are lagging indicators. 
+      Even though MACD represents the difference between two moving averages, 
+      there can still be some lag in the indicator itself. This is more likely 
+      to be the case with weekly charts than daily charts. One solution to this 
+      problem is the use of the <A 
+      href="http://www.stockcharts.com/education/IndicatorAnalysis/indic_MACD4.html#histogram">MACD-Histogram</A>.</P>
+      <P>MACD is not particularly good for identifying overbought and oversold 
+      levels. Even though it is possible to identify levels that historically 
+      represent overbought and oversold levels, MACD does not have any upper or 
+      lower limits to bind its movement. MACD can continue to overextend beyond 
+      historical extremes.</P>
+      <P>MACD calculates the absolute difference between two moving averages and 
+      not the percentage difference. MACD is calculated by subtracting one 
+      moving average from the other. As a security increases in price, the 
+      difference (both positive and negative) between the two moving averages is 
+      destined to grow. This makes its difficult to compare MACD levels over a 
+      long period of time, especially for stocks that have grown 
+      exponentially.</P>
+      <P><IMG 
+      alt="Amazon.com, Inc. (AMZN) MACD example chart from StockCharts.com" 
+      hspace=0 
+      src="Moving Average Convergence-Divergence (MACD)_files/ta-macd3-amzn.png" 
+      border=1></P>
+      <P>The AMZN chart demonstrates the difficult in comparing MACD levels over 
+      a long period of time. Before 1999, AMZN's MACD is barely recognizable and 
+      appears to trade close to the zero line. MACD was indeed quite volatile at 
+      the time, but this volatility has been dwarfed since the stock rose from 
+      below 20 to almost 100.</P>
+      <P>An alternative is to use the Price Oscillator, which find the 
+      percentage difference between two moving averages:</P>
+      <P><CODE>(12 day EMA - 26 day EMA) / (26 day EMA) </CODE></P>
+      <P><CODE>(20 - 18) / 18 = .11 or +11%</CODE></P>
+      <P>The resulting percentage difference can be compared over a longer 
+      period of time. On the AMZN chart, we can see that the Price Oscillator 
+      provides a better means for a long-term comparison. For the short term, 
+      MACD and the Price Oscillator are basically the same. The shape of the 
+      lines, the divergences, moving average crossovers and centerline 
+      crossovers for MACD and the Price Oscillator are virtually 
+      identical.</P><A name=macdconclusion></A>
+      <H2>Pros and Cons of the MACD</H2>
+      <P>Since Gerald Appel developed MACD, there have been hundreds of new 
+      indicators introduced to technical analysis. While many indicators have 
+      come and gone, MACD is an oscillator that has stood the test of time. The 
+      concept behind its use is straightforward and its construction simple, yet 
+      it remains one of the most reliable indicators around. The effectiveness 
+      of MACD will vary for different securities and markets. The lengths of the 
+      moving averages can be adapted for a better fit to a particular security 
+      or market. As with all indicators , MACD is not infallible and should be 
+      used in conjunction with other technical analysis tools.</P><A 
+      name=histogram></A>
+      <H2>MACD-Histogram</H2>
+      <P>In 1986, Thomas Aspray developed the MACD-Histogram. Some of his 
+      findings were presented in a series of articles for <STRONG>Technical 
+      Analysis of Stocks and Commodities</STRONG>. Aspray noted that MACD would 
+      sometimes lag important moves in a security, especially when applied to 
+      weekly charts. He first experimented by changing the moving averages and 
+      found that shorter moving averages did indeed speed up the signals. 
+      However, he was looking for a means to anticipate MACD crossovers. One of 
+      the answers he came up with was the MACD-Histogram. </P>
+      <P><IMG height=300 alt="MACD example chart from StockCharts.com" hspace=0 
+      src="Moving Average Convergence-Divergence (MACD)_files/ta-macd4-histo.gif" 
+      width=500 border=1></P><A name=histdefinition></A>
+      <H2>Definition and Construction</H2>
+      <P>The MACD-Histogram represents the difference between <A 
+      title="Glossary: MACD" 
+      href="http://www.stockcharts.com/education/GlossaryM.html#MACD">MACD</A> 
+      and the 9-day <A title="Glossary: moving average" 
+      href="http://www.stockcharts.com/education/GlossaryM.html#MovingAverage">EMA</A> 
+      of MACD, which can also be referred to as the signal or trigger line. The 
+      plot of this difference is presented as a histogram, making centerline 
+      crossovers and divergences are easily identifiable. A centerline crossover 
+      for the MACD-Histogram is the same as a moving average crossover for MACD. 
+      If you will recall, a moving average crossover occurs when MACD moves 
+      above or below the signal line.</P>
+      <P>If the value of MACD is larger than the value of its 9-day EMA, then 
+      the value on the MACD-Histogram will be positive. Conversely, if the value 
+      of MACD is less than its 9-day EMA, then the value on the MACD-Histogram 
+      will be negative.</P>
+      <P>Further increases or decreases in the gap between MACD and its 9-day 
+      EMA will be reflected in the MACD-Histogram. Sharp increases in the 
+      MACD-Histogram indicate that MACD is rising faster than its 9-day EMA and 
+      bullish momentum is strengthening. Sharp declines in the MACD-Histogram 
+      indicate that MACD is falling faster than its 9-day EMA and bearish 
+      momentum is increasing.</P>
+      <P><IMG height=296 alt="MACD example chart from StockCharts.com" hspace=0 
+      src="Moving Average Convergence-Divergence (MACD)_files/ta-macd4-histo2.gif" 
+      width=496 border=1></P>
+      <P>On the chart above, we can see that MACD-Histogram movements are 
+      relatively independent of the actual MACD. Sometimes MACD is rising while 
+      the MACD-Histogram is falling. At other times, MACD is falling while 
+      MACD-Histogram is rising. MACD-Histogram does not reflect the absolute 
+      value of MACD, but rather the value of MACD relative to its 9-day EMA. 
+      Usually, but not always, a move in MACD is preceded by a corresponding 
+      divergence in MACD-Histogram.</P>
+      <OL>
+        <LI>The first point shows a sharp positive divergence in MACD-Histogram 
+        that preceded a bullish moving average crossover. 
+        <LI>On the second point, MACD continued to new highs, but MACD-Histogram 
+        formed two equal highs. Although not a textbook positive divergence, the 
+        equal high failed to confirm the strength seen in MACD. 
+        <LI>A positive divergence formed when MACD-Histogram formed a higher low 
+        and MACD continued lower. 
+        <LI>A negative divergence formed when MACD-Histogram formed a lower high 
+        and MACD continued higher. </LI></OL><A name=histusage></A>
+      <H2>Usage</H2>
+      <P>Thomas Aspray designed the MACD-Histogram as a tool to anticipate a 
+      moving average crossover in MACD. Divergences between MACD and the 
+      MACD-Histogram are the main tool used to anticipate moving average 
+      crossovers. A positive divergence in the MACD-Histogram indicates that 
+      MACD is strengthening and could be on the verge of a bullish moving 
+      average crossover. A negative divergence in the MACD-Histogram indicates 
+      that MACD is weakening and can act to foreshadow a bearish moving average 
+      crossover in MACD.</P>
+      <P>In his book, <A 
+      href="http://store.yahoo.com/stockcharts/teanoffimajo.html">Technical 
+      Analysis of the Financial Markets</A>, John Murphy asserts that the 
+      MACD-Histogram is best used to identify periods when the gap between MACD 
+      and its 9-day EMA is either widening or shrinking. Broadly speaking, a 
+      widening gap indicates strengthening momentum and a shrinking gap 
+      indicates weakening momentum. Usually a change in the MACD-Histogram will 
+      precede any changes in MACD.</P><A name=histsignals></A>
+      <H2>Signals</H2>
+      <P>The main signal generated by the MACD-Histogram is a divergence 
+      followed by a moving average crossover. A bullish signal is generated when 
+      a positive divergence forms and there is a bullish centerline crossover. A 
+      bearish signal is generated when there is a negative divergence and a 
+      bearish centerline crossover. Keep in mind that a <STRONG>centerline 
+      crossover</STRONG> for the MACD-Histogram represents a <STRONG>moving 
+      average crossover</STRONG> for MACD.</P>
+      <P>Divergences can take many forms and varying degrees. Generally 
+      speaking, two types of divergences have been identified: the slant 
+      divergence and the peak-trough divergence. </P>
+      <P><IMG height=402 
+      alt="Unisys Corp. (UIS) MACD example chart from StockCharts.com" hspace=0 
+      src="Moving Average Convergence-Divergence (MACD)_files/ta-macd4-uis.png" 
+      width=516 border=1></P>
+      <P>A slant divergence forms when there is a continuous and relatively 
+      smooth move in one direction (up or down) to form the divergence. Slant 
+      divergences generally cover a shorter time frame than divergences formed 
+      with two peaks or two troughs. A slant divergence can contain some small 
+      bumps (peaks or troughs) along the way. The world of technical analysis is 
+      not perfect and there are exceptions to most rules and hybrids for many 
+      signals. </P>
+      <P><IMG height=400 
+      alt="General Electric Co. (GE) MACD example chart from StockCharts.com" 
+      hspace=0 
+      src="Moving Average Convergence-Divergence (MACD)_files/ta-macd4-ge.png" 
+      width=516 border=1></P>
+      <P>A peak-trough divergence occurs when at least two peaks or two troughs 
+      develop in one direction to form the divergence. A series of two or more 
+      rising troughs (higher lows) can form a positive divergence and a series 
+      of two or more declining peaks (lower highs) can form a negative 
+      divergence. Peak-trough divergences usually cover a longer time frame than 
+      slant divergences. On a daily chart, a peak-trough divergence can cover a 
+      time frame as short as two weeks or as long as several months. </P>
+      <P>Usually, the longer and sharper the divergence is, the better any 
+      ensuing signal will be. Short and shallow divergences can lead to false 
+      signals and whipsaws. In addition, it would appear that peak-trough 
+      divergences are a bit more reliable than slant divergences. Peak-trough 
+      divergences tend to be sharper and cover a longer time frame than slant 
+      divergences.</P><A name=histbenefits></A>
+      <H2>MACD-Histogram Benefits</H2>
+      <P>The main benefit of the MACD-Histogram is its ability to anticipate 
+      MACD signals. Divergences usually appear in the MACD-Histogram before MACD 
+      moving average crossovers. Armed with this knowledge, traders and 
+      investors can better prepare for potential trend changes.</P>
+      <P>MACD-Histogram can be applied to daily, weekly or monthly charts. 
+      (Note: This may require some tinkering with the number of periods used to 
+      form the original MACD; shorter or faster moving averages may be required 
+      for weekly and monthly charts.) Using weekly charts, the broad underlying 
+      trend of a stock can be determined. Once the broad trend has been 
+      determined, daily charts can be used to time entry and exit 
+strategies.</P>
+      <P>In <A 
+      href="http://store.yahoo.com/stockcharts/teanoffimajo.html">Technical 
+      Analysis of the Financial Markets</A>, John Murphy advocates this type of 
+      two-tiered approach to investing in order to avoid making trades against 
+      the major trend. The weekly MACD-Histogram can be used to generate a 
+      long-term signal in order to establish the tradable trend. Then only 
+      short-term signals that agree with the major trend would be considered. If 
+      the long-term trend were bullish, only negative divergences with bearish 
+      centerline crossovers would be considered valid for the MACD-Histogram. If 
+      the long-term trend were bearish, only positive divergences with bullish 
+      centerline crossovers would be considered valid.</P>
+      <P><IMG height=401 
+      alt="International Business Machines (IBM) MACD example chart  from StockCharts.com" 
+      hspace=0 
+      src="Moving Average Convergence-Divergence (MACD)_files/ta-macd4-ibm.png" 
+      width=518 border=1></P>
+      <P>On the IBM weekly chart, the MACD-Histogram generated four signals. 
+      Before each moving average crossover in MACD, a corresponding divergence 
+      formed in the MACD-Histogram. To make adjustments for the weekly chart, 
+      the moving averages have been shortened to 6 and 12. This MACD is formed 
+      by subtracting the 6-week EMA from the 12-week EMA. A 6-week EMA has been 
+      used as the trigger. The MACD-Histogram is calculated by taking the 
+      difference between MACD (6/12) and the 6-day EMA of MACD (6/12).</P>
+      <OL>
+        <LI>The first signal was a bearish moving average crossover in Jan-99. 
+        From its peak in late Nov-98, the MACD-Histogram formed a negative 
+        divergence that preceded the bearish moving average crossover in MACD. 
+        <LI>The second signal was a bullish moving average crossover in April. 
+        From its low in mid-February, the MACD-Histogram formed a positive 
+        divergence that preceded the bullish moving average crossover in MACD. 
+        <LI>The third signal was a bearish moving average crossover in late 
+        July. From its May peak, the MACD-Histogram formed a negative divergence 
+        that preceded a bearish moving average crossover in MACD. 
+        <LI>The final signal was a bullish moving average crossover, which was 
+        preceded by a slight positive divergence in MACD-Histogram. </LI></OL>
+      <P>The third signal was based on a peak-trough divergence. Two readily 
+      identifiable and consecutive lower peaks formed to create the divergence. 
+      The peaks and troughs on the previous divergences, although identifiable, 
+      do not stand out as much.</P><A name=histdrawbacks></A>
+      <H2>MACD-Histogram Drawbacks</H2>
+      <P>The MACD-Histogram is an indicator of an indicator or a derivative of a 
+      derivative. MACD is the first derivative of the price action of a security 
+      and the MACD-Histogram is the second derivative of the price action of a 
+      security. As the second derivative, the MACD-Histogram is further removed 
+      from the actual price action of the underlying security. The further 
+      removed an indicator is from the underlying price action, the greater the 
+      chances of false signals. Keep in mind that this is an indicator of an 
+      indicator. MACD-Histogram should not be compared directly with the price 
+      action of the underlying security.</P>
+      <P>Because MACD-Histogram was designed to anticipate MACD signals, there 
+      may be a temptation to jump the gun. The MACD-Histogram should be used in 
+      conjunction with other aspects of technical analysis. This will help to 
+      alleviate the temptation for early entry. Another means to guard against 
+      early entry is to combine weekly signals with daily signals. There will of 
+      course be more daily signals than weekly signals. However, by using only 
+      the daily signals that agree with the weekly signals, there will be fewer 
+      daily signals to act on. By acting only on those daily signals that are in 
+      agreement with the weekly signals, you are also assured of trading with 
+      the longer trend and not against it.</P>
+      <P>Be careful of small and shallow divergences. While these may sometimes 
+      lead to good signals, they are also more apt to create false signals. One 
+      method to avoid small divergences is to look for larger divergences with 
+      two or more readily identifiable peaks or troughs. Compare the peaks and 
+      troughs from past action to determine significance. Only peaks and troughs 
+      that appear to be significant should warrant attention.</P><A 
+      name=sharpcharts></A>
+      <H2>MACD and SharpCharts2</H2>
+      <P><IMG height=76 
+      alt="SharpCharts2 application MACD example image from StockCharts.com" 
+      hspace=0 
+      src="Moving Average Convergence-Divergence (MACD)_files/macdtable.gif" 
+      width=357 border=0></P>
+      <P>Using SharpCharts2, MACD can be set as an indicator above or below a 
+      security's price plot. Once the indicator is chosen from the drop down 
+      list, the three boxes to the right are used to adjust the settings. The 
+      default setting is (12,26,9), which automatically appears. The default 
+      would use a 12-day EMA and 26-day EMA to calculate MACD and a 9-day EMA of 
+      MACD as the signal/trigger line. MACD appears as the thick solid line and 
+      the signal/trigger line as the thinner and smoother line. Typically, MACD 
+      crosses above and below its signal line as it fluctuates around the zero 
+      line. </P>
+      <P>The histogram is the MACD-Histogram, which measures the difference 
+      between MACD and its signal/trigger line. Simply charting the MACD 
+      indicator will also create a MACD histogram as an overlay, or you can 
+      chart the histogram separately by selecting it from the drop-down menu. 
+      The scale shows the range of values for MACD. Stocks with low prices 
+      (e.g., between 10 and 20) will have a smaller MACD range and stocks with 
+      high prices (e.g., above 100) will have a higher MACD range.</P>
+      <P><A 
+      href="http://stockcharts.com/def/servlet/SC.web?c=MSFT,UU%5bL,A%5dDACLNIMY%5bP%5d%5bVC60%5d%5bIUA12,26,9%5d">Click 
+      here</A> to see a live example of MACD.</P>
+      <P><BR><STRONG><A href="http://stockcharts.com/corp/feedback.html">Send us 
+      your Feedback!</A></STRONG> </P><!-- end:object488 /-->
+      <P>&nbsp;</P>
+      <P>&nbsp;</P>
+      <DIV class=ad align=center><A 
+      href="http://www.adtrader.com/ads/adlink.asp?SN=2084" target=_top><IMG 
+      height=60 alt="Financial Ad Trader" 
+      src="Moving Average Convergence-Divergence (MACD)_files/3486.gif" 
+      width=468 border=1></A><BR><A style="FONT-SIZE: 0.8em" 
+      href="http://www.adtrader.com/" target=_top>Financial Ad Trader</A> 
+    </DIV></TD><!--content/--></TR></TBODY></TABLE>
+<TABLE class=footer id=footer cellSpacing=0 
+summary="Page credits and secondary links.">
+  <TBODY>
+  <TR>
+    <TD class=links>
+      <P><A href="http://stockcharts.com/corp/membership/">Join Now!</A> | <A 
+      href="http://stockcharts.com/corp/subscribe.html">Newsletter</A> | <A 
+      href="http://stockcharts.com/FAQ.html">FAQ</A> | <A 
+      href="http://stockcharts.com/education/GlossaryA.html">Glossary</A> | <A 
+      href="http://stockcharts.com/corp/terms.html">Terms of Service</A> | <A 
+      href="http://stockcharts.com/corp/privacy.html">Privacy Statement</A> 
+      <BR><A href="http://stockcharts.com/index.html">Home</A> | <A 
+      href="http://stockcharts.com/charts/index.html">Free Charts</A> | <A 
+      href="http://stockcharts.com/education/index.html">Chart School</A> | <A 
+      href="http://stockcharts.com/def/servlet/Favorites.CServlet">Members</A> | 
+      <A href="http://stockcharts.com/support/index.html">Support</A> </P></TD></TR>
+  <TR>
+    <TD class=notes>
+      <P>Data provided by: <A href="http://www.atfi.com/"><IMG 
+      alt="Thomson Financial" 
+      src="Moving Average Convergence-Divergence (MACD)_files/footer_datafeed.gif"></A></P>
+      <P>Unless otherwise indicated, all data is delayed by 20 minutes</P>
+      <P>©1999-2006 StockCharts.com All Rights 
+Reserved</P></TD></TR></TBODY></TABLE></BODY></HTML>

@@ -1,0 +1,1 @@
+dir ttt_data*.xls /B > tdir.txt

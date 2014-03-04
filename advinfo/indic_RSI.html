@@ -1,0 +1,238 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://w3c.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head><title>Relative Strength Index (RSI)</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta id="description" content="A popular technical indicator that tries to quantify a stock's current direction and strength." />
+<meta id="keywords" content="relative strength index, rsi, average gain, average loss, overbought, oversold, divergences, centerline crossover, divergences, oscillator, chart school, indicator analysis, glossary" />
+<meta http-equiv="imagetoolbar" content="false" />
+<link type="text/css" rel="stylesheet" href="sc_xhtml.css" media="all" />
+<link type="text/css" rel="stylesheet" href="sc_xhtmm.css" media="print" />
+
+<script language="javascript"><!--
+function gosearch(f) {
+var s=escape(f["sp-q"].value); 
+if (s=="") return false;
+switch(f.actionDD.selectedIndex){
+case 0:window.location="http://stockcharts.com/def/servlet/SC.web?c="+s; break;
+case 1:window.location="http://stockcharts.com/def/servlet/SC.pnf?c="+s+",P"; break;
+case 2:window.location="http://stockcharts.com/candleglance?"+s; break;
+case 3:window.location="http://stockcharts.com/webcgi/perf.html?"+s; break;
+case 4:window.location="http://stockcharts.com/gallery?"+s; break;
+case 5:window.location="http://stockcharts.com/symsearch?"+s; break;
+case 6:return true;
+}
+return false;}
+
+function gofind(form) {
+var s=document.find.value; 
+if (s=="") return false;
+}
+//-->
+</script>
+
+</head><body>
+<div id="header" class="header">
+<table cellspacing="0" summary="Site title, search, navigation, and ads (where applicable).">
+<tbody>
+<tr>
+<td rowspan="2" class="logo"><h1><a href="http://stockcharts.com/"><img id="screen_logo" src="new_logo.gif" alt="StockCharts.com: Simply the Web's Best Financial Charts" /><img width="1" height="1" alt="StockCharts.com: Simply the Web's Best Financial Charts" src="http://stockcharts.com/images/new_logo_print.gif" id="print_logo" /></a></h1></td>
+
+<td class="ad">
+<script language="javascript"><!--
+var s="";
+if(Math.random()>0.2) s="&pop=0";
+document.write('<scr'+'ipt language=javascript src="http://a.tribalfusion.com/j.ad?site=StockChartscom&adSpace=Stocks&size=468x60'+s+'&requestID='+((new Date()).getTime() % 2147483648) + Math.random()+'"></scr'+'ipt>');
+//-->
+</script>
+<noscript>
+   <a href="http://a.tribalfusion.com/i.click?site=StockChartscom&adSpace=Stocks&size=468x60&requestID=1253507629" target="_blank" >
+   <img src="http://a.tribalfusion.com/i.ad?site=StockChartscom&adSpace=Stocks&size=468x60&requestID=1253507629" 
+                  width=468 height=60 border=0 alt="Click Here"></a>
+</noscript><br /><br /><br /><br /><br /><br /><br /></td>
+
+<td class="search">
+<form id="search" method="get" action="http://search.atomz.com/search/" onsubmit="return gosearch(this);">
+<input type="hidden" name="sp-a" value="00010a6e-sp00000000" />
+<select id="actionDD" name="actionDD"><option selected="true">SharpChart:</option><option>P&amp;F Chart:</option><option>CandleGlance:</option><option>PerfChart:</option><option>Gallery View:</option><option>Symbol Lookup:</option><option>Site Search:</option></select>
+<input type="text" size="7" id="sp-q" name="sp-q" value=" " />
+<input type="submit" class="formButton" value="Go" />
+<br />
+<a href="http://stockcharts.com/charts/catalog/">Symbol&nbsp;Catalog</a>
+</form>
+</td>
+</tr>
+</tbody></table>
+<div class="tabs">
+<map id="NavMap" name="NavMap"><area shape="rect" alt="Members" coords="417,0,495,22" href="http://stockcharts.com/def/servlet/Favorites.CServlet" /><area shape="rect" alt="John Murphy" coords="315,0,417,22" href="http://stockcharts.com/members" /><area shape="rect" alt="Support" coords="244,0,315,22" href="http://stockcharts.com/support" /><area shape="rect" alt="Chart School" coords="146,0,244,22" href="http://stockcharts.com/education" /><area shape="rect" alt="Free Charts" coords="59,0,146,22" href="http://stockcharts.com/charts" /><area shape="rect" alt="Home" coords="0,0,59,22" href="http://stockcharts.com/" /></map>
+<img src="tabsScho.gif" usemap="#NavMap" alt="StockCharts Navigation (see footer for text links)" /><!-- hide IE whitespace
+/--></div>
+</div>
+<table cellspacing="0" class="main" summary="Main page content (some ads may appear for non-subscribed users)."><tbody>
+<tr>
+<td bgcolor="#538c8c" id="sidebar" class="sidebar">
+
+
+
+
+
+
+
+   <div id="navSearch" class="navSearch">
+    <script type="text/javascript" language="javascript"><!--function gofind(form){var s=document.find.value; if(s=="") return false;}//--></script>
+     <form name="find" method="get" action="http://search.atomz.com/search/" onsubmit="return gofind(this.form);">
+     <h3>Search the Site:</h3>
+     <input type="text" size="17" name="sp-q" id="search_textbox" />
+     <br /><input type="image" border="0" align="bottom" name="Find It!" src="button_f.gif" />
+     <input type="hidden" name="sp-a" value="00010a6e-sp00000000" />
+     <br /><a href="http://stockcharts.com/support/advanced.html">Advanced Search</a>
+     </form>
+    </div>
+    <div id="navLinks" class="navLinks"><div class="navSection" ><h3><a href="http://www.stockcharts.com/education/index.html">Chart School</a></h3><ul>
+  <li ><a href="http://www.stockcharts.com/education/Overview/index.html">Overview</a></li>
+  <li ><a href="http://www.stockcharts.com/education/ChartAnalysis/index.html">Chart Analysis</a></li>
+  <li class="selected">&gt;<a href="http://www.stockcharts.com/education/IndicatorAnalysis/index.html">Technical Indicators and Overlays</a></li>
+  <li ><a href="http://www.stockcharts.com/education/MarketAnalysis/index.html">Market Analysis</a></li>
+  <li ><a href="http://www.stockcharts.com/education/TradingStrategies/index.html">Trading Strategies</a></li>
+  <li ><a href="http://www.stockcharts.com/education/GlossaryA.html">Glossary</a></li>
+  <li ><a href="http://www.stockcharts.com/education/links.html">Recommended Sites</a></li></ul><!-- end:object482 /--></div>
+    <div class="navSection">
+     <h3>Additional Resources<br /></h3>
+     <ul>
+       <li><a href="http://store.yahoo.com/stockcharts">Bookstore</a></li>
+       <li><a href="http://stockcharts.com/commentary/archives/index.html">Newsletter Archives</a></li>
+       <li><a href="http://stockcharts.com/siteUse.html">Using StockCharts.com</a></li>
+     </ul>
+    </div>
+    <div class="navSection">
+     <h3>Join Now!</h3>
+     <p style="margin: 0pt; text-align: center;"><a href="http://stockcharts.com/corp/subsmatrix.html"><img src="subbutto.gif" /></a></p>
+    </div>
+    <div class="navSection">
+     <h3>Information</h3>
+     <ul>
+       <li><a href="http://stockcharts.com/corp/index.html">About Us</a></li>
+       <li><a href="http://stockcharts.com/corp/subscribe.html">Free Newsletter</a></li>
+       <li><a href="http://stockcharts.com/corp/products/index.html">Business Products</a></li>
+       <li><a href="http://stockcharts.com/corp/privacy.html">Privacy Statement</a></li>
+     </ul>
+    </div>
+    <div class="navSection">
+     <h3>Our Bookstore<br /></h3>
+     <ul>
+       <li><a href="http://store.yahoo.com/stockcharts">Monthly Specials</a><br /></li>
+       <li><a href="http://store.yahoo.com/stockcharts/chbu.html">ChartWatchers'&nbsp;Bundle</a></li>
+       <li><a href="http://store.yahoo.com/stockcharts/adteanbo.html">Tech. Analysis Books</a></li>
+       <li><a href="http://store.yahoo.com/stockcharts/bobyjomu.html">John Murphy's Books</a></li>
+       <li><a href="http://store.yahoo.com/stockcharts/boonpoandfic.html">P&amp;F Charting Books</a></li>
+     </ul>
+    </div>
+    </div>
+
+   <div class="forceWidth">&nbsp;</div>
+
+</td>
+<td id="content" class="content">
+<div class="breadcrumbs" ><a href="http://www.stockcharts.com/">Home</a>&nbsp;&gt;&nbsp;<a href="http://www.stockcharts.com/education/index.html">Chart School</a>&nbsp;&gt;&nbsp;<a href="http://www.stockcharts.com/education/IndicatorAnalysis/index.html">Technical Indicators and Overlays</a>&nbsp;&gt;&nbsp;Relative Strength Index (RSI)<!-- end:object3 /--></div>
+  <h1>Relative Strength Index (RSI)</h1>
+  <div class="print_link" align="right"><a href="javascript:window.print();"><img src="blue_pri.gif" alt=""   height="13" hspace="0" width="17" border="0" />&nbsp;Print</a> </div>
+  <div class="clear">&nbsp;</div><a name="overview"></a>
+  <h2>Introduction</h2>
+  <!-- #BeginLibraryItem "/Library/TribalFusionRectangle.lbi" -->
+<table width="336" cellpadding="5" align="right" class="ad">
+  <tbody><tr align="center">
+    <td align="center">Advertisement</td>
+  </tr>
+  <tr>
+    <td><!-- TF 336x280 JScript VAR code -->
+        <script language="javascript"><!--
+document.write('<scr'+'ipt language=javascript src="http://a.tribalfusion.com/j.ad?site=StockChartscom&adSpace=TheExperts&size=336x280&type=var&requestID='+((new Date()).getTime() % 2147483648) + Math.random()+'"></scr'+'ipt>');
+//-->
+  </script>
+        <noscript>
+        <a href="http://a.tribalfusion.com/i.click?site=StockChartscom&adSpace=TheExperts&size=336x280&requestID=817781362" target=_blank> <img src="http://a.tribalfusion.com/i.ad?site=StockChartscom&adSpace=TheExperts&size=336x280&requestID=817781362" alt="Click Here" 
+                  width=336 height=280 border=0 align="right"></a>
+        </noscript>
+        <!-- TF 336x280 JScript VAR code -->
+    <br /></td>
+  </tr>
+</tbody></table>
+<!-- #EndLibraryItem -->
+  <p>Developed by J. Welles Wilder and introduced in his 1978 book, <a href="http://store.yahoo.com/stockcharts/newcointean.html"><strong>New Concepts in Technical Trading Systems</strong></a>, the Relative Strength Index (RSI) is an extremely useful and popular momentum oscillator. The RSI compares the magnitude of a stock's recent gains to the magnitude of its recent losses and turns that information into a number that ranges from 0 to 100. It takes a single parameter, the number of time periods to use in the calculation. In his book, Wilder recommends using 14 periods.</p>
+  <p>The RSI's full name is actually rather unfortunate as it is easily confused with other forms of Relative Strength analysis such as John Murphy's &quot;Relative Strength&quot; charts and IBD's &quot;Relative Strength&quot; rankings. Most other kinds of &quot;Relative Strength&quot; stuff involve using more than one stock in the calculation. Like most true indicators, the RSI only needs one stock to be computed. In order to avoid confusion, many people avoid using the RSI's full name and just call it &quot;the RSI.&quot;</p><a name="formula"></a>
+  <h2>Calculation</h2>
+  <p><img src="rsi-form.gif" alt="RSI=(100-(100/(1+RS)), Average Gain=(Total Gains/n), Average Loss=(Total Losses/n), First RS=(Average Gain/Average Loss), Smoothed RS=(((previous Average Gain X 13 + Current Gain)/14)/(previous Average Loss X 13 + Current Loss)/14)), n=number of RSI periods"   height="207" hspace="0" width="503" border="0" /></p>
+  <p>To simplify the formula, the RSI has been broken down into its basic components which are <strong>the Average Gain</strong>, <strong>the Average Loss</strong>, <strong>the First RS</strong>, and the subsequent <strong>Smoothed RS's</strong>.</p>
+  <p>For a 14-period RSI, the Average Gain equals the sum total all gains divided by 14. Even if there are only 5 gains (losses), the total of those 5 gains (losses) is divided by the total number of RSI periods in the calculation (14 in this case). The Average Loss is computed in a similar manner.</p>
+  <p>Calculation of the First RS value is straightforward: divide the Average Gain by the Average Loss. All subsequent RS calculations use the previous period's Average Gain and Average Loss for smoothing purposes. See the &quot;Smoothed RS&quot; formula above for details. The table below illustrates the formula in action.</p>
+  <p><img src="rsi-tabl.gif" alt="RSI example table from StockCharts.com"   height="357" hspace="0" width="467" border="0" /> <br />(Click <a href='http://www.stockcharts.com/education/indicatoranalysis/RSI.xls'   target="_ss">here</a> for an Excel spreadsheet with this example in it.)</p>
+  <p>Here's how lines 14 and 15 were calculated:</p>
+  <p><img src="rsi-forn.gif" alt="First RS = (.5848/.5446) = 1.0738, RSI (line 14) = 100-(100/(1+1.0738)) = 51.779, Smoothed RS = ((((.5848X13)+0.00)/14)/(((.5446X13)+1.00)/14)) = .9409, RSI (line 15) = 100-(100/(1+.9409)) = 48.477"   height="185" hspace="0" width="457" border="0" /></p>
+  <p>Note: <em>It is important to remember that the Average Gain and Average Loss are <strong>not true averages</strong>! Instead of dividing by the number of gaining (losing) periods, total gains (losses) are always divided by the specified number of time periods - 14 in this case.</em></p>
+  <p>When the Average Gain is greater than the Average Loss, the RSI rises because RS will be greater than 1. Conversely, when the average loss is greater than the average gain, the RSI declines because RS will be less than 1. The last part of the formula ensures that the indicator oscillates between 0 and 100. Note: If the Average Loss ever becomes zero, RSI becomes 100 by definition.</p>
+  <p><strong>Important Note:</strong> The more data points that are used to calculate the RSI, the more accurate the results. The smoothing factor is a continuous calculation that - in theory - takes into account <em>all</em> of the closing values in the data set. If you start an RSI calculation in the middle of an existing data set, your values will only approximate the true RSI value. SharpCharts uses <em>at least</em> 250 data points prior to the starting date of any chart (assuming that much data exists) when calculating its RSI values. To duplicate its RSI number, you'll need to use at least that much data also.</p><a name="use"></a>
+  <h2>Use</h2>
+  <h3>Overbought/Oversold</h3>
+  <p><strong></strong>Wilder recommended using 70 and 30 and overbought and oversold levels respectively. Generally, if the RSI rises above 30 it is considered bullish for the underlying stock. Conversely, if the RSI falls below 70, it is a bearish signal. Some traders identify the long-term trend and then use extreme readings for entry points. If the long-term trend is bullish, then oversold readings could mark potential entry points.</p>
+  <h3>Divergences</h3>
+  <p><strong></strong>Buy and sell signals can also be generated by looking for positive and negative <a href='http://www.stockcharts.com/education/GlossaryD.html#Divergence'   title="Glossary: divergence">divergences</a> between the RSI and the underlying stock. For example, consider a falling stock whose RSI rises from a low point of (for example) 15 back up to say, 55. Because of how the RSI is constructed, the underlying stock will often reverse its direction soon after such a divergence. As in that example, divergences that occur after an overbought or oversold reading usually provide more reliable signals.</p>
+  <h3>Centerline Crossover</h3>
+  <p><strong></strong>The centerline for RSI is 50. Readings above and below can give the indicator a bullish or bearish tilt. On the whole, a reading above 50 indicates that average gains are higher than average losses and a reading below 50 indicates that losses are winning the battle. Some traders look for a move above 50 to confirm bullish signals or a move below 50 to confirm bearish signals.</p><a name="example"></a>
+  <h2>Example</h2>
+  <p><img src="rsi-dell.png" alt="Dell Inc. (DELL) RSI example chart from StockCharts.com"   height="401" hspace="0" width="515" border="0" /> </p>
+  <p>The DELL example shows a number of extreme readings as well as a negative divergence. In Oct-99, RSI reached oversold for a brief moment to mark the low around 38. The next extreme reading (overbought) occurred after a large advance that peaked in Dec-99. RSI reached overbought levels in late Dec-99 and moved below 50 by the second week of Jan-00. The next oversold reading occurred in Feb. for another brief moment and marked the low around 35. By the end of Feb-00, RSI moved back above 50 and into overbought territory in March. A negative divergence formed in March and marked the high in the upper fifties. </p><a name="sharpcharts"></a>
+  <h2>RSI and SharpCharts2</h2>
+  <p><img src="rsitable.gif" alt="SharpCharts2 application RSI example image from StockCharts.com"   height="75" hspace="0" width="361" border="0" /></p>
+  <p>RSI is available on our SharpCharts2 charting tool. There is one box to choose the number of periods and the other boxes do not affect the chart. In the example box, RSI has been assigned 14, 20 and 30 periods. A swing trader might prefer 14-periods, while an investor may prefer 30-periods. Users are encouraged to test different RSI settings and judge for themselves which ones work best and suit their particular trading/investing style. </p>
+  <p><a href="http://stockcharts.com/def/servlet/SC.web?c=INTC,UU%5BL,A%5DDACLNIMY%5BP%5D%5BVC60%5D%5BIUB14%5D">Click here</a> to see a live example of RSI.</p>
+  <p>For more on oscillators, please see our ChartSchool article on <a href='http://www.stockcharts.com/education/IndicatorAnalysis/indicators3.html'  >how to use and interpret oscillators</a>.</p>
+  <p><br /><br />Written by Nicholas Fisher </p>
+  <p>
+ <br />
+<br />
+<strong><a href="http://stockcharts.com/corp/feedback.html">Send us your Feedback!</a></strong>
+</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<div align="center" class="ad">
+<a target="_top" href="http://www.adtrader.com/ads/adlink.asp?SN=2084">
+<img width="468" height="60" border="1" alt="Financial Ad Trader" src="http://www.adtrader.com/ads/adserve.asp?SN=2084&amp;PN=1&amp;Desc=StockChartsFAT" /></a><br />
+<a target="_top" href="http://www.adtrader.com/" style="font-size: 0.8em;">Financial Ad Trader</a>
+</div>
+
+</td>
+<!--content/--></tr>
+</tbody></table>
+
+<table cellspacing="0" id="footer" class="footer" summary="Page credits and secondary links.">
+<tbody>
+<tr>
+<td class="links">
+<p>
+<a href="http://stockcharts.com/corp/membership/">Join Now!</a> |
+<a href="http://stockcharts.com/corp/subscribe.html">Newsletter</a> |
+<a href="http://stockcharts.com/FAQ.html">FAQ</a> |
+<a href="http://stockcharts.com/education/GlossaryA.html">Glossary</a> |
+<a href="http://stockcharts.com/corp/terms.html">Terms of Service</a> |
+<a href="http://stockcharts.com/corp/privacy.html">Privacy Statement</a>
+<br />
+<a href="http://stockcharts.com/index.html">Home</a> |
+<a href="http://stockcharts.com/charts/index.html">Free Charts</a> |
+<a href="http://stockcharts.com/education/index.html">Chart School</a> |
+<a href="http://stockcharts.com/def/servlet/Favorites.CServlet">Members</a> |
+<a href="http://stockcharts.com/support/index.html">Support</a>
+</p>
+</td>
+</tr>
+
+<tr>
+<td class="notes">
+<p>Data provided by: <a href="http://www.atfi.com/"><img src="footer_d.gif" alt="Thomson Financial" /></a></p>
+
+<p>Unless otherwise indicated, all data is delayed by 20 minutes</p>
+
+<p>&#169;1999-2005 StockCharts.com  All Rights Reserved</p>
+</td>
+</tr>
+</tbody></table></body></html>
+<!-- This document saved from http://www.stockcharts.com/education/IndicatorAnalysis/indic_RSI.html -->

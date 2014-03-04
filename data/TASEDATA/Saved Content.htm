@@ -1,0 +1,266 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "DTD/xhtml1-strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1255" />
+<title>JScript4PDF Editor</title>
+
+<link rel="stylesheet" type="text/css" href="mycolpic.css"  />
+<link rel="stylesheet" type="text/css" href="my_uploader.css"  />
+
+<link rel="stylesheet" type="text/css" href="yui/build/slider/assets/skins/sam/slider.css" />
+<link rel="stylesheet" type="text/css" href="yui/build/colorpicker/assets/skins/sam/colorpicker.css" />
+
+<link rel="stylesheet" type="text/css" href="yui/build/container/assets/skins/sam/container.css" />
+	
+<link rel="stylesheet" type="text/css" href="yui/build/fonts/fonts-min.css" />
+<link rel="stylesheet" type="text/css" href="yui/build/datatable/assets/skins/sam/datatable.css" />
+<link rel="stylesheet" type="text/css" href="yui/build/calendar/assets/skins/sam/calendar.css" />
+<link rel="stylesheet" type="text/css" href="yui/build/paginator/assets/skins/sam/paginator.css" />
+
+<link rel="stylesheet" type="text/css" href="yui/build/button/assets/skins/sam/button.css" />
+
+<link rel="stylesheet" type="text/css" href="yui/build/autocomplete/assets/skins/sam/autocomplete.css" />
+<link rel="stylesheet" type="text/css" href="yui/build/resize/assets/skins/sam/resize.css" />
+
+<link rel="stylesheet" type="text/css" href="yui/build/menu/assets/skins/sam/menu.css" />
+<link rel="stylesheet" type="text/css" href="yui/build/editor/assets/skins/sam/simpleeditor.css" />
+<link rel="stylesheet" type="text/css" href="yui/build/editor/assets/skins/sam/editor.css" />
+
+<!-- Dependency -->
+	<script type="text/javascript" src="yui/build/yahoo/yahoo-min.js"></script>
+
+<!-- Used for Custom Events and event listener bindings -->
+	<script type="text/javascript" src="yui/build/event/event-min.js"></script>
+    <script type="text/javascript" src="yui/build/dom/dom-min.js"></script>
+	<script type="text/javascript" src="yui/build/element/element-min.js"></script>
+<!--Include YUI Loader: -->  
+	<script type="text/javascript" src="yui/build/yuiloader/yuiloader-min.js"></script>  
+
+<!-- Source file -->
+	<script type="text/javascript" src="yui/build/connection/connection-min.js"></script>
+
+	<script type="text/javascript" src="yui/build/yahoo-dom-event/yahoo-dom-event.js"></script>
+	
+	<script type="text/javascript" src="yui/build/dragdrop/dragdrop-min.js"></script>
+	<script type="text/javascript" src="yui/build/resize/resize-min.js"></script>
+	
+	<script type="text/javascript" src="yui/build/datasource/datasource-min.js"></script>
+	<script type="text/javascript" src="yui/build/datatable/datatable-min.js"></script>
+	<script type="text/javascript" src="yui/build/calendar/calendar-min.js"></script>
+	<script type="text/javascript" src="yui/build/button/button-min.js"></script>
+	<script type="text/javascript" src="yui/build/container/container_core-min.js"></script>
+	<script type="text/javascript" src="yui/build/container/container-min.js"></script>
+	<script type="text/javascript" src="yui/build/paginator/paginator-min.js"></script>
+	
+	<script type="text/javascript" src="yui/build/animation/animation-min.js"></script>
+ 
+    <script type="text/javascript" src="yui/build/charts/charts-min.js"></script>
+    
+    <script type="text/javascript" src="yui/build/autocomplete/autocomplete-min.js"></script>
+    <script type="text/javascript" src="yui/build/slider/slider-min.js"></script>
+    <script type="text/javascript" src="yui/build/colorpicker/colorpicker-min.js"></script>
+    
+    <!-- Source file -->  
+ 	<script type="text/javascript" src="yui/build/imageloader/imageloader-min.js"></script> 
+       	
+    <script type="text/javascript" src="yui/build/uploader/uploader.js"></script>
+    
+    <script type="text/javascript" src="yui/build/menu/menu-min.js"></script>
+	<script type="text/javascript" src="yui/build/editor/simpleeditor-min.js"></script>
+    <script type="text/javascript" src="yui/build/editor/editor-min.js"></script>
+    
+    
+    <script type="text/javascript">
+	//enable passthrough of errors from YUI Event:
+	if ((typeof YAHOO !== "undefined") && (YAHOO.util) && (YAHOO.util.Event)) {
+	YAHOO.util.Event.throwErrors = true;
+	}
+</script>
+
+</head>			
+<body class=" yui-skin-sam" style="width:500px">
+
+<script type='text/javascript'> 
+YAHOO.namespace("example.container");
+</script>
+
+<script type='text/javascript' src='mycolpic.js'> </script>
+
+<div id="yui-picker-panel" style='display:none'>
+  <div class="yui-picker" id='yui-picker'></div>
+</div>
+
+
+
+<script type='text/javascript' src='localutils.js'> </script>
+<script type='text/javascript' src='myconnection.js'> </script>
+<script type='text/javascript' src='databasework.js'> </script>
+
+<script type='text/javascript'> 
+YAHOO.example.Data = {
+		lakohot:[""]};
+</script>
+
+
+<div id='container4panel' ></div>
+<div id='container4projectpanel' ></div>
+<!--  
+<div id='container4dlg' ></div>
+-->
+
+<div id ='uploadercontext' style='position:absolute;left:200px;top:200px;z-index:100'></div>
+
+<script type='text/javascript' src='mypanel.js'> </script>
+
+<script type='text/javascript' src='mytooltips.js'> </script>
+<script type='text/javascript' src='my_uploader.js'> </script>
+<script type='text/javascript' src='my_objectdef.js'> </script>
+<script type='text/javascript' src='my_delete_obj.js'> </script>
+<script type='text/javascript' src='my_project.js'> </script>
+<script type='text/javascript' src='my_project_panel.js'> </script>
+<script type='text/javascript' src='my_dd.js'> </script>
+<script type='text/javascript' src='my_img.js'> </script>
+<script type='text/javascript' src='my_compile.js'> </script>
+<script type='text/javascript' src='my_editor_mainscript.js'> </script>
+<script type='text/javascript' src='my_metadata.js'> </script>
+
+
+ <button id='logonbut' type='button'  onclick='test();'>טסט</button>
+ <button id='uploaderbut' type='button'  onclick='createuploader();'>upload</button>
+ <input type='text' id='prjname' value='' style='width:50px;position:absolute;left:200px;top:10px;'></input>
+ <button id='newproject' type='button'  onclick='newproject();'  style='position:absolute;left:300px;top:10px;'>New project</button>
+ <select id='selectproject' onchange='selectprj(this); ' style='position:absolute;left:400px;top:10px;'></select>
+ <button id='deleteproject' type='button'  onclick='deleteproject();'  style='position:absolute;left:500px;top:10px;'>Delete project</button>
+ <button id='compile' type='button'  onclick='compile();' style='position:absolute;left:600px;top:10px;'>Compile</button>
+ 
+ 
+ <script type="text/javascript">
+ checkdb();
+ loadallprojectslist(); 
+ </script>
+ <div id='workarea' style='position:absolute;top:100px;left:100px;width:800px;height:800px;border:#ddd 2px;background-color: #eeeeee;z-index:1;background-repeat:no-repeat;'>
+ <img id='wwimg' src='' style='position:absolute;z-index:5;left:0px;top:0px;margin:0;padding:0;'>
+ </div>
+ 
+ <div id='objectslib' style='position:absolute;top:100px;left:950px;width:152px;height:380px;border:#ddd 2px;background-color: #eeffee;z-index:1;'>
+ <div id="dd-libicon" class="dd-demo" >Library</div>
+ <div id="dd-demo-1lib" class="dd-demo" ondblclick="addobjtype('text','dd-demo-1lib');">Text</div>
+ <div id="dd-demo-1_1lib" class="dd-demo" ondblclick="addobjtype('multitext','dd-demo-1_1lib');">Multitext</div>
+ <div id="dd-demo-1_2lib" class="dd-demo" ondblclick="addobjtype('messagebox','dd-demo-1_2lib');">Box</div>
+<div id="dd-demo-2lib" class="dd-demo" ondblclick="addobjtype('table','dd-demo-2lib');">Table</div>
+<div id="dd-demo-3lib" class="dd-demo" ondblclick="addobjtype('image','dd-demo-3lib');">Image</div>
+<div id="dd-demo-4lib" class="dd-demo" ondblclick="addobjtype('pie','dd-demo-4lib');">Pye Chart</div>
+<div id="dd-demo-4_1lib" class="dd-demo" ondblclick="addobjtype('bar','dd-demo-5lib');">Bar Chart</div>
+ </div>
+ <div id="dd-prj" class="dd-demo" ondblclick="onviewprjpanel('dd-prj');">Settings</div>
+ <div id="dd-mixzuricon" class="dd-demo" >Trash</div>
+ 
+ 
+ 
+ 
+ 
+  
+<!--Use YUI Loader to bring in your other dependencies: -->  
+<script type="text/javascript">   
+// Instantiate and configure YUI Loader:   
+(function() {   
+    var loader = new YAHOO.util.YUILoader({   
+        base: "",   
+        require: ["animation","dom","element","event","resize"],   
+        loadOptional: false,   
+        combine: true,   
+        filter: "MIN",   
+        allowRollup: true,   
+        onSuccess: function() {   
+            //you can make use of all requested YUI modules   
+            //here.   
+        }   
+    });   
+  
+// Load the files using the insert() method.   
+loader.insert();   
+})();   
+</script>  
+ 
+  
+ 
+ <script type="text/javascript">
+ var _globid=5;
+ function addToDIVElement(_id,_kinui,_num,_iner) {
+		
+	  var __ni = document.getElementById(_id);
+	  var __newdiv = document.createElement('div');
+	  var __divIdName = _kinui+_num;
+	  __newdiv.setAttribute('id',__divIdName);
+	  __newdiv.setAttribute('objtype',_kinui);
+	  __newdiv.setAttribute('haveproperties','no');
+	  __newdiv.innerHTML = _iner;
+	  __ni.appendChild(__newdiv);
+	  return __divIdName;
+	};
+
+	  function prep(_id,_kinui,_num)
+	  {
+		  var __ni = document.getElementById(_id);
+		  var __newdiv = document.createElement('div');
+		  var __divIdName = _kinui+_num;
+		  __newdiv.setAttribute('id',__divIdName);
+		  __newdiv.innerHTML = '';
+		  __ni.appendChild(__newdiv);
+		  return __divIdName;
+		  			
+		  };
+  function addobjtype(__type,__cl)
+  {
+	  var res=prep('workarea','yui_img',_globid)
+	  var recrea=addToDIVElement(res,__type,_globid,'object:'+__type);
+	   var el = new YAHOO.util.Element(recrea);   
+	     
+	   //add a click event handler to 'foo'   
+	   el.on('dblclick', onclkevt);
+	      
+	   //el.setStyle('position', 'absolute');
+	   
+	   //el.setStyle('left', '200');
+	   //el.setStyle('top', '200');
+	   el.setStyle('background-color','#7E5B60');
+	   //el.setStyle('z-index', '2');
+	   //el.setAttributes('objtype', __type);
+	  //ddn = new YAHOO.util.DD(res);
+	  document.getElementById(recrea).setAttribute('oname', __type+_globid);
+	  document.getElementById(recrea).setAttribute('firstcreation','yes');
+	  var el = new YAHOO.util.Element(res);  
+	el.setStyle('z-index', _globid);
+	el.setStyle('position', 'absolute');
+	addddfunctionality(res);
+	  _globid++;
+	  };
+
+
+//on dom ready
+(function() 
+	{   
+	 var dd2,   
+	     Event=YAHOO.util.Event, 
+	     Dom=YAHOO.util.Dom;   	     
+		 YAHOO.util.Event.onDOMReady(function() 
+		{   
+	  	var el2 = Dom.get("dd-mixzuricon");  
+	  	dd2 = new YAHOO.util.DDTarget(el2);  
+	  	loadimg('templates_png/null.png');
+	  	resetprojectattribs();
+	  	loadmetadata(_prjsqlselect);
+		           });   
+		  
+		           })();   
+		           	  	  
+ </script>
+ 
+ <div style='position:absolute;left:0px;top:1000px;'>
+<pre><font family='Arial' size='2' color='blue'>
+Impact ® Software System (1996) Ltd.          
+JScript4PDF Editor Interface v:1.01 mod. 29-07-2009             
+</font></pre>
+</div>
+</body>
+</html>

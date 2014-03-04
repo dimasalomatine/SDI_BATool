@@ -1,0 +1,292 @@
+﻿body 
+{
+    background-color:White;
+	font-family: arial;
+}
+
+.DateText
+{
+    font-family:Arial;
+    font-size:10pt;
+    color:#FFFFFF;
+    direction:rtl;
+}
+
+.TimeText
+{
+    font-family:Arial;
+    font-size:9pt;
+    color:#FFFFFF;
+    font-weight:bold;
+    direction:rtl;
+}
+
+.TDFootertext 
+{
+    color:#484848;
+    font-size:12px;
+    font-family:Arial;
+}
+
+.HomePageArticleDescription
+{
+    font-family:Arial;
+    font-size:12px;
+    color:Black;
+}
+
+.HomePageArticleTitle
+{
+    font-family:Arial;
+    font-size:13px;
+    color:Black;
+    font-weight:bold;
+}
+
+.HomePageLinks
+{
+    font-family:Arial;
+    font-size:12px;
+    color:Black;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.HomePageDescLinks
+{
+    font-family:Arial;
+    font-size:10px;
+    color:Black;
+    text-decoration:none;
+}
+.UserLabels
+{
+    width:100px;
+    height:15px;
+    font-family:Arial;
+    font-size:14px;
+    color:Black;
+}
+.UserTextBox
+{
+    width:110px;
+    height:15px;
+    border:solid 1px;
+    border-color:#366F90;
+    font-family:Arial;
+    font-size:12px;
+    text-align:right;
+}
+
+.UserHelpMsg
+{
+    font-family:Arial;
+    font-size:11px;
+    color:#838383;
+}
+
+
+.UserTextBoxLeft
+{
+    width:110px;
+    height:15px;
+    border:solid 1px;
+    border-color:#366F90;
+    font-family:Arial;
+    font-size:12px;
+    text-align:left;
+}
+
+.TextBoxForm
+{
+    font-size:11px;
+    font-family:Tahoma;
+    font-weight:bold;
+    color:Black;
+    border:solid 1px;
+    border-color:#366F90;
+    direction:rtl;
+    text-align:right;
+}
+
+
+.UserDropDownList
+{
+    width:110px;
+    height:22px;
+    border:solid 1px;
+    border-color:#366F90;
+    font-family:Arial (Hebrew);
+    font-family:10px;
+    color:#366F90;
+}
+
+.UserTextArea
+{
+   width:150px;
+    height:40px;
+    border:solid 1px;
+    border-color:#366F90;
+    font-family:Arial (Hebrew);
+    font-family:10px;
+    color:#366F90; 
+}
+
+.UserButton
+{
+    background-color:#E1E0E0;
+    width:80px;
+    height:20px;
+    font-family:Arial;
+    font-size:10px;
+    color:#366F90;
+}
+
+.UserLinks
+{
+    font-family:Arial;
+    font-size:12px;
+    font-weight:bold;
+    text-decoration:none;
+    color:#366F90;
+    cursor:hand;
+}
+
+.UserErrorMsg
+{
+    color:Red;
+    font-size:14px;
+    font-family:Arial;
+    font-weight:bold ;
+}
+
+.UserCheckBoxText
+{
+    font-family:Arial;
+    font-size:10px;
+    color:Black;
+    padding-left:2px;
+}
+
+.ResumeUploads
+{
+    border:1px;
+    border-color:#E6E6E6;
+    border-style:solid;
+    background-color:#F4F4F4;
+    background-image:url('Site/UserControls/CategoryControlIMG/BgButton.gif');
+    width:300px;
+    height:20px;
+}
+
+.UploadsFile
+{
+    border:1px;
+    border-color:#E6E6E6;
+    border-style:solid;
+    background-color:#F4F4F4;
+    background-image:url('Site/UserControls/CategoryControlIMG/BgButton.gif');
+    width:250px;
+    height:20px;   
+}
+
+.SubjectArticleName
+{
+    font-family:Arial;
+    font-size:12px;
+    color:Black;
+    font-variant:normal;
+    text-decoration:none;
+}
+
+.SubjectArticleName:Hover
+{
+    font-family:Arial;
+    font-size:12px;
+    color:Black;
+    font-variant:normal;
+    text-decoration:underline;
+}
+
+.SubjectArticleDate
+{
+    font-family:Arial;
+    font-size:10px;
+    color:#777777;
+    font-variant:normal;
+}
+
+.HRTitleLine
+{
+    background-color:#295C77; 
+    width:100%; 
+    text-align:right; 
+    color:White;
+    font-family:Arial;
+    font-size:13px;
+    font-weight:bold;
+    padding-right:2px;
+}
+
+.WordOptionButton
+{
+    width:70px;
+    height:25px;
+    background-color:#DAE8F1;
+    border:solid 2px #2B91AF;
+    text-align:center;
+    font-family:Arial;
+    font-size:11px;
+}
+
+.WorldLink
+{
+    font-family:Arial;
+    font-size:12px;
+    text-decoration:none;
+    color:Black;
+
+}
+
+.WorldLink:Hover
+{
+    text-decoration:underline;
+
+}
+
+#dropmenudiv{
+position:absolute;
+border:1px solid #235E7C;
+border-bottom-width: 0;
+font:normal 12px Verdana;
+line-height:18px;
+z-index:100;
+text-align:left ;
+}
+
+#dropmenudiv a{
+width: 100%;
+display: block;
+text-indent: 3px;
+border-bottom: 1px solid #235E7C;
+padding: 1px 0;
+text-decoration: none;
+font-weight: bold;
+color:#000000;
+
+}
+
+#dropmenudiv a:hover{ /*hover background color*/
+background-color: #235E7C;
+color:#ffffff;
+}
+
+.SubMenu
+{
+    color: #5A9F00;
+    font-family:Arial;
+    font-weight:bold;
+    font-size:18px;
+    text-decoration:underline;
+    
+    }

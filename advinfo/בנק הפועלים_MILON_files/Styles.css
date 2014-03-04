@@ -1,0 +1,864 @@
+.submitButton {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; FONT-WEIGHT: bold; BORDER-LEFT: black 1px solid; WIDTH: 90px; COLOR: white; BORDER-BOTTOM: black 1px solid; HEIGHT: 20px; BACKGROUND-COLOR: #2778c3
+}
+BODY {
+	SCROLLBAR-FACE-COLOR: #eeeeee; BACKGROUND: #ffffff; MARGIN: 0px; FONT: 10pt arial; SCROLLBAR-HIGHLIGHT-COLOR: white; SCROLLBAR-ARROW-COLOR: #a50000; SCROLLBAR-DARKSHADOW-COLOR: #eeeeee; SCROLLBAR-BASE-COLOR: #a50000
+}
+UL {
+	FONT: 12px arial
+}
+TABLE {
+	FONT: 12px arial
+}
+TR {
+	FONT: 12px arial
+}
+TD {
+	FONT: 12px arial
+}
+SELECT {
+	FONT: 12px arial
+}
+INPUT {
+	FONT: 12px arial
+}
+FORM {
+	FONT: 12px arial
+}
+LI {
+	FONT: 12px arial
+}
+P {
+	FONT: 12px arial
+}
+TEXTAREA {
+	FONT: 12px arial
+}
+A {
+	FONT: 12px arial; COLOR: #003366; TEXT-DECORATION: underline
+}
+A:hover {
+	COLOR: #9a0202
+}
+B {
+	COLOR: #4c4c4c
+}
+BUTTON {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; BACKGROUND: #cc0000; FONT: 9px arial; BORDER-LEFT: black 1px solid; WIDTH: 30px; COLOR: white; BORDER-BOTTOM: black 1px solid; HEIGHT: 14px
+}
+.smallButton {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; BACKGROUND: #cc0000; FONT: 9px arial; BORDER-LEFT: black 1px solid; WIDTH: 30px; COLOR: white; BORDER-BOTTOM: black 1px solid; HEIGHT: 14px
+}
+.smallDark {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #003366
+}
+.branchesTitleBig {
+	PADDING-RIGHT: 7px; PADDING-LEFT: 7px; FONT: bold 32px arial; COLOR: #003366; TEXT-DECORATION: none
+}
+.branchesTopBottomSpacers {
+	PADDING-RIGHT: 7px; PADDING-LEFT: 7px; PADDING-BOTTOM: 10px; PADDING-TOP: 5px
+}
+.branchesSectionTitle {
+	PADDING-RIGHT: 7px; PADDING-LEFT: 7px; FONT-WEIGHT: bold; FONT-SIZE: 14px; BACKGROUND-IMAGE: url(/images/bg_needed2.gif); PADDING-BOTTOM: 2px; COLOR: #2778c3; PADDING-TOP: 2px
+}
+.branchesMainAreaTD {
+	PADDING-RIGHT: 7px; PADDING-LEFT: 7px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px
+}
+.branchesBottomButtonTD {
+	PADDING-RIGHT: 5px; BACKGROUND-POSITION: right 50%; PADDING-LEFT: 5px; BACKGROUND-IMAGE: url(/images/bg_needed2.gif); PADDING-BOTTOM: 3px; PADDING-TOP: 3px; BACKGROUND-REPEAT: no-repeat
+}
+.branchesButton {
+	BORDER-RIGHT: #ffffff 1px solid; BORDER-TOP: #ffffff 1px solid; FONT-WEIGHT: bold; FONT-SIZE: 12px; BORDER-LEFT: #ffffff 1px solid; WIDTH: 70px; COLOR: #ffffff; BORDER-BOTTOM: #ffffff 1px solid; FONT-FAMILY: Arial; HEIGHT: 19px; BACKGROUND-COLOR: #2778c3; TEXT-ALIGN: center
+}
+.branchesTDTopBottomPadding {
+	PADDING-BOTTOM: 10px; PADDING-TOP: 10px
+}
+.branchecsBGTitleTD {
+	PADDING-RIGHT: 5px; BACKGROUND-POSITION: right 50%; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 14px; BACKGROUND-IMAGE: url(/images/bg_needed3.gif); WIDTH: 492px; COLOR: #2778c3; BACKGROUND-REPEAT: no-repeat; HEIGHT: 25px
+}
+.formTR {
+	VERTICAL-ALIGN: top
+}
+.main_title {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 7px; FONT-WEIGHT: bold; FONT-SIZE: 12px; PADDING-BOTTOM: 3px; VERTICAL-ALIGN: middle; COLOR: #2778c3; PADDING-TOP: 3px; FONT-FAMILY: Arial; BACKGROUND-COLOR: #ffffff
+}
+.adminListTitle {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 7px; FONT-WEIGHT: bold; FONT-SIZE: 12px; PADDING-BOTTOM: 3px; VERTICAL-ALIGN: middle; COLOR: #2778c3; PADDING-TOP: 3px; FONT-FAMILY: Arial
+}
+.branch_title_td {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 7px; FONT-SIZE: 12px; PADDING-BOTTOM: 3px; PADDING-TOP: 3px; FONT-FAMILY: Arial
+}
+.branchListLink {
+	FONT-SIZE: 12px; FONT-FAMILY: Arial
+}
+.checkboxTitleTD {
+	PADDING-LEFT: 5px; FONT-SIZE: 12px; FONT-FAMILY: Arial
+}
+.branchListLink:hover {
+	FONT-SIZE: 12px; FONT-FAMILY: Arial
+}
+.branchListLink:visited {
+	FONT-SIZE: 12px; FONT-FAMILY: Arial
+}
+.branchListLink:active {
+	FONT-SIZE: 12px; FONT-FAMILY: Arial
+}
+.branch_details_td {
+	PADDING-RIGHT: 7px; PADDING-LEFT: 7px; FONT-SIZE: 12px; FONT-FAMILY: Arial; HEIGHT: 28px; BACKGROUND-COLOR: #ffffff
+}
+.adminInputTitleTD {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; FONT-FAMILY: Arial
+}
+.results_li {
+	COLOR: #c60000; LIST-STYLE-TYPE: circle
+}
+.search_title {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 14px; PADDING-BOTTOM: 5px; COLOR: #2778c3; PADDING-TOP: 5px
+}
+.page_browser {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; COLOR: #2778c3; PADDING-TOP: 5px; BACKGROUND-COLOR: #d5dde0; TEXT-ALIGN: center
+}
+.pageNavigator {
+	PADDING-RIGHT: 5px; BORDER-TOP: black 1px solid; PADDING-LEFT: 5px; BACKGROUND: #f3f5f6; PADDING-BOTTOM: 5px; COLOR: #2778c3; PADDING-TOP: 5px; TEXT-ALIGN: center
+}
+.button_class {
+	BORDER-RIGHT: #ffffff 1px solid; BORDER-TOP: #ffffff 1px solid; FONT-WEIGHT: bold; FONT-SIZE: 12px; BORDER-LEFT: #ffffff 1px solid; COLOR: #ffffff; BORDER-BOTTOM: #ffffff 1px solid; FONT-FAMILY: Arial; HEIGHT: 19px; BACKGROUND-COLOR: #2778c3; TEXT-ALIGN: center
+}
+.buttonWhiteBorder {
+	BORDER-RIGHT: #ffffff 1px solid; BORDER-TOP: #ffffff 1px solid; FONT-WEIGHT: bold; FONT-SIZE: 12px; BORDER-LEFT: #ffffff 1px solid; COLOR: #ffffff; BORDER-BOTTOM: #ffffff 1px solid; FONT-FAMILY: Arial; BACKGROUND-COLOR: #2778c3; TEXT-ALIGN: center
+}
+.buttonDarkBorder {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; FONT-WEIGHT: bold; FONT-SIZE: 12px; BORDER-LEFT: black 1px solid; COLOR: #ffffff; BORDER-BOTTOM: black 1px solid; FONT-FAMILY: Arial; BACKGROUND-COLOR: #2778c3; TEXT-ALIGN: center
+}
+.pbDetails {
+	BORDER-RIGHT: #2778c3 1px solid; PADDING-RIGHT: 7px; BORDER-TOP: #2778c3 1px solid; PADDING-LEFT: 7px; PADDING-BOTTOM: 5px; BORDER-LEFT: #2778c3 1px solid; WIDTH: 200px; PADDING-TOP: 5px; BORDER-BOTTOM: #2778c3 1px solid; POSITION: absolute; BACKGROUND-COLOR: #ffffff
+}
+.detailsTable {
+	BORDER-TOP: #2778c3 1px dotted; BORDER-BOTTOM: #2778c3 1px dotted
+}
+.inputTD {
+	PADDING-LEFT: 15px
+}
+.checkboxTD {
+	PADDING-RIGHT: 10px
+}
+.input {
+	FONT-SIZE: 12px; WIDTH: 130px; HEIGHT: 18px
+}
+.thinBorder {
+	BORDER-RIGHT: #6500ca 1px solid; BORDER-TOP: #6500ca 1px solid; BORDER-LEFT: #6500ca 1px solid; BORDER-BOTTOM: #6500ca 1px solid
+}
+.searchTR {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; BACKGROUND: #f3f5f6; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; BORDER-BOTTOM: black 1px solid
+}
+.searchTD {
+	BORDER-BOTTOM: black 1px solid
+}
+.resultTR {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; BACKGROUND: white; PADDING-BOTTOM: 5px; PADDING-TOP: 5px
+}
+.inputTR {
+	PADDING-BOTTOM: 10px
+}
+.dots {
+	PADDING-LEFT: 7px; BORDER-LEFT: #c5cdd0 1px dotted
+}
+.foundTR {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px
+}
+.prevNextLink {
+	FONT-SIZE: 12px
+}
+.prevNextLink:hover {
+	FONT-SIZE: 12px
+}
+.prevNextLink:visited {
+	FONT-SIZE: 12px
+}
+.currPage {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px
+}
+.inputTitleTD {
+	FONT-SIZE: 12px
+}
+A.subMenu {
+	BORDER-RIGHT: #747474 1px solid; PADDING-RIGHT: 3px; BORDER-TOP: 0px; DISPLAY: block; PADDING-LEFT: 3px; BACKGROUND: #cccccc; PADDING-BOTTOM: 3px; FONT: 11px arial; BORDER-LEFT: #747474 1px solid; WIDTH: 100%; COLOR: #0e3966; PADDING-TOP: 3px; BORDER-BOTTOM: #747474 1px solid; TEXT-DECORATION: none
+}
+A.subMenu:hover {
+	BACKGROUND: #eeeeee; FONT: 11px arial; COLOR: #0e3966
+}
+A.join {
+	FONT: bold 12px arial; COLOR: #03366f
+}
+A.join:hover {
+	FONT: bold 12px arial; COLOR: #d63028
+}
+A.articleTitle {
+	PADDING-RIGHT: 3px; FONT: bold 10pt arial; COLOR: #cc0000; TEXT-DECORATION: none
+}
+A.articleTitle:hover {
+	PADDING-RIGHT: 3px; FONT: bold 10pt arial; COLOR: #828282; TEXT-DECORATION: none
+}
+A.bluearticleTitle {
+	PADDING-RIGHT: 3px; FONT: bold 10pt arial; COLOR: #024179; TEXT-DECORATION: none
+}
+A.bluearticleTitle:hover {
+	PADDING-RIGHT: 3px; FONT: bold 10pt arial; COLOR: #024179; TEXT-DECORATION: none
+}
+A.bottom {
+	FONT: 10px arial; COLOR: #666666; TEXT-DECORATION: none
+}
+A.bottom:hover {
+	FONT: 10px arial; COLOR: #9a0202; TEXT-DECORATION: underline
+}
+A.link {
+	FONT: 12px arial; COLOR: #003366; TEXT-DECORATION: none
+}
+A.link:hover {
+	FONT: 12px arial; COLOR: #003366; TEXT-DECORATION: underline
+}
+A.black {
+	FONT: 12px arial; MARGIN-LEFT: 4px; COLOR: black; TEXT-DECORATION: none
+}
+A.black:hover {
+	FONT: 12px arial; MARGIN-LEFT: 4px; COLOR: black; TEXT-DECORATION: none
+}
+A.categoryTitle:hover {
+	PADDING-RIGHT: 3px; FONT: bold 11pt arial; COLOR: #828282; TEXT-DECORATION: none
+}
+P.MsoNormal {
+	FONT-SIZE: 10pt; MARGIN: 0px 0px 0pt; DIRECTION: rtl; unicode-bidi: embed; TEXT-ALIGN: right; mso-pagination: widow-orphan; mso-fareast-font-family: Arial
+}
+LI.MsoNormal {
+	FONT-SIZE: 10pt; MARGIN: 0px 0px 0pt; DIRECTION: rtl; unicode-bidi: embed; TEXT-ALIGN: right; mso-pagination: widow-orphan; mso-fareast-font-family: Arial
+}
+DIV.MsoNormal {
+	FONT-SIZE: 10pt; MARGIN: 0px 0px 0pt; DIRECTION: rtl; unicode-bidi: embed; TEXT-ALIGN: right; mso-pagination: widow-orphan; mso-fareast-font-family: Arial
+}
+.pageTitle {
+	PADDING-BOTTOM: 5px; FONT: bold 12pt arial; COLOR: #9a0202; BORDER-BOTTOM: #dddddd 1px solid
+}
+.portletTitle {
+	FONT-SIZE: 27px; PADDING-BOTTOM: 10px; COLOR: #507396; FONT-FAMILY: Arial
+}
+.bgTopTD {
+	PADDING-RIGHT: 10px; BACKGROUND-POSITION: right 50%; BACKGROUND-IMAGE: url(/images/topBG.gif); BACKGROUND-REPEAT: no-repeat; HEIGHT: 30px
+}
+.bgBottomTD {
+	PADDING-RIGHT: 10px; BACKGROUND-POSITION: right 50%; BACKGROUND-IMAGE: url(/images/bottomBG.gif); BACKGROUND-REPEAT: no-repeat; HEIGHT: 30px
+}
+.lightBlueTitle {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 14px; PADDING-BOTTOM: 5px; COLOR: #2778c3; PADDING-TOP: 5px
+}
+.lightBlueTitleLink {
+	FONT-SIZE: 12px; COLOR: #2778c3; TEXT-DECORATION: none
+}
+.verticalDotTD {
+	BACKGROUND-IMAGE: url(/images/verticalDotLine.gif); VERTICAL-ALIGN: top
+}
+.blueButton {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; FONT-WEIGHT: bold; BORDER-LEFT: black 1px solid; WIDTH: 90px; COLOR: white; BORDER-BOTTOM: black 1px solid; HEIGHT: 20px; BACKGROUND-COLOR: #2778c3
+}
+.mandatory {
+	COLOR: #c60000
+}
+.indexCode {
+	COLOR: #3262a9
+}
+.indexChange {
+	COLOR: #17ae3e
+}
+.redArrowTD {
+	BORDER-RIGHT: #c60000 1px solid; PADDING-RIGHT: 3px
+}
+.seperatorTD {
+	BORDER-RIGHT: #c60000 1px solid; VERTICAL-ALIGN: bottom; BORDER-LEFT: #c60000 1px solid; HEIGHT: 2px
+}
+.bulletTD {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 3px; PADDING-TOP: 3px
+}
+.redLinkTD {
+	PADDING-RIGHT: 5px
+}
+.blueLinkTR {
+	PADDING-BOTTOM: 2px; PADDING-TOP: 2px
+}
+.rateTitleTD {
+	PADDING-LEFT: 3px; FONT-SIZE: 11px; COLOR: #3262a9
+}
+.rateDateTD {
+	FONT-SIZE: 11px; COLOR: #3262a9; PADDING-TOP: 1px
+}
+.rateValueTD {
+	PADDING-RIGHT: 10px; FONT-SIZE: 11px; COLOR: #3262a9; PADDING-TOP: 1px; TEXT-ALIGN: left
+}
+.redLink {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #c60000; FONT-FAMILY: Arial; TEXT-DECORATION: none
+}
+.redLink:hover {
+	COLOR: #c60000
+}
+.blueLinkTD {
+	PADDING-RIGHT: 5px; BORDER-LEFT: #c60000 1px solid
+}
+.blueLink {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #003366; FONT-FAMILY: Arial; TEXT-DECORATION: none
+}
+.welcomeTitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 15px; BACKGROUND: #c60000; COLOR: #ffffff; FONT-FAMILY: Arial
+}
+.welcomeTextTD {
+	PADDING-RIGHT: 7px; PADDING-LEFT: 7px; FONT-SIZE: 12px; BACKGROUND: #e0e0dc; PADDING-BOTTOM: 7px; VERTICAL-ALIGN: top; COLOR: black; DIRECTION: rtl; PADDING-TOP: 7px; FONT-FAMILY: Arial
+}
+.bold {
+	FONT-WEIGHT: bold
+}
+.icmmSelectedItemTitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #c60000; TEXT-DECORATION: none
+}
+.icmmSelectedItemTitle:hover {
+	COLOR: #c60000
+}
+.exsites {
+	FONT-SIZE: 11px; COLOR: #003366; FONT-FAMILY: arial; TEXT-DECORATION: none
+}
+UNKNOWN {
+	FONT-SIZE: 11px; COLOR: #c60000; TEXT-DECORATION: none
+}
+.topNavBarSeperatorTD {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-TOP: 1px
+}
+.topNavBarLink {
+	TEXT-DECORATION: none
+}
+.topNavBarArrowTD {
+	PADDING-RIGHT: 8px; VERTICAL-ALIGN: top; CURSOR: hand; PADDING-TOP: 8px
+}
+.topNavBarLinkDivTable {
+	BORDER-RIGHT: #95a7b5 1px solid; BORDER-TOP: #95a7b5 1px solid; BORDER-LEFT: #95a7b5 1px solid; BORDER-BOTTOM: #95a7b5 1px solid
+}
+.topNavBarWhiteLinkDivTable {
+	BORDER-RIGHT: #c60000 1px solid; BORDER-TOP: #c60000 1px solid; BORDER-LEFT: #c60000 1px solid; BORDER-BOTTOM: #c60000 1px solid
+}
+.topNavBarLinkDivTableTD {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; PADDING-TOP: 3px; BACKGROUND-COLOR: #e3e8eb
+}
+.topNavBarLinkDivWhiteTableTD {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; PADDING-TOP: 3px; BACKGROUND-COLOR: #ffffff
+}
+.topNavBarLinkDivTableMidTDTopBorder {
+	BORDER-TOP: #95a7b5 1px solid
+}
+.topNavBarLinkDivTableRedMidTDTopBorder {
+	BORDER-TOP: #c60000 1px solid
+}
+.rightSideNavBarTable {
+	WIDTH: 100%
+}
+.rightSideNavBarLink {
+	FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.rightSideNavBarTR {
+	PADDING-BOTTOM: 2px; PADDING-TOP: 2px
+}
+.rightSideNavBarArrowTD {
+	BORDER-RIGHT: #c60000 1px solid; PADDING-RIGHT: 10px; PADDING-LEFT: 10px
+}
+.rightSideNavBarBottomArrowTD {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px
+}
+.rightSideNavBarLinkTD {
+	BORDER-LEFT: #c60000 1px solid; WIDTH: 100%
+}
+.rightSideNavBarLinkMidTDTopBorder {
+	BORDER-TOP: #c60000 1px solid
+}
+.rightSideNavBarLinkMidTDBottomBorder {
+	BORDER-BOTTOM: #c60000 1px solid
+}
+.rightNavBarTopSectionTitleTD {
+	PADDING-RIGHT: 10px; FONT-WEIGHT: bold; BACKGROUND-IMAGE: url(/images/poalimPrivate/rightNavBarTopSectionBG.gif); PADDING-BOTTOM: 1px; COLOR: white; PADDING-TOP: 1px
+}
+.rightNavBarSectionTitleTD {
+	PADDING-RIGHT: 10px; FONT-WEIGHT: bold; BACKGROUND-IMAGE: url(/images/poalimPrivate/rightNavBarSectionBG.gif); PADDING-BOTTOM: 1px; COLOR: white; PADDING-TOP: 1px
+}
+.rightNavBarSectionLinkTD {
+	PADDING-RIGHT: 10px; CURSOR: hand; BACKGROUND-COLOR: #d3dbde
+}
+.rightNavBarSectionLinkTDBottom {
+	PADDING-RIGHT: 10px; BACKGROUND-IMAGE: url(/images/poalimPrivate/rightNavBarBbottomOut.gif); CURSOR: hand
+}
+.rightNavBarSectionLink {
+	COLOR: #003366; TEXT-DECORATION: none
+}
+.rightNavBarSectionLinkSsperatorTopTR {
+	HEIGHT: 1px; BACKGROUND-COLOR: #a5b5bb
+}
+.rightNavBarSectionLinkSsperatorBottomTR {
+	HEIGHT: 1px; BACKGROUND-COLOR: #edf1f2
+}
+.rightSideNavBarLevel1ArrowTD {
+	PADDING-LEFT: 7px
+}
+.subNavDiv {
+	VISIBILITY: hidden; OVERFLOW: hidden; POSITION: absolute
+}
+.messageText {
+	FONT: 14px arial; COLOR: #000000
+}
+.redBorder {
+	BORDER-RIGHT: #d63028 1px solid; BORDER-TOP: #d63028 1px solid; BORDER-LEFT: #d63028 1px solid; BORDER-BOTTOM: #d63028 1px solid
+}
+.assetPortletTitle {
+	PADDING-BOTTOM: 5px; FONT: bold 12pt arial; COLOR: #9a0202; BORDER-BOTTOM: #dddddd 1px solid
+}
+.assetTitleTR {
+	PADDING-BOTTOM: 15px; PADDING-TOP: 10px
+}
+.assetTitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 15px; COLOR: #2778c3; FONT-FAMILY: Arial
+}
+.assetTitleRed {
+	FONT-WEIGHT: bold; FONT-SIZE: 15px; COLOR: #c60000; FONT-FAMILY: Arial
+}
+.assetPropertyValueTR {
+	PADDING-BOTTOM: 20px; VERTICAL-ALIGN: top
+}
+.assetProperty {
+	PADDING-LEFT: 20px; FONT-WEIGHT: bold; FONT-SIZE: 13px; FONT-FAMILY: Arial
+}
+.assetPropertyValueTD {
+	PADDING-RIGHT: 20px; FONT-SIZE: 13px; DIRECTION: rtl; FONT-FAMILY: Arial; TEXT-ALIGN: right
+}
+.assetPropertyLink {
+	FONT-WEIGHT: bold; FONT-SIZE: 13px; FONT-FAMILY: Arial; TEXT-DECORATION: none
+}
+.assetPropertyLink:hover {
+	COLOR: #c60000; TEXT-DECORATION: underline
+}
+.assetBottomLineTR {
+	PADDING-TOP: 10px
+}
+.formLink {
+	FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.redText {
+	COLOR: #c60000
+}
+.formTitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 16px
+}
+.assetBlueTitle {
+	PADDING-RIGHT: 5px; BACKGROUND-POSITION: right 50%; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 14px; BACKGROUND-IMAGE: url(/images/bg_needed3.gif); PADDING-BOTTOM: 5px; COLOR: #2778c3; PADDING-TOP: 5px; BACKGROUND-REPEAT: no-repeat
+}
+.assetBlueTitleSmall {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; PADDING-BOTTOM: 15px; COLOR: #2778c3; PADDING-TOP: 15px
+}
+.assetBlueLink {
+	PADDING-RIGHT: 5px; BACKGROUND-POSITION: right 50%; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 13px; BACKGROUND-IMAGE: url(/images/bg_needed3.gif); PADDING-BOTTOM: 5px; COLOR: #2778c3; PADDING-TOP: 5px; BACKGROUND-REPEAT: no-repeat; TEXT-DECORATION: none
+}
+.assetBlueLink:hover {
+	PADDING-RIGHT: 5px; BACKGROUND-POSITION: right 50%; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 13px; BACKGROUND-IMAGE: url(/images/bg_needed3.gif); PADDING-BOTTOM: 5px; COLOR: #c60000; PADDING-TOP: 5px; BACKGROUND-REPEAT: no-repeat; TEXT-DECORATION: none
+}
+.assetRedTitle {
+	PADDING-RIGHT: 5px; BACKGROUND-POSITION: right 50%; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 14px; BACKGROUND-IMAGE: url(/images/bg_needed3.gif); PADDING-BOTTOM: 5px; COLOR: #c60000; PADDING-TOP: 5px; BACKGROUND-REPEAT: no-repeat
+}
+.assetSubmitTD {
+	BACKGROUND-POSITION: right 50%; PADDING-LEFT: 5px; BACKGROUND-IMAGE: url(/images/bg_needed4.gif); PADDING-BOTTOM: 3px; PADDING-TOP: 3px; BACKGROUND-REPEAT: no-repeat
+}
+.assetSubmitTDWide {
+	BACKGROUND-POSITION: right 50%; BACKGROUND-IMAGE: url(/images/bg_needed2.gif); PADDING-BOTTOM: 4px; PADDING-TOP: 4px; BACKGROUND-REPEAT: no-repeat
+}
+.formTextField {
+	WIDTH: 130px; HEIGHT: 17px
+}
+.PRVAssetsConfigurePageTitle {
+	FONT-WEIGHT: bold
+}
+.assetSearchSubmitButton {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; FONT-WEIGHT: bold; BORDER-LEFT: black 1px solid; WIDTH: 90px; COLOR: white; BORDER-BOTTOM: black 1px solid; HEIGHT: 20px; BACKGROUND-COLOR: #2778c3
+}
+.wpsEnrollBack {
+	BACKGROUND-COLOR: #ffffcc
+}
+.wpsTableAdminHead {
+	BACKGROUND: #666666; FONT: 9px arial; COLOR: #ffffff
+}
+.wpsTaskIconText {
+	FONT: bold 9px arial; COLOR: #666
+}
+.wpsDialogIconText {
+	FONT: bold 8px arial; COLOR: #666666
+}
+.wpsDialogDisabledIconText {
+	FONT: bold 8px arial; COLOR: #cfc5c5
+}
+.ltext {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; FONT: 11px arial; COLOR: #003366; PADDING-TOP: 2px; HEIGHT: 20px; TEXT-DECORATION: none
+}
+.smallMain {
+	FONT: 11px arial; COLOR: #000000; TEXT-DECORATION: none
+}
+.main {
+	FONT: 12px/130% arial; COLOR: #000000; TEXT-DECORATION: none
+}
+.mainMenu {
+	VISIBILITY: hidden; OVERFLOW: hidden; POSITION: absolute; TOP: 68px
+}
+.star {
+	FONT-SIZE: 12px; COLOR: #9a0202; TEXT-ALIGN: left
+}
+.fontSize {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; FONT-SIZE: 12px; PADDING-BOTTOM: 2px; PADDING-TOP: 2px
+}
+.mainleft1 {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; FONT: 11px arial; COLOR: #003366; PADDING-TOP: 2px; HEIGHT: 20px; TEXT-DECORATION: none
+}
+.mainleft1g {
+	FONT: 11px arial; COLOR: #438c1a; TEXT-DECORATION: none
+}
+.mainleft1r {
+	FONT: 11px arial; COLOR: #e52702; TEXT-DECORATION: none
+}
+.mainleft1gray {
+	FONT: 12px arial; COLOR: #7c7a7a; TEXT-DECORATION: none
+}
+.mainlink1r {
+	FONT: 12px arial; COLOR: #e52702; TEXT-DECORATION: underline
+}
+.mainlink1gray {
+	FONT: 12px arial; COLOR: #7c7a7a; TEXT-DECORATION: underline
+}
+.SelectYear {
+	BACKGROUND: #eeeeee; FONT: 9px arial; WIDTH: 80px; COLOR: #424542; HEIGHT: 10px
+}
+.SelectBlueYear {
+	BACKGROUND: #b7c8da; FONT: bold 10px arial; WIDTH: 80px; COLOR: #424542; HEIGHT: 10px
+}
+.bigSelect {
+	BACKGROUND: #eeeeee; FONT: 10px arial; WIDTH: 150px; COLOR: #424542; HEIGHT: 12px
+}
+.madad {
+	FONT: 11px arial; COLOR: #424542
+}
+.stick {
+	FONT-WEIGHT: normal; FONT-SIZE: 1px; BACKGROUND: #cfcfcf; MARGIN-LEFT: 5px; WIDTH: 3px; LINE-HEIGHT: normal; MARGIN-RIGHT: 7px; FONT-STYLE: normal; HEIGHT: 12px; TEXT-ALIGN: center; FONT-VARIANT: normal
+}
+.blueStick {
+	FONT-WEIGHT: normal; FONT-SIZE: 1px; BACKGROUND: #22558e; MARGIN-LEFT: 5px; WIDTH: 1px; LINE-HEIGHT: normal; MARGIN-RIGHT: 7px; FONT-STYLE: normal; HEIGHT: 10px; TEXT-ALIGN: center; FONT-VARIANT: normal
+}
+.madadTitle {
+	FONT: bold 11px arial; COLOR: #424542; BORDER-BOTTOM: #cccccc 1px solid
+}
+.mitzSide {
+	FONT: bold 11px arial; BORDER-LEFT: #cccccc 1px solid; COLOR: #424542
+}
+.hr {
+	FONT-SIZE: 1px; WIDTH: 100%; HEIGHT: 1px
+}
+.coins {
+	FONT: 9px arial; COLOR: #424542
+}
+.coinsTitle {
+	FONT: 11px arial; COLOR: #003366
+}
+.titlePages {
+	FONT: bold 12px arial; COLOR: #003366; HEIGHT: 18px; TEXT-DECORATION: none
+}
+A.boldi {
+	FONT: bold 12px arial; COLOR: #003366; TEXT-DECORATION: underline
+}
+A.boldi:hover {
+	FONT: bold 12px arial; COLOR: #9a0202; TEXT-DECORATION: underline
+}
+.whiteFont {
+	FONT: 12px arial; COLOR: white; TEXT-DECORATION: none
+}
+A.whiteFont {
+	FONT: 12px arial; COLOR: white; TEXT-DECORATION: none
+}
+.whiteFontbold {
+	FONT: bold 12px arial; COLOR: white; TEXT-DECORATION: none
+}
+A.whiteFontbold {
+	FONT: bold 12px arial; COLOR: white; TEXT-DECORATION: none
+}
+A.whiteFontbold:hover {
+	FONT: bold 12px arial; COLOR: white; TEXT-DECORATION: none
+}
+A.whiteFont:hover {
+	FONT: 12px arial; COLOR: white; TEXT-DECORATION: none
+}
+.spaceRight {
+	PADDING-RIGHT: 5px
+}
+.spaceLeft {
+	PADDING-LEFT: 5px
+}
+.input {
+	BORDER-RIGHT: #9a0202 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #9a0202 1px solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; FONT: 11px arial; BORDER-LEFT: #9a0202 1px solid; WIDTH: 70px; PADDING-TOP: 0px; BORDER-BOTTOM: #9a0202 1px solid; HEIGHT: 14px
+}
+.DISinput {
+	BORDER-RIGHT: #dddddd 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #dddddd 1px solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; FONT: 11px arial; BORDER-LEFT: #dddddd 1px solid; WIDTH: 70px; PADDING-TOP: 0px; BORDER-BOTTOM: #dddddd 1px solid; HEIGHT: 14px
+}
+.bigInput {
+	BORDER-RIGHT: #9a0202 1px solid; BORDER-TOP: #9a0202 1px solid; FONT: 11px arial; BORDER-LEFT: #9a0202 1px solid; WIDTH: 150px; BORDER-BOTTOM: #9a0202 1px solid; HEIGHT: 18px
+}
+.dashed {
+	BORDER-RIGHT: #cc0000 1px dashed; BORDER-TOP: #cc0000 1px dashed; FONT: 11px arial; BORDER-LEFT: #cc0000 1px dashed; WIDTH: 150px; BORDER-BOTTOM: #cc0000 1px dashed; HEIGHT: 18px
+}
+.whiteButton {
+	BORDER-RIGHT: #9a0202 1px solid; BORDER-TOP: #9a0202 1px solid; BACKGROUND: white; FONT: 11px arial; BORDER-LEFT: #9a0202 1px solid; WIDTH: 80px; COLOR: #cc0000; BORDER-BOTTOM: #9a0202 1px solid; HEIGHT: 20px
+}
+.grayButton {
+	BORDER-RIGHT: #424542 1px solid; BORDER-TOP: #424542 1px solid; BACKGROUND: #eeeeee; FONT: bold 11px arial; BORDER-LEFT: #424542 1px solid; WIDTH: 80px; CURSOR: hand; COLOR: #424542; BORDER-BOTTOM: #424542 1px solid; HEIGHT: 17px
+}
+.bigButton {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; BACKGROUND: #cc0000; FONT: bold 12px arial; BORDER-LEFT: black 1px solid; WIDTH: 60px; COLOR: white; BORDER-BOTTOM: black 1px solid; HEIGHT: 24px
+}
+.madadButton {
+	BORDER-RIGHT: white 1px outset; BORDER-TOP: white 1px outset; BACKGROUND: #cfcfcf; FONT: bold 12px arial; BORDER-LEFT: white 1px outset; WIDTH: 150px; CURSOR: hand; COLOR: #424441; MARGIN-RIGHT: 3px; BORDER-BOTTOM: white 1px outset; HEIGHT: 22px
+}
+.midButton {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; BACKGROUND: #cc0000; FONT: bold 11px arial; BORDER-LEFT: black 1px solid; WIDTH: 40px; COLOR: white; BORDER-BOTTOM: black 1px solid; HEIGHT: 18px; TEXT-ALIGN: center
+}
+A.blueTitle {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 0px; FONT: bold 12px arial; COLOR: #0e3966; TEXT-DECORATION: none
+}
+.blueTitle {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 0px; FONT: bold 12px arial; COLOR: #0e3966; TEXT-DECORATION: none
+}
+.redTitle {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT: bold 12px arial; COLOR: #cc0000
+}
+.skinTB {
+	BACKGROUND: #cc0000
+}
+.skinBC {
+	BORDER-LEFT-COLOR: #cc0000; BORDER-BOTTOM-COLOR: #cc0000; BORDER-TOP-STYLE: solid; BORDER-TOP-COLOR: #cc0000; BORDER-RIGHT-STYLE: solid; BORDER-LEFT-STYLE: solid; BORDER-RIGHT-COLOR: #cc0000; BORDER-BOTTOM-STYLE: solid
+}
+.deletewhiteSpace {
+	FONT-WEIGHT: normal; FONT-SIZE: 1px; LINE-HEIGHT: normal; FONT-STYLE: normal; FONT-VARIANT: normal; bgcolor: white
+}
+.spaceRight {
+	PADDING-RIGHT: 5px
+}
+.hand {
+	CURSOR: hand; FONT-FAMILY: arial
+}
+.default {
+	CURSOR: default
+}
+.menuOut {
+	BACKGROUND: #cccccc; FONT: bold 12px arial; COLOR: #0e3966
+}
+.menuOver {
+	BACKGROUND: #7b7b7b; FONT: bold 12px arial; COLOR: white
+}
+.last {
+	FONT: 12px arial; COLOR: #cc0000; TEXT-DECORATION: none
+}
+A.trajectory:hover {
+	FONT: 12px arial; COLOR: #cc0000; TEXT-DECORATION: none
+}
+A.trajectory {
+	FONT: 12px arial; COLOR: #0e3966; TEXT-DECORATION: none
+}
+.mainMenu {
+	VISIBILITY: hidden; OVERFLOW: hidden; TOP: 112px; HEIGHT: 1px
+}
+.cName {
+	FONT-WEIGHT: bold; COLOR: #cc0000
+}
+.cSummary {
+	FONT: 9px Arial
+}
+.timec {
+	FONT: 10px arial; COLOR: #a50000
+}
+.bodyc {
+	FONT: 12px arial; TEXT-DECORATION: none
+}
+.author {
+	FONT: 10px arial; COLOR: #666666
+}
+.border {
+	BORDER-RIGHT: #9a0202 1px solid; BORDER-TOP: #9a0202 1px solid; BORDER-LEFT: #9a0202 1px solid; BORDER-BOTTOM: #9a0202 1px solid
+}
+.Blueborder {
+	BORDER-RIGHT: #9abce2 1px solid; BORDER-TOP: #9abce2 1px solid; BORDER-LEFT: #9abce2 1px solid; BORDER-BOTTOM: #9abce2 1px solid
+}
+.showLink {
+	FONT: 12px arial; CURSOR: default; COLOR: #cc0000
+}
+.hideLink {
+	BORDER-RIGHT: #d6d3ce 1px solid; BORDER-TOP: #d6d3ce 1px solid; BACKGROUND: #eeeeee; FONT: 12px arial; BORDER-LEFT: #d6d3ce 1px solid; CURSOR: hand; COLOR: #777777; BORDER-BOTTOM: #d6d3ce 1px solid
+}
+.news_hedline {
+	FONT: 11px arial
+}
+.titleBig {
+	FONT: bold 22px arial; COLOR: #7b7977; TEXT-DECORATION: none
+}
+.bigBlue {
+	FONT: bold 16px arial; COLOR: #003366
+}
+.smallRed {
+	FONT: bold 12px arial; COLOR: #cc0000; TEXT-DECORATION: none
+}
+.bottomDotted {
+	BORDER-RIGHT: #cc0000 1px dotted; PADDING-RIGHT: 2px; BORDER-TOP: #cc0000 1px dotted; PADDING-LEFT: 2px; MARGIN-BOTTOM: 5px; PADDING-BOTTOM: 2px; BORDER-LEFT: #cc0000 1px dotted; PADDING-TOP: 2px; BORDER-BOTTOM: #cc0000 1px dotted
+}
+.navigationOver {
+	BACKGROUND: #f6eded; FONT: 12px arial; COLOR: #cc0000
+}
+.navigation {
+	BACKGROUND: #ffffff; FONT: 12px arial; COLOR: #0e3966
+}
+.navigationOffline {
+	FONT: 12px arial; COLOR: #cccccc
+}
+.stagingEdit {
+	FONT-WEIGHT: bold; COLOR: #adadad; TEXT-ALIGN: left
+}
+.fontStyle {
+	FONT-WEIGHT: bold; COLOR: #003366
+}
+.coloredGray {
+	BACKGROUND: #eeeeee
+}
+.coloredPink {
+	BACKGROUND: #f6eded
+}
+.coloredRed {
+	BACKGROUND: #cc0000
+}
+.coloredBlue {
+	BACKGROUND: #003366
+}
+.coloredBordo {
+	BACKGROUND: #9a0202
+}
+.TDlink {
+	COLOR: #0e3966
+}
+.TDlinkOver {
+	COLOR: #9a0202
+}
+.calcTitle {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; BACKGROUND: url(/images/point.gif) #f0f0f0; PADDING-BOTTOM: 3px; FONT: bold 12px arial; PADDING-TOP: 3px; HEIGHT: 24px
+}
+.tableBorder {
+	BORDER-RIGHT: #aaaaaa 1px solid; BORDER-TOP: #aaaaaa 1px solid; BORDER-LEFT: #aaaaaa 1px solid; BORDER-BOTTOM: #aaaaaa 1px solid
+}
+.tableBigBorder {
+	BORDER-RIGHT: #d23129 1px solid; BORDER-TOP: 0px; BORDER-LEFT: #d23129 1px solid; BORDER-BOTTOM: #d23129 1px solid
+}
+.TableLabel {
+	BACKGROUND: #f0f0f0; FONT: bold 12px arial; COLOR: #024179
+}
+.bigBlueTitle {
+	PADDING-RIGHT: 3px; FONT: bold 14pt arial; COLOR: #003366; TEXT-DECORATION: none
+}
+.bigCategoryTitle {
+	PADDING-RIGHT: 3px; FONT: bold 14pt arial; COLOR: #cc0000; TEXT-DECORATION: none
+}
+.articleTitle {
+	FONT-SIZE: 12px; COLOR: #c60000; FONT-FAMILY:  arial (hebrew) ,web hebrew ad, Courier New (Hebrew); TEXT-DECORATION: none
+}
+.articleSubTitle {
+	FONT: bold 10pt arial; COLOR: #828282; TEXT-DECORATION: none
+}
+.pageTitleTR {
+	PADDING-BOTTOM: 10px
+}
+.categoryTitle {
+	PADDING-RIGHT: 3px; FONT: 20pt arial; COLOR: #2d5781; TEXT-DECORATION: none
+}
+.categorySubTitle {
+	PADDING-RIGHT: 3px; FONT: bold 11pt arial; COLOR: #828282; TEXT-DECORATION: none
+}
+.inArticleTitle {
+	PADDING-RIGHT: 3px; FONT: bold 12pt arial; COLOR: #9a0202; TEXT-DECORATION: none
+}
+.inArticleSubTitle {
+	PADDING-RIGHT: 3px; FONT: bold 12pt arial; COLOR: #828282; TEXT-DECORATION: none
+}
+.globesArticleSubTitle {
+	PADDING-RIGHT: 3px; FONT: bold 10pt arial; COLOR: #828282; TEXT-DECORATION: none
+}
+.bordoFont {
+	FONT: bold 12px arial; COLOR: #7d0000
+}
+.darkFont {
+	FONT: bold 12px arial; COLOR: #434542
+}
+.bordoTitle {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT: bold 12px arial; COLOR: #9a0202
+}
+.categoryMain {
+	PADDING-RIGHT: 3px; FONT: 10pt arial; COLOR: #003366
+}
+.nav {
+	BORDER-RIGHT: #cccccc 1px solid; PADDING-RIGHT: 1px; BORDER-TOP: #cccccc 1px solid; PADDING-LEFT: 1px; BACKGROUND: #cccccc; PADDING-BOTTOM: 1px; BORDER-LEFT: #cccccc 1px solid; WIDTH: 100%; CURSOR: hand; PADDING-TOP: 1px; BORDER-BOTTOM: #cccccc 1px solid; TEXT-DECORATION: none
+}
+A.nav {
+	BORDER-RIGHT: #cccccc 1px solid; PADDING-RIGHT: 1px; BORDER-TOP: #cccccc 1px solid; PADDING-LEFT: 1px; BACKGROUND: #cccccc; PADDING-BOTTOM: 1px; BORDER-LEFT: #cccccc 1px solid; WIDTH: 100%; CURSOR: hand; PADDING-TOP: 1px; BORDER-BOTTOM: #cccccc 1px solid; TEXT-DECORATION: none
+}
+.navOver {
+	BORDER-RIGHT: white 1px solid; PADDING-RIGHT: 1px; BORDER-TOP: #cccccc 1px solid; PADDING-LEFT: 1px; BACKGROUND: #eeeeee; PADDING-BOTTOM: 1px; BORDER-LEFT: white 1px solid; WIDTH: 100%; CURSOR: hand; PADDING-TOP: 1px; BORDER-BOTTOM: white 1px solid; TEXT-DECORATION: none
+}
+A.navOver:hover {
+	BORDER-RIGHT: white 1px solid; PADDING-RIGHT: 1px; BORDER-TOP: #cccccc 1px solid; PADDING-LEFT: 1px; BACKGROUND: #eeeeee; PADDING-BOTTOM: 1px; BORDER-LEFT: white 1px solid; WIDTH: 100%; CURSOR: hand; PADDING-TOP: 1px; BORDER-BOTTOM: white 1px solid; TEXT-DECORATION: none
+}
+A.nav:hover {
+	BORDER-RIGHT: white 1px solid; PADDING-RIGHT: 1px; BORDER-TOP: #cccccc 1px solid; PADDING-LEFT: 1px; BACKGROUND: #eeeeee; PADDING-BOTTOM: 1px; BORDER-LEFT: white 1px solid; WIDTH: 100%; CURSOR: hand; PADDING-TOP: 1px; BORDER-BOTTOM: white 1px solid; TEXT-DECORATION: none
+}
+.navOff {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 1px; PADDING-BOTTOM: 1px; FONT: bold 12px arial; WIDTH: 100%; CURSOR: hand; COLOR: #adadad; PADDING-TOP: 1px; TEXT-DECORATION: none
+}
+A.navOff {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 1px; PADDING-BOTTOM: 1px; FONT: bold 12px arial; WIDTH: 100%; CURSOR: hand; COLOR: #adadad; PADDING-TOP: 1px; TEXT-DECORATION: none
+}
+A.navOff:hover {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 1px; PADDING-BOTTOM: 1px; FONT: bold 12px arial; WIDTH: 100%; CURSOR: hand; COLOR: #adadad; PADDING-TOP: 1px; TEXT-DECORATION: none
+}
+.red {
+	BACKGROUND: #d63028
+}
+.white {
+	PADDING-RIGHT: 10px; FONT: bold 18px arial; COLOR: white; LETTER-SPACING: 1px
+}
+.blueT {
+	FONT: bold 12px arial; COLOR: #03366f
+}
+.gray {
+	BACKGROUND: #bec6cf; FONT: bold 14px arial; CURSOR: default; LETTER-SPACING: 1px
+}
+.small {
+	FONT: 9px arial; COLOR: #03366f
+}
+.text {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; LINE-HEIGHT: normal; FONT-STYLE: normal; FONT-VARIANT: normal
+}
+A.text {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; LINE-HEIGHT: normal; FONT-STYLE: normal; FONT-VARIANT: normal
+}
+A.text:hover {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; LINE-HEIGHT: normal; FONT-STYLE: normal; FONT-VARIANT: normal
+}
+.textBorder {
+	BORDER-RIGHT: #d63028 1px solid; PADDING-RIGHT: 3px; BORDER-TOP: #d63028 1px solid; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; BORDER-LEFT: #d63028 1px solid; PADDING-TOP: 3px; BORDER-BOTTOM: #d63028 1px solid
+}
+.indexText {
+	FONT: 10px arial; COLOR: #114070
+}
+.indexRed {
+	FONT: 10px arial; COLOR: #e52702
+}
+.indexGreen {
+	FONT: 10px arial; COLOR: #438c1a
+}
+.indexBorder {
+	BORDER-RIGHT: #114070 thin solid; BORDER-TOP: #114070 thin solid; BORDER-LEFT: #114070 thin solid; BORDER-BOTTOM: #114070 thin solid
+}

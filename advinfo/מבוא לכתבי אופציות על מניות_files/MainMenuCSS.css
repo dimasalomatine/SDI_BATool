@@ -1,0 +1,18 @@
+﻿.ButtonTD
+{
+    border-width: 0px;
+    width: 59px;
+    height:40px;
+    vertical-align:middle;
+}
+
+.MenuLink
+{
+   text-align:center;
+   text-decoration:none;
+   font-family:Arial;
+   font-size:12px;
+   font-weight:bold;
+   color:#464646;
+}
+

@@ -1,0 +1,368 @@
+﻿body {
+}   
+
+.MainButtons
+{
+    width:150px;
+    height:20px;
+    font-family:Arial;
+    font-size:12px;
+    font-weight:bold;
+    color:#DADADA;
+    background-color:#699CB7;
+}
+
+.CommandHeader
+{
+    vertical-align:middle;
+    width:35px;
+    height:20px;
+    background-color:#5D7B9D;
+    font-family:Arial;
+    font-size:11px;
+}
+.CommandItem
+{
+   width:25px;
+   height:20px;
+}
+
+.FiledHeader
+{
+    vertical-align:middle;
+    width:50px;
+    height:20px;
+    background-color:#5D7B9D;
+    font-family:Arial;
+    font-size:11px; 
+}
+
+.ArticleNameFiled
+{
+    vertical-align:middle;
+    width:200px;
+    height:20px;
+    font-family:Arial;
+    font-size:11px;
+    color:#284775;
+    text-decoration:none; 
+}
+
+.ArticleNameLink
+{
+    font-family:Arial;
+    font-size:11px;
+    color:#284775;
+    text-decoration:none;
+}
+
+.ArticleNameLink:Hover
+{
+    font-family:Arial;
+    font-size:11px;
+    color:#284775;
+    text-decoration:underline;
+    text-transform:capitalize;
+}
+
+.ArticleIDFiled
+{
+    vertical-align:middle;
+    width:25px;
+    height:20px;
+    font-family:Arial;
+    font-size:11px;
+    color:#284775;  
+}
+
+.ArticleDateFiled
+{
+    vertical-align:middle;
+    width:80px;
+    height:20px;
+    font-family:Arial;
+    font-size:11px;
+    color:#284775;  
+}
+
+.ManageLabel
+{
+    font-family:Arial;
+    font-size:12px;
+    font-style:normal;
+    font-weight:bold;
+    color:Black;
+    text-decoration:underline;
+}
+
+.ManageOptionButton
+{
+    width:90px;
+    height:25px;
+    font-family:Arial;
+    font-size:12px;
+    font-weight:bold;
+    color:#DADADA;
+    background-color:#699CB7;
+}
+
+.ManageCheckBox
+{
+    font-family:Arial;
+    font-size:12px;
+    font-style:oblique;
+    color:#4F819C;
+    font-weight:bold;
+}
+
+.ManageTextBox
+{
+    width:100px;
+    height:20px;
+    border:solid 1px #4F819C;
+    font-family:Arial;
+    color:#174660;
+    background-color:#F2F2F2;
+}
+
+.ManageLabelTextBox
+{
+    width:100px;
+    height:20px;
+    font-family:Arial;
+    color:#5EA400;
+    font-weight:bold;
+}
+
+.ManageFileUploads
+{
+    width:250px;
+    height:20px;
+    border:solid 1px #4F819C;
+    background-color:#F2F2F2;
+}
+
+.ArticleDescription
+{
+    width:245px;
+    height:30px;
+    font-family:Arial;
+    font-style:normal;
+    font-size:11px;
+    color:Black;
+}
+
+.ManageMessage
+{
+    font-family:Arial;
+    font-size:14px;
+    font-weight:bold;
+    color:Red;
+}
+
+.UserMessage
+{
+    font-family:Arial;
+    font-size:12px;
+    font-weight:bold;
+    color:#326B8D;
+    }
+
+.LabelForm
+{
+    font-family:Arial;
+    font-size:12px;
+    font-style:normal;
+    font-weight:bold;
+    color:Black;
+}
+
+.GVRowStyle
+{
+    background-color:#F7F6F3;
+    color:Black; 
+    Height:10px;
+}
+
+.GVFooterStyle
+{
+    background-color:#5D7B9D;
+    color:#330099;
+}
+
+.GVAlternateRow
+{
+    border-width:1px;
+    border-color:#9A723B;
+    Font-Size:12px;
+    Height:10px;
+    background-color:#FFFFFF;
+}
+
+.GVSelectedRowStyle
+{
+    background-color:#FFCC66;
+    border-color:#9A723B;
+    font-weight:bold;
+    color:#663399;
+}
+
+.GVPagerStyle
+{
+    background-color:#FFFFCC;
+    color:#330099;
+}
+
+.GVHeaderStyle
+{
+    background-color:#5D7B9D;
+    color:#FFFFCC;
+    font-weight:bold;
+}
+
+.CssGreedView
+{
+    width:90%;
+    direction:rtl;
+    background-color:White; 
+    border-color:#CC9966;
+    border-style:Dashed; 
+    border-width:1px;
+}
+
+.UploadFileForm
+{
+    border:1px;
+    border-color:#5D7B9D;
+    border-style:solid;
+    background-color:#F7F6F3;
+    background-image:url('Site/UserControls/CategoryControlIMG/BgButton.gif');
+    width:250px;
+    height:20px; 
+}
+/**/
+.SmallButtonAddUpdateDelete
+{
+    background-color:#E1E0E0;
+    width:60px;
+    height:20px;
+    font-family:Arial;
+    font-size:10px;
+    color:#366F90; 
+}
+
+.LinkField
+{
+    font-family:Arial;
+    font-size:12px;
+    color:#284775;
+    text-decoration:none;
+}
+
+.CategoresListBox
+{
+   font-family:Arial;
+   font-size:11px;
+   text-decoration:underline;
+   color:#284775;
+   Height:100px; 
+   Width:150px;
+   background-color:#F2F2F2;
+}
+
+.ArticlesListBox
+{
+    font-family:Arial;
+    font-size:11px;
+    text-decoration:underline;
+    color:#284775;
+    Height:100px;
+    Width:200px;
+    background-color:#F2F2F2;
+}
+
+.LabelsTitleTable
+{
+	font-family:Arial;
+	font-size:12px;
+	font-weight:bold;
+	color:Black;
+}
+
+.QuestionRowText
+{
+	font-family:Arial;
+	font-size:12px;
+	color:Black;
+	font-variant:small-caps;
+	text-align:right;
+}
+
+.UserDataText
+{
+	font-family:Arial;
+	font-size:12px;
+	font-variant:normal;
+	font-weight:bold;
+	color:#336699;
+}
+
+.ButtonsSendOrDelete
+{
+	font-family:Arial;
+	font-size:11px;
+	font-variant:normal;
+	color:Black;
+	text-decoration:none;
+	text-align:center;
+	background-image:url('../UserControls/CategoryControlIMG/BgButton.gif');
+}
+
+.ButtonsSendOrDelete:Hover
+{
+	font-family:Arial;
+	font-size:11px;
+	font-variant:normal;
+	color:Black;
+	text-decoration:none;
+	text-align:center;
+	background-image:url('../UserControls/CategoryControlIMG/BgOverButton.gif');
+}
+
+.TextBoxWithoutBorder
+{
+    width:100px;
+    height:20px;
+    font-family:Arial;
+    color:#5EA400;
+    font-weight:bold;
+    border:0px;
+}
+
+.ManageDDL
+{
+    width:120px;
+    height:20px;
+    color:#326B8D;
+    background-color:White;
+}
+
+.DefaultButton
+{
+    height:18;
+    border-style:solid;
+    border-width:1px;
+    border-color:#D7D7D7;
+    font-family:Arial;
+    font-size:11px;
+    color:Black;
+    text-align:center;
+    background-image:url('../UserControls/CategoryControlIMG/BgButton.gif');
+    text-decoration:none;
+    display:block;
+    }
+    
+.DefaultButton:hover
+{
+    background-image:url('../UserControls/CategoryControlIMG/BgOverButton.gif');
+    }

@@ -1,0 +1,42 @@
+#sidebar {
+	DISPLAY: none
+}
+.header .ad {
+	DISPLAY: none! important
+}
+.main .ad {
+	DISPLAY: none! important
+}
+.header .logo {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: none transparent scroll repeat 0% 0%; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.header {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: none transparent scroll repeat 0% 0%; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.footer {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: none transparent scroll repeat 0% 0%; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.header .search {
+	DISPLAY: none
+}
+.header .tabs {
+	DISPLAY: none
+}
+.logo #print_logo {
+	DISPLAY: block! important; WIDTH: 267px; HEIGHT: 87px
+}
+.logo #screen_logo {
+	DISPLAY: none
+}
+.main {
+	BORDER-RIGHT: black 0px solid; BORDER-TOP: black 1px solid; BORDER-LEFT: black 0px solid; BORDER-BOTTOM: black 1px solid
+}
+.main .print_link {
+	DISPLAY: none
+}
+.footer .links {
+	DISPLAY: none
+}
+.footer .notes {
+	DISPLAY: block; COLOR: black; page-break-inside: avoid
+}

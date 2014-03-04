@@ -1,0 +1,22 @@
+into html
+http://finance.yahoo.com/q/hp?s=TEVA&a=02&b=26&c=1990&d=09&e=24&f=2005&g=d
+into .cvs file
+http://ichart.finance.yahoo.com/table.csv?s=TEVA&a=02&b=26&c=1990&d=09&e=24&f=2005&g=d&ignore=.csv
+
+ALL TA
+http://finance.yahoo.com/l?s=TA&t=S&m=
+
+TA
+http://ichart.finance.yahoo.com/table.csv?s=TEVA.TA&a=07&b=12&c=2002&d=09&e=24&f=2005&g=d&ignore=.csv
+
+PAGED
+b is back
+http://finance.yahoo.com/l?s=TA&t=S&m=&b=0
+http://finance.yahoo.com/l?s=TA&t=S&m=&b=50
+http://finance.yahoo.com/l?s=TA&t=S&m=&b=100
+
+INDICES
+http://finance.yahoo.com/l?s=TA&t=I&m=&b=&r=
+
+FUNDS
+http://finance.yahoo.com/l?s=TA&t=M&m=&b=&r=

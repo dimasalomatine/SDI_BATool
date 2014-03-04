@@ -1,0 +1,97 @@
+﻿.hlCorName{
+    font-family:Arial;
+    font-size:12px;
+    font-weight:bold;
+    text-decoration:none;
+    color:#346D8F;
+    }
+.hlArtName{
+    font-family:Arial;
+    font-size:12px;
+    font-weight:bold;
+    text-decoration:none;
+    color:#346D8F;
+    }
+    
+.lbArtDesc{
+    font-family:Arial;
+    font-size:12px;
+    }
+
+.tdArtDesc{
+   padding-bottom:5px;
+   background-image:url('../usercontrols/ArticleImg/ArtBgBoody.gif');
+   background-repeat:repeat-x ;
+    }
+
+.tdArtImage{
+    padding-left:4px;
+    }
+    
+.tdHeaderR{
+    background-image:url('../usercontrols/ArticleImg/ArtBgHaderR.gif');
+    background-repeat:repeat-x ;
+    }
+
+.tdHeaderM{
+    background-image:url('../usercontrols/ArticleImg/ArtBgHaderM.gif');
+    background-repeat:repeat-x ;
+    }
+    
+.tdHeaderL{
+    background-image:url('../usercontrols/ArticleImg/ArtBgHaderL.gif');
+    background-repeat:repeat-x ;
+    }
+    
+
+.lblCurrentPage{
+    font-family:Arial;
+    font-size:12px;
+    }
+
+.button{
+    font-family:Arial;
+    font-size:11px;
+    border:1 solid #346D8F;
+    }
+    
+.ButtonNumber
+{
+    background-color:#E6F0D9;
+    text-decoration:none;
+    vertical-align:top;
+    text-align:center;
+    font-family:Arial;
+    font-size:12px;
+    cursor:hand;
+    color:black;
+    display:table-cell;
+    }
+
+
+.ButtonNumberSelect
+{
+    font-family:Arial;
+    background-color:#E6F0D9;
+    font-weight:bold;
+    text-decoration:none;
+    vertical-align:top;
+    text-align:center;
+    font-size:12px;
+    cursor:hand;
+    color:#579D00;
+    display:table-cell;
+    }
+    
+.DirectionPaging
+{
+    direction:ltr;
+}
+
+.hlinkName{
+    font-family:Arial;
+    font-size:14px;
+    font-weight:bold;
+    text-decoration:none;
+    color:#346D8F;
+    }

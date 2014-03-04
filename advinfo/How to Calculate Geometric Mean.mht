@@ -1,0 +1,1634 @@
+From: "Saved by Windows Internet Explorer 7"
+Subject: How to Calculate Geometric Mean
+Date: Sat, 13 Dec 2008 22:19:23 +0200
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_0000_01C95D70.DA685240"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.0.6001.18049
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0000_01C95D70.DA685240
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.buzzardsbay.org/geomean.htm
+
+=EF=BB=BF<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" =
+"http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML lang=3Den-US><HEAD><TITLE>How to Calculate Geometric Mean</TITLE>
+<META http-equiv=3Dcontent-type content=3D"text/html; charset=3DUTF-8">
+<META content=3Den-US name=3Dlanguage>
+<META content=3DGENERAL name=3Drating>
+<META content=3D1998-09-30 name=3Ddate.created>
+<META content=3D2008-08-28 name=3Ddate.modified>
+<META=20
+content=3D"Information on the use of 'Geometric Means' for shellfish bed =
+and swimming beach classifications and closures."=20
+name=3Ddescription>
+<META=20
+content=3D"Buzzards Bay National Estuary Program, water quality, =
+shellfish, swimming, bathing, Enterococci, fecal coliforms, runoff, =
+Bristol County, Barnstable County, Plymouth County, Massachusetts"=20
+name=3Dkeywords>
+<META content=3D"Dr. Joe Costa" name=3DAuthor><LINK=20
+href=3D"http://www.buzzardsbay.org/favicon.ico" type=3Dimage/x-icon=20
+rel=3D"shortcut icon"><LINK =
+href=3D"http://www.buzzardsbay.org/favicon.ico"=20
+type=3Dimage/x-icon rel=3Dicon><LINK title=3D"BBNEP Home Page"=20
+href=3D"http://www.buzzardsbay.org" rel=3DHOME><LINK media=3Dall=20
+href=3D"http://www.buzzardsbay.org/bbp.css" type=3Dtext/css =
+rel=3Dstylesheet><LINK=20
+media=3Dprint href=3D"http://www.buzzardsbay.org/bbp-print.css" =
+type=3Dtext/css=20
+rel=3Dstylesheet>
+<META content=3D"MSHTML 6.00.6001.18157" name=3DGENERATOR></HEAD>
+<BODY>
+<DIV id=3Dcontainer>
+<DIV id=3Dmasthead><!-- Begin #masthead -->
+<DIV class=3Dfloatleftbanner><A =
+href=3D"http://www.buzzardsbay.org/"><IMG height=3D140=20
+alt=3D"Buzzards Bay Project NEP logo"=20
+src=3D"http://www.buzzardsbay.org/images/bbplog2b.gif" width=3D72></A> =
+</DIV>
+<H2 class=3Dsiteinfo>Buzzards Bay National Estuary Program</H2>
+<SCRIPT src=3D"http://www.buzzardsbay.org/randomimage.js"=20
+type=3Dtext/javascript></SCRIPT>
+
+<P class=3Dsitelinks><!-- Begin #sitelinks --><BR><A=20
+href=3D"http://www.buzzardsbay.org/index.htm">Home</A>&nbsp;&nbsp;&nbsp; =
+<A=20
+href=3D"http://www.buzzardsbay.org/identmis.htm">BBNEP&nbsp;Info</A>&nbsp=
+;&nbsp;&nbsp;=20
+<A=20
+href=3D"http://www.buzzardsbay.org/towninfo.htm">Town&nbsp;Information</A=
+>&nbsp;&nbsp;&nbsp;=20
+<A=20
+href=3D"http://www.buzzardsbay.org/buzzards-bay-pollution.htm">Pollution<=
+/A>&nbsp;&nbsp;&nbsp;=20
+<A=20
+href=3D"http://www.buzzardsbay.org/living-resources.htm">Living&nbsp;Reso=
+urces</A>&nbsp;&nbsp;&nbsp;=20
+<A=20
+href=3D"http://www.buzzardsbay.org/bayshed.htm">Watershed&nbsp;Info</A>&n=
+bsp;&nbsp;&nbsp;=20
+<A=20
+href=3D"http://www.buzzardsbay.org/enjoybuzzardsbay.htm">Enjoy&nbsp;Buzza=
+rds&nbsp;Bay</A>&nbsp;&nbsp;&nbsp;=20
+<A=20
+href=3D"http://www.buzzardsbay.org/technical-data.htm">Technical&nbsp;Inf=
+o</A>&nbsp;&nbsp;&nbsp;=20
+<A =
+href=3D"http://www.buzzardsbay.org/special-topics.htm">Special&nbsp;Topic=
+s</A>=20
+</P><!-- End #sitelinks --></DIV><!-- End #masthead -->
+<DIV id=3Dcontent><A id=3Dtop name=3Dtop></A>
+<DIV id=3Dcontent_tertiary>
+<DIV><!-- Yahoo! Search -->
+<FORM=20
+style=3D"BORDER-RIGHT: #999 0px solid; PADDING-RIGHT: 0px; BORDER-TOP: =
+#999 0px solid; PADDING-LEFT: 0px; FONT-SIZE: 80%; PADDING-BOTTOM: 0px; =
+MARGIN: 0px; BORDER-LEFT: #999 0px solid; WIDTH: 100px; PADDING-TOP: =
+0px; BORDER-BOTTOM: #999 0px solid; TEXT-ALIGN: left"=20
+action=3Dhttp://search.yahoo.com/search method=3Dget>
+<P><LABEL for=3Dp></LABEL><INPUT class=3Dmenu id=3Dp alt=3D"site search" =
+size=3D16 name=3Dp>=20
+<INPUT type=3Dhidden value=3Dyscpb name=3Dfr> <INPUT id=3Dysvs1 =
+type=3Dhidden=20
+value=3Dwww.buzzardsbay.org name=3Dvs> <INPUT class=3Dbutton =
+type=3Dsubmit value=3D"Site Search"> </FORM></P></DIV>
+<P><A href=3D"http://www.buzzardsbay.org/site-index.htm">Site =
+Index</A><BR><A=20
+href=3D"http://www.buzzardsbay.org/identmis.htm">Contact us / About =
+Us</A><BR><A=20
+href=3D"http://www.buzzardsbay.org/bayshed.htm">Bay &amp; Watershed =
+Info</A><BR><A=20
+href=3D"http://www.buzzardsbay.org/ccmptoc.htm">Old&nbsp;CCMP</A>|<A=20
+href=3D"http://www.buzzardsbay.org/newccmp.htm">New&nbsp;CCMP</A><BR><A=20
+href=3D"http://www.buzzardsbay.org/links.htm">Links</A><BR><A=20
+href=3D"http://www.buzzardsbay.org/funding.htm">Funding</A><BR><A=20
+href=3D"http://www.buzzardsbay.org/laws.htm">Laws and =
+Regulations</A><BR><A=20
+href=3D"http://www.buzzardsbay.org/nepinfo.htm">NEP =
+Information</A><BR><A=20
+href=3D"http://www.buzzardsbay.org/buzzards_bay_references.htm">Reference=
+</A><BR><A=20
+href=3D"http://www.buzzardsbay.org/trends.htm">Status &amp; =
+Trends</A><BR><A=20
+href=3D"http://www.buzzardsbay.org/management-solutions.htm">Solutions</A=
+><BR><A=20
+href=3D"http://www.buzzardsbay.org/take-action.htm">Take&nbsp;Action</A><=
+BR><A=20
+href=3D"http://www.buzzardsbay.org/violate.htm">Violations, =
+Reporting</A><BR><A=20
+href=3D"http://www.buzzardsbay.org/bbweath.htm">Weather and=20
+Tides</A><BR></P></DIV><!-- End #content_tertiary -->
+<P class=3Dbreadcrumb><A=20
+href=3D"http://www.buzzardsbay.org/index.htm">Home</A>&nbsp; &gt; &nbsp; =
+<A=20
+href=3D"http://www.buzzardsbay.org/buzzards-bay-pollution.htm">Buzzards&n=
+bsp;Bay&nbsp;Pollution</A>&nbsp;=20
+&gt; &nbsp; <A=20
+href=3D"http://www.buzzardsbay.org/phinfo.htm">Public&nbsp;Health</A>&nbs=
+p; &gt;=20
+&nbsp; <A class=3Dcurrent=20
+href=3D"http://www.buzzardsbay.org/geomean.htm">Geometric&nbsp;Mean&nbsp;=
+Calculation</A>=20
+<BR></P>
+<DIV class=3Dfloatright150>
+<P class=3Dpiccaption>Please <A=20
+href=3D"mailto:jcosta@buzzardsbay.org?subject=3Dcomments on geomean.htm =
+page">email</A>=20
+comments, suggestions, or questions. This page has been updated several =
+times in=20
+response to questions about how to calculate geometric mean in special=20
+circumstances.</P></DIV>
+<H1>Calculating Geometric Means</H1>
+<H2>Geometric Mean Calculations</H2>by Dr. Joe Costa <BR>
+<H2>Definition of Geometric Mean</H2><B>Mathematical definition:</B> The =
+n-th=20
+root of the product of n numbers.<BR><BR><B>Practical definition:</B> =
+The=20
+average of the logarithmic values of a data set, converted back to a =
+base 10=20
+number.<BR><BR>
+<H2>Geometric Means for Water Quality Standards</H2>Many wastewater =
+dischargers,=20
+as well as regulators who monitor swimming beaches and shellfish areas, =
+must=20
+test for and report fecal coliform bacteria concentrations. Often, the =
+data must=20
+be summarized as a "geometric mean" (a type of average) of all the test =
+results=20
+obtained during a reporting period. Typically, public health regulations =
+
+identify a precise geometric mean concentration at which shellfish beds =
+or=20
+swimming beaches must be closed. <BR><BR>A geometric mean, unlike an =
+arithmetic=20
+mean, tends to dampen the effect of very high or low values, which might =
+bias=20
+the mean if a straight average (arithmetic mean) were calculated. This =
+is=20
+helpful when analyzing bacteria concentrations, because levels may vary =
+anywhere=20
+from 10 to 10,000 fold over a given period. As explained below, =
+geometric mean=20
+is really a log-transformation of data to enable meaningful statistical=20
+evaluations.<BR><BR>
+<H2>Other Uses of Geometric Means</H2>Besides being used by scientists =
+and=20
+biologists, geometric means are also used in many other fields, most =
+notably=20
+financial reporting. This is because when evaluating investment returns =
+and=20
+fluctuating interest rates, it is the geometric mean, not the arithmetic =
+mean,=20
+that tells you what the average financial rate of return would have had =
+to have=20
+been over the entire investment period to achieve the end =
+result.<BR><BR>
+<H3>Financial Return Calculation</H3>For financial investment return=20
+calculations, the geometric mean is calculated on the decimal multiplier =
+
+equivalent values, not percent values (i.e., a 6% increase becomes 1.06; =
+a 3%=20
+decline is transformed to 0.97. Just follow the steps outlined in the =
+section=20
+below titled <A=20
+href=3D"http://www.buzzardsbay.org/geomean.htm#negative_values">Calculati=
+ng=20
+Geometric Means with Negative Values</A>). <BR><BR>The equation is also =
+flipped=20
+around when calculating the financial rate of return if you know the =
+starting=20
+value, end value, and the time period. This equation is used in these =
+cases when=20
+the average rate of return is needed (or population growth =
+rate):<BR><BR><IMG=20
+height=3D86 alt=3D"return=3Dyear-nth root of final value divided by =
+original value"=20
+src=3D"http://www.buzzardsbay.org/images/geomeanreturn.gif" =
+width=3D360><BR>Note: If=20
+you subtract 1 from the equation above, this is your compound interest =
+rate. To=20
+use this equation, if years=3D5, this is the "fifth root", which is the =
+same as=20
+raising to the power of 1/5 or 0.2).<BR><BR><B>Problem submitted by a=20
+student:</B> <BR>"A recent article suggested that if you earn $25,000 a =
+year=20
+today and the inflation rate continues at 3 percent per year, you'll =
+need to=20
+make $33,598 in 10 years to have the same buying power. ... Confirm that =
+this=20
+statement is accurate by finding the geometric mean rate of=20
+increase"<BR><BR>Solution using a formula in Excel: &nbsp;=20
+=3DPower(33598/25000,.1)=3D1.03<BR><BR><BR>
+<H2>When to Use or Not Use Geometric Mean</H2>Geometric mean is often =
+used to=20
+evaluate data covering several orders of magnitude, and sometimes for =
+evaluating=20
+ratios, percentages, or other data sets bounded by zero. If your data =
+covers a=20
+narrow range (I have seen it stated that the largest value must be at =
+least 3x=20
+the smallest value), or if the data is normally distributed around high =
+values=20
+(i.e. skew to the left), geometric means and log transformations may not =
+be=20
+appropriate. Do not use geometric mean on data that is already log =
+transformed=20
+such as pH or decibels (dB). <BR><BR>
+<H2>Geometric Mean Calculation</H2>How do you calculate a geometric =
+mean? The=20
+easiest way to think of the geometric mean is that it is <B>the average =
+of the=20
+logarithmic values, converted back to a base 10 =
+number.</B><BR><BR>However, the=20
+actual formula and definition of the geometric mean is that it is the =
+n-th root=20
+of the product of n numbers, or:<BR>Geometric Mean =3D n-th root of=20
+(X<SUB>1</SUB>)(X<SUB>2</SUB>)...(X<SUB>n</SUB>)=20
+<P class=3Dindent1>Where X<SUB>1</SUB>, X<SUB>2</SUB>, etc. represent =
+the=20
+individual data points, and n is the total number of data points used in =
+the=20
+calculation.</P>If this is the definition of geometric mean, why is my =
+first=20
+statement true, that geometric mean is really the average of the log =
+values?=20
+<BR><BR>Consider this example. Suppose you wanted to calculate the =
+geometric=20
+mean of the numbers 2 and 32.<BR>This simple example can be done in your =
+head.=20
+First, take the product; 2 times 32 is 64. Because there are only two =
+numbers,=20
+the n-th root is the square root, and the square root of 64 is 8. =
+<B>Therefore=20
+the geometric mean of 2 and 32 is 8.</B><BR><BR><A =
+name=3Dproblem></A>Now, let's=20
+solve the problems using logs. In this case, we will convert to base-2 =
+logs so=20
+that we can solve the problem in our head (in fact, any base could be =
+used).=20
+Converting our numbers, we have:<BR><BR>
+<P =
+class=3Dindent1>2=3D2<SUP>1</SUP><BR>32=3D2<SUP>5</SUP><BR>2<SUP>1</SUP> =
+x=20
+2<SUP>5</SUP> =3D 2<SUP>6</SUP> (=3D64)<BR>the square root of =
+2<SUP>6</SUP> is=20
+2<SUP>3</SUP> (=3D8)<BR></P>Of course, the short cut to solve the =
+problem is to=20
+take the average of the two exponents (1 and 5) which is 3, and =
+2<SUP>3</SUP> is=20
+8. <BR><BR><B>Problem:</B> Can you calculate the geometric mean of these =
+5=20
+numbers, in your head?<BR>
+<P class=3Dindent1>2<SUP>3</SUP>, 2<SUP>5</SUP>, 2<SUP>8</SUP>, =
+2<SUP>3</SUP>,=20
+2<SUP>1</SUP> (These values of course equal 8, 32, 256, 8, and 2) =
+<BR>(Hint: The=20
+5 exponents add up to 20.) Click for the <A=20
+href=3D"http://www.buzzardsbay.org/geomean.htm#answer">answer</A>.</P>Fro=
+m the=20
+discussion above, you can see that the calculation of the Geometric Mean =
+can be=20
+performed by either of two procedures on a calculator, depending upon =
+which=20
+functions are available. Computer-based spreadsheet programs like Excel =
+have=20
+built geometric mean functions, and in general you should use these (see =
+below)=20
+to save time if a computer with the appropriate software is=20
+available.<BR><BR><B>Calculation Procedure 1: Multiply all of the data =
+points,=20
+and take the n-th root of this=20
+product.</B><BR><BR>Example:<BR>&nbsp;&nbsp;&nbsp; Suppose you have this =
+beach=20
+monitoring data from different dates:<BR>&nbsp;&nbsp;&nbsp;(data are =
+Enterococci=20
+bacteria per 100 milliliters of sample)<BR><BR>
+<P class=3Dindent1>&nbsp;&nbsp;&nbsp;6 ent./100 =
+ml<BR>&nbsp;&nbsp;&nbsp;50=20
+ent./100 ml<BR>&nbsp;&nbsp;&nbsp;9 ent./100 ml<BR>&nbsp;&nbsp;&nbsp;1200 =
+
+ent./100 ml<BR><BR></P>Geometric Mean =3D 4th root of (6)(50)(9)(1200)=20
+<P class=3Dindent1>&nbsp;&nbsp;&nbsp;=3D 4th root of =
+3,240,000<BR></P>Geometric Mean=20
+=3D 42.4 ent./100 ml<BR><BR>On a good scientific calculator, you would =
+multiply=20
+the numbers together, press equal, then the root key, then the number 4 =
+to get=20
+the forth root (or enter 0.25 with the exponent key on the last=20
+part).<BR><BR><BR><B>Calculation Procedure 2: Take the average of the =
+logs, then=20
+convert to a base 10 number</B><BR><BR>Of course, many calculators do =
+not have a=20
+root key that allow the calculation of any root, so you must use the =
+logarithm=20
+function, which is typically more widely available on calculators. To =
+use this=20
+calculation procedure, you must have a calculator which will give =
+logarithms=20
+(log or ln) and anti-logarithms (exp or e).<BR><BR>The first step in =
+calculating=20
+the Geometric Mean using this method is to determine the logarithm of =
+each data=20
+point using your calculator. Next, add all of the data point logarithms =
+together=20
+and divide this sum by the number of data points (n). <B>In other words, =
+take=20
+the average of the logs.</B> Next, convert this log average back to a =
+base 10=20
+number using the antilogarithm function key on the =
+calculator.<BR><BR>Example=20
+(using previous data):<BR>
+<P class=3Dindent1>&nbsp;&nbsp;&nbsp;log 6=3D =
+0.77815<BR>&nbsp;&nbsp;&nbsp;log 50=3D=20
+1.69897<BR>&nbsp;&nbsp;&nbsp;log 9=3D 0.95424<BR>&nbsp;&nbsp;&nbsp;log =
+1200=3D=20
+3.07918<BR><BR>&nbsp;&nbsp;&nbsp;Sum=3D 6.51054<BR><BR></P>The logarithm =
+of the=20
+Geometric Mean is 6.51054/4 =3D 1.62764 (the average of the =
+logs)<BR><BR>From your=20
+calculator, determine the number whose logarithm is 1.62764 (use the=20
+antilogarithm key), and you will find that the Geometric Mean =3D 42.4 =
+ent./100=20
+ml<BR><BR><B>This process works whether or not you use natural logs =
+("ln" key)=20
+or base 10 logs ("log" key). </B>That is, on your calculator you could =
+do=20
+ln(x<SUB>1</SUB>), ln(x<SUB>2</SUB>), etc. then use the 'ex' key on the =
+average=20
+of the logs, or you would do log(x<SUB>1</SUB>), log(x<SUB>2</SUB>), =
+etc. then=20
+use the '10<SUP>x</SUP>' key on the average of the logs. (key names may =
+vary=20
+among calculators).<BR><BR>Incidentally, for this example data set, the=20
+arithmetic mean (average) of the four data points is:
+<P class=3Dindent1>Arithmetic Mean =3D (6 + 50 + 9 + 1200)/4 =3D =
+1265/4<BR>Arithmetic=20
+Mean =3D 316.3 colonies/100 ml<BR></P>The geometric mean is always less =
+than the=20
+arithmetic mean (except of course if all the data points have an =
+identical=20
+value).<BR><BR>On most scientific calculators your key sequences to =
+calculate=20
+the geometric mean would be:=20
+<P class=3Dindent1>enter a data point,<BR>press either the Log or ln =
+function=20
+key,<BR>record the result or store it in memory, <BR>calculate the mean =
+or=20
+average of these log values, <BR>calculate the antilog value of this =
+mean=20
+('10<SUP>x</SUP>' key if you used 'Log' key, 'e<SUP>x</SUP>' key if you =
+used=20
+'ln' key)</P><BR>
+<DIV class=3Dfloatright300>
+<H4>Excel #Num! overflow error</H4>In Excel and Quattro an error may be =
+obtained=20
+in the geometric mean function if you apply the function to a very long =
+list of=20
+numbers. This occurs because of a numeric overflow error (the product of =
+the=20
+numbers is so large the software cannot compute them the way the =
+software is=20
+written). If this occurs, you can use an "array formula." An array =
+formula is=20
+one that repeats the same calculations over an array (list) of numbers. =
+This=20
+"average of the logs" formula will work fine in such =
+situations:<BR><BR>&nbsp;=20
+&nbsp; <STRONG>{=3DEXP(AVERAGE(LN(A1:A200)))} </STRONG><BR><BR>Do not =
+enter the=20
+curly brackets. Enter the formula "=3DEXP(A....", then create the array =
+formula by=20
+pressing Control+Shift+Enter simultaneously on your keyboard while your =
+cursor=20
+is inside the formula cell. Change A1 and A2 to the actual locations of =
+the=20
+first and last values of the data set. </DIV>
+<H2>Calculating Geometric Means in Spreadsheets</H2>Rather than using a=20
+calculator, it is far easier to use spreadsheet functions. For example, =
+in=20
+<B>Microsoft Excel</B>=E2=84=A2 the simple function "GeoMean" is =
+provided to calculate=20
+the geometric mean of a series of data. For example, if you had 11 =
+values in the=20
+range A1...A10, you would simply write this formula in any empty cell:=20
+'=3Dgeomean(A1:A10)'. In <B>Corel Quattro</B>=E2=84=A2 spreadsheets, the =
+function is=20
+'@geomean(A1..A10)'. In both programs, you can enter values directly =
+inside the=20
+parentheses (x1,x2,x3) instead of referencing a range of =
+cells.<BR><BR><BR>
+<H2>Calculating Geometric Means with Zero Values</H2>The calculation of =
+the=20
+Geometric Mean may appear impossible if one or more of the data points =
+is zero=20
+(0). In these cases, however, the convention used is that a value of =
+<B>either=20
+'1', one half the limit of detection, or some other substitution</B> is =
+allowed=20
+for each zero or "less than" value, so that the information contained in =
+these=20
+data is not lost. For example, the US Food and Drug Administration in =
+its <A=20
+class=3Dchild =
+href=3D"http://www.cfsan.fda.gov/~ear/nss2-42g.html">shellfish=20
+sanitation program regulations</A> requires the substitution of a value =
+that is=20
+one significant digit less than the detection limit [i.e. "less than 2" =
+becomes=20
+"1.9"]. Because of how geometric mean is calculated, the precise =
+substitution=20
+value generally does not appreciably affect the result of the =
+calculation, and=20
+ensures that all the data remains usable.<BR><BR>Here is an example with =
+a non=20
+detect (and assuming the detection limit was 2 bacteria per 100=20
+milliliters):<BR><BR>
+<P class=3Dindent1>1100<BR>0 ("less than 2")<BR>30 <BR>13000 =
+<BR></P>Geometric=20
+Mean =3D 4th root of 1100 X 1 X 30 X 13000 <BR><BR>=3D 4th root of=20
+429,000,000<BR><BR>Geometric Mean =3D 143.9 <BR>
+<P class=3Dxs>Incidentally, substituting 1.9 for the less than value =
+results in a=20
+geometric mean of 169.0, which is nearly statistically different =
+(alpha=3D0.05)=20
+using a t-test using the substituted value 1.0. See additional comments =
+in the=20
+<A href=3D"http://www.buzzardsbay.org/geomean.htm#bacteria">bacteria =
+data</A>=20
+section below.</P><BR><BR>
+<H2>Debate on the use of substitutions of below reporting limits and =
+other=20
+censored data</H2>Many statisticians have criticized common procedures =
+for=20
+providing substituted values for non-detects or below-reported-limits =
+value=20
+data. Other alternatives, such as "delta log-normal models" have also =
+received=20
+criticism and even legal challenges when applied to regulatory =
+discharges=20
+permits. These problems and alternative analysis strategies are =
+presented in <A=20
+href=3D"http://www.buzzardsbay.org/geomean.htm#references">Helsel (1990, =
+2005)</A>=20
+and <A href=3D"http://www.buzzardsbay.org/geomean.htm#references">EPA =
+(2002)</A>.=20
+These references also contain useful citations to other =
+publications.<BR><A=20
+name=3Dbacteria></A><BR><BR>
+<H2>Statistical tests on bacterial data</H2>All statistical tests used =
+to=20
+evaluate variable bacterial data (i.e. a range of values over orders of=20
+magnitude) should be employed using the means, variances, or standard =
+deviations=20
+of the log-transformed data. However, a special problem is created when=20
+reporting standard deviations of log data. That is because plus or minus =
+(+/-) a=20
+log constant creates unequal error bars when converting back to base 10 =
+(see=20
+note below on plotting geometric means).<BR><BR>To overcome other log=20
+transformation problems, values less than detection limits should be =
+replaced=20
+with non-zero value to avoid log of zero errors. As noted above, certain =
+
+regulatory programs, like the US FDA requires the substitution of a =
+number one=20
+significant digit less than the detection limit [i.e. "less than 2" =
+becomes=20
+"1.9"], or one significant digit larger for exceedances [i.e. "Greater =
+than=20
+1600" becomes "1700"] under their <A class=3Dchild=20
+href=3D"http://www.cfsan.fda.gov/~ear/nss2-42g.html">shellfish =
+sanitation program=20
+regulations</A>. Other agencies have required models to predict the =
+variance of=20
+these below-reported-limits data. <BR><BR>Another special problem that =
+exists=20
+with bacteria testing is that bacterial plates can be inundated with =
+bacteria so=20
+that bacteria colony forming units are expressed as exceeding a certain =
+number.=20
+These "greater than" values are similarly converted for geometric mean=20
+calculations (FDA requires conversion to the next significant digit =
+("&gt;1200"=20
+becomes "1300"). Regulatory programs like these also have water quality=20
+standards that incorporate median values and 90th percentile values =
+because of=20
+concerns about possible non-normal distributions of even the =
+log-transformed=20
+data.<BR><BR>The calculated means and variances of log-transformed data =
+can be=20
+plugged into a t-Test to evaluate whether there is a statistical between =
+two=20
+stations. To answer the question whether there is a statistical =
+difference among=20
+three or more stations, use an ANOVA test. When analyzing =
+log-transformed data,=20
+you may be surprised to find that two sites with remarkably different =
+arithmetic=20
+means may be not statistically different from one another. The =
+substitution=20
+values for non-detects can sometimes affect the outcomes of statistical =
+tests,=20
+especially in cases where a large percentage of the data are non-detect =
+or zero.=20
+<A href=3D"http://www.buzzardsbay.org/geomean.htm#references">Helsel =
+(1990,=20
+2005)</A> describes a variety of tests and approaches that are more =
+robust and=20
+valid in evaluating this type of data.<BR><BR>
+<H2>Plotting log transformed data</H2>It is relatively easy to plot=20
+log-transformed data in spreadsheet programs. When graphing standard =
+deviations=20
+or standard errors around a mean, your error bars will be of equal size =
+above=20
+and below the mean if you plot on log paper or apply a log scale in a=20
+spreadsheet program. However, the error bars will be unequal if the y =
+axis is=20
+not log transformed.<BR><A name=3Dnegative_values></A><BR><BR>
+<H2>Calculating Geometric Means with Negative Values</H2>Like zero, it =
+is=20
+impossible to calculate Geometric Mean with negative numbers. However, =
+there are=20
+several work-arounds for this problem, all of which require that the =
+negative=20
+values be converted or transformed to a meaningful positive equivalent =
+value.=20
+Most often this problem arises when it is desired to calculate the =
+geometric=20
+mean of a percent change in a population or a financial return, which =
+includes=20
+negative numbers. <BR><BR>For example, to calculate the geometric mean =
+of the=20
+values +12%, -8%, and +2%, instead calculate the geometric mean of their =
+decimal=20
+multiplier equivalents of 1.12, 0.92, and 1.02, to compute a geometric =
+mean of=20
+1.0167. Subtracting 1 from this value gives the geometric mean of +1.67% =
+as a=20
+net rate of population growth (or financial =
+return).<BR><BR>Incidentally, if you=20
+do not have a negative percent value in a data set, you should still =
+convert the=20
+percent values to the decimal equivalent multiplier. It is important to=20
+recognize that when dealing with percents, the geometric mean of percent =
+values=20
+does not equal the geometric mean of the decimal multiplier equivalents. =
+
+<BR><BR>For example:<BR><BR>
+<P class=3Dindent>Geometric mean of [12%, 4%, 2%] does not equal the =
+Geometric=20
+mean of [1.12,1.04,1.02].<BR><BR>4.6% does not equal =
+5.9%<BR><BR></P><BR>
+<H2>Calculating Geometric Means with Both Large Negative and Positive =
+Numbers=20
+Combined</H2>I have received a number of queries, particularly from =
+those=20
+analyzing gene block microarray data sets, about how to calculate =
+geometric=20
+means on data sets that include both very large and very positive =
+numbers. The=20
+analysis of data to evaluate the similarity of gene blocks is a complex =
+topic=20
+and the statistics of this field is evolving, and you should perform an =
+internet=20
+search to find the latest thinking on this topic.<BR><BR>However, in =
+principal,=20
+comparing data sets consisting of very large negative and positive =
+numbers=20
+together is an easy matter, and all that is required is to temporarily =
+suspend=20
+the negative signs of the data.<BR><BR>Consider, for example, two sets =
+sample=20
+data sets as follows: <BR>&nbsp; | &nbsp;&nbsp; A=3D {-5,-3,-2, 3} and =
+B=3D{-1, 0,=20
+2, 4} <BR><BR>The mean of data set A is -1.75, and the mean of data set =
+B is=20
++1.25. A simple Student's t-test (assuming alpha=3D0.05 and equal sample =
+
+variances) would suggest these samples are not statistically different =
+from one=20
+another.<BR><BR>This approach would be no different than if you were to=20
+calculate geometric mean in these two data sets: <BR>&nbsp; | =
+&nbsp;&nbsp;=20
+A'=3D{-100000, -1000, -100, 1000} and B'=3D{-10,1,100,10000}<BR><BR>If =
+you were to=20
+take off the negative signs, take the log, then add the negative sign =
+back on,=20
+you could then compare the means of the A' and B' data sets. In fact, =
+you might=20
+have noticed that data sets A and B are really the log (base 10) =
+transformed=20
+data sets A' and B'. You might therefore conclude that A' and B' are not =
+
+statistically different samples using the same t-test.<BR><BR>Of course =
+like any=20
+statistical analysis you have to make sure you have not violated the =
+assumptions=20
+of the statistical test (in this case you must assume the log =
+transformed data=20
+is normally distributed, and the sample variances were equal). <BR><BR>
+<H2>Geometric Mean of Grouped Data</H2>A student recently posed this =
+question:=20
+How do you calculate the geometric mean on grouped data? That is to say, =
+when=20
+the data exists as a data range and frequency, what formula do you=20
+use?<BR><BR>As per the discussion above, there are two ways to approach =
+this=20
+problem:<BR><BR>
+<P class=3Dindent1>Method 1: (hardest for grouped data): Calculate the =
+product of=20
+all the values in the data set (frequency of each <B>mid-point =
+value</B>), then=20
+take the nth root of the product, with n being equal to the cumulative=20
+frequency. <BR><BR>Method 2: (easiest for grouped data): Calculated the =
+average=20
+<B>weighted mean of the logarithm of each <B>mid-point value</B></B>, =
+then=20
+convert this mean value back to a base 10 number. <BR><BR></P>These two=20
+statements are best illustrated by the sample data set in the table=20
+below.<BR><BR>
+<TABLE width=3D"90%">
+  <TBODY>
+  <TR vAlign=3Dtop>
+    <TD align=3Dright></TD>
+    <TD align=3Dright colSpan=3D2>Arithmetic Mean Calculation</TD>
+    <TD align=3Dright></TD>
+    <TD align=3Dright colSpan=3D2>Geometric Mean Calculation (Meth. =
+1)</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD align=3Dright><B>range</B></TD>
+    <TD align=3Dright><B>frequency</B></TD>
+    <TD align=3Dright><B>midpoint</B></TD>
+    <TD align=3Dright><B>freq x mid</B></TD>
+    <TD align=3Dright><B>ln(midpt)</B></TD>
+    <TD align=3Dright><B>freq x ln(midpt)</B></TD></TR>
+  <TR vAlign=3Dtop>
+    <TD align=3Dright>10 to &gt;=3D20</TD>
+    <TD align=3Dright>3</TD>
+    <TD align=3Dright>15</TD>
+    <TD align=3Dright>45</TD>
+    <TD align=3Dright>2.708</TD>
+    <TD align=3Dright>8.124</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD align=3Dright>20 to &gt;=3D30</TD>
+    <TD align=3Dright>9</TD>
+    <TD align=3Dright>25</TD>
+    <TD align=3Dright>225</TD>
+    <TD align=3Dright>3.219</TD>
+    <TD align=3Dright>28.970</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD align=3Dright>30 to &gt;=3D40</TD>
+    <TD align=3Dright>5</TD>
+    <TD align=3Dright>35</TD>
+    <TD align=3Dright>175</TD>
+    <TD align=3Dright>3.555</TD>
+    <TD align=3Dright>17.777</TD></TR>
+  <TR vAlign=3Dtop>
+    <TD align=3Dright><B>Total</B></TD>
+    <TD align=3Dright><B>17</B></TD>
+    <TD align=3Dright></TD>
+    <TD align=3Dright><B>445</B></TD>
+    <TD align=3Dright></TD>
+    <TD align=3Dright><B>54.871</B></TD></TR>
+  <TR vAlign=3Dtop>
+    <TD align=3Dright></TD>
+    <TD align=3Dright></TD>
+    <TD align=3Dright>arithmetic mean=3D</TD>
+    <TD align=3Dright>26.176</TD>
+    <TD align=3Dright>arithmetic mean of weighted ln=3D</TD>
+    <TD align=3Dright>3.228</TD></TR></TBODY></TABLE><BR><BR>Using =
+Method 1, you would=20
+take the 17th root of the product<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;15 x =
+15 x 15=20
+x 25 x 25 x 25 x 25 x 25 x 25 x 25 x 25 x 25 x 35 x 35 x 35 x 35 x=20
+35,<BR><BR>which is also equal to 25.221. <BR><BR>In a spreadsheet, you =
+would=20
+type this=20
+formula:<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=3D((15^3)*(25^9)*(35^5))^(1/17=
+)<BR><BR>As=20
+you might imagine, if you have large mid-point values or large =
+frequencies, your=20
+calculator or spreadsheet program could not compute the formula because =
+the=20
+intermediate numbers are impossibly large, and the result would be an =
+error. To=20
+calculate geometric mean in these cases, you must use Method 2. You =
+might also=20
+consider the spreadsheet "array formula" method in the "Excel #Num! =
+overflow=20
+error" callout box above. If your grouped data includes large negative =
+numbers,=20
+you have no choice but think of a clever transformation to make the =
+values=20
+positive and use Method 2.<BR><BR>For Method 2, as shown in the table =
+above, you=20
+would calculate the weighted mean of the natural logarithms of the =
+mid-point=20
+values, which in this case is 3.228. When the value is converted back to =
+base=20
+10, <B>the geometric mean is 25.221</B>.<BR><BR>Interestingly, this =
+problem is=20
+quite similar to one faced by the Buzzards Bay NEP, in evaluating the =
+extent of=20
+oiling from an oil spill. In this case the data consisted of an average =
+width=20
+and the length of the beach. For example, 1500 ft of beach may have had =
+between=20
+0 and 5 foot-wide band of oil, 10,000 feet may have been documented to =
+have a=20
+band of oil between 5 and 10 ft, etc. The length of beach oiled became =
+the=20
+frequency for the interval. <BR><BR>Whether geometric mean is an =
+appropriate=20
+metric for evaluating this type of data, or any other data set, always =
+needs to=20
+carefully considered. <BR><BR><BR>
+<H2>Working Backwards</H2>This following problem was posed by a=20
+student:<BR><BR>If Geomean(8,a)=3D12, what is a?<BR><BR>The question can =
+be most=20
+easily be rephrased using the nth root definition of geometric mean. =
+That=20
+is:<BR><BR>square root of (8 x a)=3D12<BR><BR>solve first by squaring =
+both=20
+sides:<BR>(8xa)=3D144<BR>a=3D144/8 =3D 18<BR><BR>Using logs, the =
+mathematical solution=20
+is:<BR><BR>First express the problem as the mean of =
+logs:<BR>(ln(8)+ln(a))/2=20
+=3Dln(12)<BR><BR>Solving:<BR>ln(8)+ln(a) =3D2 x ln(12) =3D=3D=3D&gt; =
+ln(a)=3D(2 x=20
+ln(12))-ln(8) =3D=3D=3D&gt;a =3Dexp((2 x ln(12))-ln(8)) =3D=3D=3D&gt; =
+a=3Dexp(2.8904) =3D=3D=3D&gt;=20
+a=3D18<BR><BR><BR><A name=3Danswer></A>
+<H2>Answer</H2>The answer to the mental math problem <A=20
+href=3D"http://www.buzzardsbay.org/geomean.htm#problem">above</A>: The =
+exponents=20
+add to 20, 20 divided by 5 is 4, so the geometric mean is 2<SUP>4</SUP> =
+or=20
+16.<BR><A name=3Dreferences></A><BR><BR>
+<H2>References Cited</H2><A class=3Dchild=20
+href=3D"http://epa.gov/guide/aquaculture/tdd/appendixe.pdf">EPA 2002, =
+Development=20
+Document for Proposed Effluent Limitations Guidelines and Standards for =
+the=20
+Concentrated Aquatic Animal Production Industry Point Source Category. =
+APPENDIX=20
+E MODIFIED DELTA-LOG NORMAL DISTRIBUTION</A><BR><BR><A class=3Dchild=20
+href=3D"http://epa.gov/guide/aquaculture/tdd/appendixf.pdf">EPA 2002, =
+Development=20
+Document for Proposed Effluent Limitations Guidelines and Standards for =
+the=20
+Concentrated Aquatic Animal Production Industry Point Source Category. =
+APPENDIX=20
+F ALTERNATIVE STATISTICAL METHODS</A><BR><BR><A class=3Dchild=20
+href=3D"http://water.usgs.gov/admin/memo/BSA/BSA90.01.pdf">Dennis R. =
+Helsel. 1990.=20
+LESS THAN OBVIOUS: Statistical Treatment of Data Below the Reporting=20
+Limit</A><BR><BR><A class=3Dchild=20
+href=3D"http://www.sfwmd.gov/pls/portal/docs/PAGE/PG_GRP_SFWMD_ERA/PORTLE=
+T_ARCHIVES_MEETINGS_SUBTABS/TAB10926098/MORETHANOBVIOUS.PDF">Dennis=20
+R. Helsel. 2005. More Than Obvious: Better Methods for Interpreting =
+Nondetect=20
+Data</A><BR><BR><BR><BR>
+<HR>
+
+<HR>
+
+<DIV id=3Dfooter>
+<P class=3Dfooter><B>Our program was established in 1985 after Congress =
+designated=20
+Buzzards Bay an "estuary of national significance." We joined the NEP in =
+1987.=20
+Our mission is to protect and restore water quality and living resources =
+in=20
+Buzzards Bay and its surrounding watershed through the implementation of =
+the=20
+Buzzards Bay Comprehensive Conservation and Management Plan. <A=20
+href=3D"http://www.buzzardsbay.org/bbnep-anniversary.htm">Click to read=20
+more.</A></B><BR><BR>Buzzards Bay National Estuary Program | <A=20
+href=3D"http://www.buzzardsbay.org/sitedisclaimer.htm">Website&nbsp;Discl=
+aimer</A>&nbsp;|&nbsp;<A=20
+href=3D"http://www.buzzardsbay.org/privacypolicy.htm">=20
+Privacy&nbsp;Policy</A>&nbsp;|&nbsp;<A=20
+href=3D"http://www.buzzardsbay.org/web-accessibility.htm">Web&nbsp;Access=
+ibility</A>&nbsp;|&nbsp;<A=20
+href=3D"http://www.buzzardsbay.org/index.htm">Home</A>&nbsp;|&nbsp;<A=20
+href=3D"mailto:twarncke@buzzardsbay.org">Email&nbsp;us</A></P></DIV><!-- =
+End #footer --></DIV><!-- End #content --></DIV><!-- End #container =
+--></BODY></HTML>
+
+------=_NextPart_000_0000_01C95D70.DA685240
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.buzzardsbay.org/images/bbplog2b.gif
+
+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
+
+------=_NextPart_000_0000_01C95D70.DA685240
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.buzzardsbay.org/images/geomeanreturn.gif
+
+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
+EwAAOw==
+
+------=_NextPart_000_0000_01C95D70.DA685240
+Content-Type: text/css;
+	charset="windows-1255"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.buzzardsbay.org/bbp.css
+
+BODY {
+	MIN-WIDTH: 710px; MAX-WIDTH: 800px; FONT: 100% Arial, Helvetica, =
+sans-serif; MARGIN-LEFT: auto; WIDTH: 95%; COLOR: #000; MARGIN-RIGHT: =
+auto; BACKGROUND-COLOR: #e2e0d3; TEXT-ALIGN: center
+}
+#container {
+	BORDER-RIGHT: black 0px solid; PADDING-RIGHT: 0px; BORDER-TOP: black =
+0px solid; PADDING-LEFT: 0px; FONT-SIZE: 100%; PADDING-BOTTOM: 0px; =
+MARGIN: 0px; BORDER-LEFT: black 0px solid; PADDING-TOP: 0px; =
+BORDER-BOTTOM: black 0px solid; TEXT-ALIGN: left
+}
+INPUT.button {
+	FONT-SIZE: 150%; COLOR: black; BACKGROUND-COLOR: #f5fffa
+}
+PRE {
+	PADDING-LEFT: 8px; FONT-SIZE: 80%; FONT-FAMILY: courier, monospace
+}
+ACRONYM {
+	CURSOR: help; BORDER-BOTTOM: #666633 1px dotted
+}
+ABBR {
+	CURSOR: help; BORDER-BOTTOM: #666633 1px dotted
+}
+BLOCKQUOTE {
+	BORDER-TOP-WIDTH: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; =
+FONT-SIZE: 90%; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+DIV {
+	BORDER-TOP-WIDTH: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; =
+FONT-SIZE: 90%; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+TABLE {
+	BORDER-TOP-WIDTH: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; =
+FONT-SIZE: 90%; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+LI {
+	BORDER-TOP-WIDTH: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; =
+BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+IMG {
+	BORDER-RIGHT: 0px solid; BORDER-TOP: 0px solid; MARGIN: 0px; =
+BORDER-LEFT: 0px solid; BORDER-BOTTOM: 0px solid
+}
+HR {
+	COLOR: #003333; HEIGHT: 2px; BACKGROUND-COLOR: white
+}
+A:link {
+	FONT-WEIGHT: normal; COLOR: #003399; BACKGROUND-COLOR: white; =
+TEXT-DECORATION: underline
+}
+A.child:link {
+	FONT-WEIGHT: normal; COLOR: #336600; BACKGROUND-COLOR: white; =
+TEXT-DECORATION: underline
+}
+A:visited {
+	FONT-WEIGHT: normal; COLOR: #223399; BACKGROUND-COLOR: white; =
+TEXT-DECORATION: underline
+}
+A:hover {
+	FONT-WEIGHT: normal; COLOR: #ff3300; BACKGROUND-COLOR: white; =
+TEXT-DECORATION: underline
+}
+A:active {
+	FONT-WEIGHT: normal; COLOR: #006666; BACKGROUND-COLOR: white; =
+TEXT-DECORATION: underline
+}
+A[name]:hover {
+=09
+}
+H1 {
+	FONT-SIZE: 140%; MARGIN-BOTTOM: 0.5em; COLOR: #001166; LINE-HEIGHT: =
+100%; BACKGROUND-COLOR: white
+}
+H1.siteinfo {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 5px; PADDING-BOTTOM: 0px; COLOR: =
+#fff; PADDING-TOP: 5px; BACKGROUND-COLOR: #009999
+}
+H2 {
+	FONT-SIZE: 130%; MARGIN-BOTTOM: 0.5em; COLOR: #001166; LINE-HEIGHT: =
+100%; BACKGROUND-COLOR: white
+}
+H2.siteinfo {
+	PADDING-RIGHT: 0px; MARGIN-TOP: 0.2em; PADDING-LEFT: 5px; =
+PADDING-BOTTOM: 0px; COLOR: #fff; PADDING-TOP: 7px; BACKGROUND-COLOR: =
+#009999
+}
+H3 {
+	FONT-SIZE: 110%; MARGIN-BOTTOM: 1em; COLOR: #001166; LINE-HEIGHT: 110%; =
+BACKGROUND-COLOR: white
+}
+H4 {
+	FONT-SIZE: 105%; MARGIN-BOTTOM: 1em; COLOR: #001166; LINE-HEIGHT: 105%; =
+BACKGROUND-COLOR: white
+}
+H5 {
+	FONT-SIZE: 100%; MARGIN-BOTTOM: 0em; COLOR: #001166; LINE-HEIGHT: 100%; =
+BACKGROUND-COLOR: white
+}
+H6 {
+	FONT-SIZE: 90%; MARGIN-BOTTOM: 0em; COLOR: #001166; LINE-HEIGHT: 90%; =
+BACKGROUND-COLOR: white
+}
+CAPTION.xs {
+	FONT-SIZE: 9px
+}
+TD {
+	FONT-SIZE: 100%
+}
+TD.body {
+	FONT-SIZE: 95%
+}
+TD.left {
+	FONT-SIZE: 95%
+}
+TD.xs {
+	FONT-SIZE: 80%
+}
+FORM.menu {
+	FONT-SIZE: 130%; COLOR: #001166; BACKGROUND-COLOR: #e2e0d3
+}
+INPUT.menu {
+	FONT-SIZE: 130%; COLOR: #001166; BACKGROUND-COLOR: #e2e0d3
+}
+TABLE.percent80 {
+	FONT-SIZE: 90%
+}
+.bordered {
+	BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; BORDER-LEFT: 1px solid; =
+BORDER-BOTTOM: 1px solid
+}
+IMG.bordered {
+	BORDER-RIGHT: 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: 1px solid; =
+PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; BORDER-LEFT: 1px solid; =
+PADDING-TOP: 2px; BORDER-BOTTOM: 1px solid
+}
+DIV.bordered {
+	BORDER-RIGHT: 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: 1px solid; =
+PADDING-LEFT: 4px; PADDING-BOTTOM: 4px; BORDER-LEFT: 1px solid; =
+PADDING-TOP: 4px; BORDER-BOTTOM: 1px solid
+}
+.ccmprate {
+	FONT-SIZE: 110%
+}
+.hide {
+	DISPLAY: none
+}
+.floatleft150x100 {
+	BORDER-RIGHT: black 1px solid; PADDING-RIGHT: 1em; BORDER-TOP: black =
+1px solid; PADDING-LEFT: 1em; FONT-SIZE: 85%; FLOAT: left; =
+PADDING-BOTTOM: 1em; MARGIN: 0px; BORDER-LEFT: black 1px solid; WIDTH: =
+150px; PADDING-TOP: 1em; BORDER-BOTTOM: black 1px solid; POSITION: =
+relative; HEIGHT: 150px
+}
+.float150x100 {
+	BORDER-RIGHT: black 1px solid; PADDING-RIGHT: 1em; BORDER-TOP: black =
+1px solid; PADDING-LEFT: 1em; FONT-SIZE: 85%; FLOAT: left; =
+PADDING-BOTTOM: 1em; MARGIN: 0px; BORDER-LEFT: black 1px solid; WIDTH: =
+150px; PADDING-TOP: 1em; BORDER-BOTTOM: black 1px solid; POSITION: =
+relative; HEIGHT: 150px
+}
+.floatrightlogo {
+	BORDER-RIGHT: #009999 1px solid; PADDING-RIGHT: 18px; BORDER-TOP: =
+#009999 1px solid; PADDING-LEFT: 0px; Z-INDEX: 2; FLOAT: right; =
+PADDING-BOTTOM: 0px; MARGIN: 1px 12px 0px 0px; BORDER-LEFT: #009999 1px =
+solid; WIDTH: 85px; PADDING-TOP: 0px; BORDER-BOTTOM: #009999 1px solid; =
+POSITION: relative
+}
+.floatleftbanner {
+	BORDER-RIGHT: #009999 1px solid; PADDING-RIGHT: 20px; BORDER-TOP: =
+#009999 1px solid; PADDING-LEFT: 10px; Z-INDEX: 1; FLOAT: left; =
+PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: #009999 1px solid; WIDTH: =
+auto; PADDING-TOP: 5px; BORDER-BOTTOM: #009999 1px solid; POSITION: =
+relative
+}
+.floatright150 {
+	BORDER-RIGHT: black 1px solid; PADDING-RIGHT: 1em; BORDER-TOP: black =
+1px solid; PADDING-LEFT: 1em; FONT-SIZE: 85%; FLOAT: right; =
+PADDING-BOTTOM: 1em; MARGIN: 0px 0px 0px 1em; BORDER-LEFT: black 1px =
+solid; WIDTH: 150px; PADDING-TOP: 1em; BORDER-BOTTOM: black 1px solid; =
+POSITION: relative
+}
+.floatright200 {
+	BORDER-RIGHT: black 1px solid; PADDING-RIGHT: 1em; BORDER-TOP: black =
+1px solid; PADDING-LEFT: 1em; FONT-SIZE: 85%; FLOAT: right; =
+PADDING-BOTTOM: 1em; MARGIN: 0px 0px 0px 1em; BORDER-LEFT: black 1px =
+solid; WIDTH: 200px; PADDING-TOP: 1em; BORDER-BOTTOM: black 1px solid; =
+POSITION: relative
+}
+.floatright200big {
+	BORDER-RIGHT: black 1px solid; PADDING-RIGHT: 1em; BORDER-TOP: black =
+1px solid; PADDING-LEFT: 1em; FONT-SIZE: 120%; FLOAT: right; =
+PADDING-BOTTOM: 1em; MARGIN: 0px 0px 0px 1em; BORDER-LEFT: black 1px =
+solid; WIDTH: 200px; PADDING-TOP: 1em; BORDER-BOTTOM: black 1px solid; =
+POSITION: relative
+}
+.floatright200normal {
+	BORDER-RIGHT: black 1px solid; PADDING-RIGHT: 1em; BORDER-TOP: black =
+1px solid; PADDING-LEFT: 1em; FONT-SIZE: 100%; FLOAT: right; =
+PADDING-BOTTOM: 1em; MARGIN: 0px 0px 0px 1em; BORDER-LEFT: black 1px =
+solid; WIDTH: 200px; PADDING-TOP: 1em; BORDER-BOTTOM: black 1px solid; =
+POSITION: relative
+}
+.floatright250 {
+	BORDER-RIGHT: black 1px solid; PADDING-RIGHT: 1em; BORDER-TOP: black =
+1px solid; PADDING-LEFT: 1em; FONT-SIZE: 85%; FLOAT: right; =
+PADDING-BOTTOM: 1em; MARGIN: 0px 0px 0px 1em; BORDER-LEFT: black 1px =
+solid; WIDTH: 250px; PADDING-TOP: 1em; BORDER-BOTTOM: black 1px solid; =
+POSITION: relative
+}
+.floatright300 {
+	BORDER-RIGHT: black 1px solid; PADDING-RIGHT: 1em; BORDER-TOP: black =
+1px solid; PADDING-LEFT: 1em; FONT-SIZE: 100%; FLOAT: right; =
+PADDING-BOTTOM: 1em; MARGIN: 0px 0px 0px 1em; BORDER-LEFT: black 1px =
+solid; WIDTH: 300px; PADDING-TOP: 1em; BORDER-BOTTOM: black 1px solid; =
+POSITION: relative
+}
+.floatright350 {
+	BORDER-RIGHT: black 1px solid; PADDING-RIGHT: 1em; BORDER-TOP: black =
+1px solid; PADDING-LEFT: 1em; FONT-SIZE: 100%; FLOAT: right; =
+PADDING-BOTTOM: 1em; MARGIN: 0px 0px 0px 1em; BORDER-LEFT: black 1px =
+solid; WIDTH: 350px; PADDING-TOP: 1em; BORDER-BOTTOM: black 1px solid; =
+POSITION: relative
+}
+.floatright450 {
+	BORDER-RIGHT: black 1px solid; PADDING-RIGHT: 1em; BORDER-TOP: black =
+1px solid; PADDING-LEFT: 1em; FONT-SIZE: 85%; FLOAT: right; =
+PADDING-BOTTOM: 1em; MARGIN: 0px 0px 0px 1em; BORDER-LEFT: black 1px =
+solid; WIDTH: 450px; PADDING-TOP: 1em; BORDER-BOTTOM: black 1px solid; =
+POSITION: relative
+}
+.floatrightauto {
+	BORDER-RIGHT: black 1px solid; PADDING-RIGHT: 1em; BORDER-TOP: black =
+1px solid; PADDING-LEFT: 1em; FONT-SIZE: 85%; FLOAT: right; =
+PADDING-BOTTOM: 1em; MARGIN: 0px 0px 0px 1em; BORDER-LEFT: black 1px =
+solid; WIDTH: auto; PADDING-TOP: 1em; BORDER-BOTTOM: black 1px solid; =
+POSITION: relative
+}
+.floatleftauto {
+	BORDER-RIGHT: black 1px solid; PADDING-RIGHT: 1em; BORDER-TOP: black =
+1px solid; DISPLAY: inline; PADDING-LEFT: 1em; FONT-SIZE: 110%; =
+PADDING-BOTTOM: 1em; MARGIN: 1em; BORDER-LEFT: black 1px solid; WIDTH: =
+auto; PADDING-TOP: 1em; BORDER-BOTTOM: black 1px solid; POSITION: =
+relative
+}
+.floatleft550 {
+	BORDER-RIGHT: black 1px solid; PADDING-RIGHT: 1em; BORDER-TOP: black =
+1px solid; PADDING-LEFT: 1em; PADDING-BOTTOM: 1em; MARGIN: 1em; =
+BORDER-LEFT: black 1px solid; WIDTH: 550px; PADDING-TOP: 1em; =
+BORDER-BOTTOM: black 1px solid
+}
+.floatleftfull {
+	BORDER-RIGHT: black 0px solid; PADDING-RIGHT: 1em; BORDER-TOP: black =
+0px solid; DISPLAY: inline; PADDING-LEFT: 1em; FONT-SIZE: 110%; =
+PADDING-BOTTOM: 1em; BORDER-LEFT: black 0px solid; WIDTH: 90%; =
+MARGIN-RIGHT: 10%; PADDING-TOP: 1em; BORDER-BOTTOM: black 0px solid
+}
+.fullbox {
+	BORDER-RIGHT: black 1px solid; PADDING-RIGHT: 1em; BORDER-TOP: black =
+1px solid; PADDING-LEFT: 1em; FONT-SIZE: 110%; PADDING-BOTTOM: 1em; =
+BORDER-LEFT: black 1px solid; WIDTH: 90%; MARGIN-RIGHT: 10%; =
+PADDING-TOP: 1em; BORDER-BOTTOM: black 1px solid; POSITION: relative
+}
+.fullboxsmall {
+	BORDER-RIGHT: black 1px solid; PADDING-RIGHT: 1em; BORDER-TOP: black =
+1px solid; PADDING-LEFT: 1em; FONT-SIZE: 90%; PADDING-BOTTOM: 1em; =
+BORDER-LEFT: black 1px solid; WIDTH: 90%; MARGIN-RIGHT: 30%; =
+PADDING-TOP: 1em; BORDER-BOTTOM: black 1px solid; POSITION: relative
+}
+TABLE.borderedcellsfixed {
+	BORDER-RIGHT: black 1px solid; TABLE-LAYOUT: fixed; BORDER-TOP: black =
+1px solid; BORDER-LEFT: black 1px solid; BORDER-BOTTOM: black 1px solid
+}
+TABLE.borderedcells {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; =
+BORDER-LEFT: black 1px solid; BORDER-BOTTOM: black 1px solid
+}
+TABLE.borderedcells TD {
+	BORDER-RIGHT: #dddddd 1px solid; BORDER-TOP: #dddddd 1px solid; =
+BORDER-LEFT: #dddddd 1px solid; BORDER-BOTTOM: #dddddd 1px solid
+}
+TD.leftcol250 {
+	OVERFLOW: hidden; WIDTH: 250px
+}
+TABLE.borderedcellsxs TD {
+	BORDER-RIGHT: black 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: black =
+1px solid; PADDING-LEFT: 0px; FONT-SIZE: 85%; PADDING-BOTTOM: 0px; =
+MARGIN: 0px; BORDER-LEFT: black 1px solid; PADDING-TOP: 0px; =
+BORDER-BOTTOM: black 1px solid; TEXT-ALIGN: right
+}
+TABLE.borderedcentercells TD {
+	BORDER-RIGHT: #dddddd 1px solid; BORDER-TOP: #dddddd 1px solid; =
+BORDER-LEFT: #dddddd 1px solid; BORDER-BOTTOM: #dddddd 1px solid; =
+TEXT-ALIGN: center; border-spacing: 0px
+}
+TABLE.borderedrightcells TD {
+	BORDER-RIGHT: #dddddd 1px solid; BORDER-TOP: #dddddd 1px solid; =
+BORDER-LEFT: #dddddd 1px solid; BORDER-BOTTOM: #dddddd 1px solid; =
+TEXT-ALIGN: right
+}
+.nm {
+	CLEAR: left; MARGIN: 0px
+}
+.pagebreak {
+	PAGE-BREAK-AFTER: always
+}
+.piccaption {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 11px; PADDING-BOTTOM: =
+0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.rt {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 0px; FONT-SIZE: 90%; PADDING-BOTTOM: =
+0px; LINE-HEIGHT: 12px; PADDING-TOP: 0px; TEXT-ALIGN: right
+}
+.xs {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 85%; PADDING-BOTTOM: =
+0px; LINE-HEIGHT: 12px; PADDING-TOP: 0px
+}
+.footer {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 85%; PADDING-BOTTOM: =
+0px; COLOR: white; LINE-HEIGHT: 130%; PADDING-TOP: 0px; =
+BACKGROUND-COLOR: #009999
+}
+.breadcrumb {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: =
+85%; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.indent1 {
+	PADDING-RIGHT: 1.5em; MARGIN-TOP: 0em; PADDING-LEFT: 1.5em; FONT-SIZE: =
+100%; MARGIN-BOTTOM: 0em; PADDING-BOTTOM: 1.5em; PADDING-TOP: 1.5em
+}
+.subpages {
+	MARGIN-TOP: 0em; PADDING-LEFT: 2em; FONT-WEIGHT: bold; FONT-SIZE: 85%; =
+MARGIN-BOTTOM: 0em
+}
+.xsc {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 85%; PADDING-BOTTOM: =
+0px; LINE-HEIGHT: 12px; PADDING-TOP: 0px; TEXT-ALIGN: center
+}
+#masthead {
+	BORDER-RIGHT: black 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: black =
+1px solid; PADDING-LEFT: 0px; MIN-HEIGHT: 8.75em; PADDING-BOTTOM: 0px; =
+MARGIN: 0px; BORDER-LEFT: black 1px solid; COLOR: #fff; PADDING-TOP: =
+0px; BORDER-BOTTOM: black 0px solid; POSITION: relative; =
+BACKGROUND-COLOR: #009999
+}
+#masthead .sitelinks {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 9px; PADDING-BOTTOM: =
+5px; MARGIN: 0px; COLOR: #fff; PADDING-TOP: 0px; BACKGROUND-COLOR: =
+#009999
+}
+#masthead A:link {
+	FONT-WEIGHT: normal; COLOR: #fff; BACKGROUND-COLOR: #009999; =
+TEXT-DECORATION: underline
+}
+#masthead A:visited {
+	FONT-WEIGHT: normal; COLOR: white; BACKGROUND-COLOR: #009999; =
+TEXT-DECORATION: underline
+}
+#masthead A:hover {
+	FONT-WEIGHT: normal; COLOR: yellow; BACKGROUND-COLOR: #009999; =
+TEXT-DECORATION: underline
+}
+#masthead A:active {
+	FONT-WEIGHT: normal; COLOR: #006666; BACKGROUND-COLOR: #009999; =
+TEXT-DECORATION: underline
+}
+#masthead A[name]:hover {
+=09
+}
+#content {
+	BORDER-RIGHT: black 1px solid; PADDING-RIGHT: 1em; BORDER-TOP: black =
+1px solid; PADDING-LEFT: 1em; FONT-SIZE: 80%; PADDING-BOTTOM: 0px; =
+MARGIN: 0px 0px 1em; BORDER-LEFT: black 1px solid; COLOR: black; =
+PADDING-TOP: 0px; BORDER-BOTTOM: black 1px solid; POSITION: relative; =
+BACKGROUND-COLOR: white
+}
+#content_tertiary {
+	BORDER-RIGHT: black 1px solid; PADDING-RIGHT: 1em; BORDER-TOP: black =
+1px solid; DISPLAY: inline; PADDING-LEFT: 1em; FONT-SIZE: 0.8em; FLOAT: =
+right; PADDING-BOTTOM: 1em; MARGIN: 1em 0em 1em 1em; BORDER-LEFT: black =
+1px solid; WIDTH: 16%; PADDING-TOP: 1em; BORDER-BOTTOM: black 1px solid; =
+POSITION: relative
+}
+#content_tertiary P {
+	PADDING-RIGHT: 0.2em; PADDING-LEFT: 0.2em; PADDING-BOTTOM: 0px; =
+LINE-HEIGHT: 130%; PADDING-TOP: 0px
+}
+#footer {
+	CLEAR: left; BORDER-RIGHT: #009999 1px solid; PADDING-RIGHT: 1em; =
+BORDER-TOP: #009999 1px solid; PADDING-LEFT: 1em; FONT-SIZE: 1em; =
+PADDING-BOTTOM: 0px; MARGIN: 0px -1em; BORDER-LEFT: #009999 1px solid; =
+COLOR: #fff; PADDING-TOP: 0px; BORDER-BOTTOM: #009999 1px solid; =
+FONT-FAMILY: Arial, sans-serif; BACKGROUND-COLOR: #009999
+}
+#footer A:link {
+	FONT-WEIGHT: normal; COLOR: #fff; BACKGROUND-COLOR: #009999; =
+TEXT-DECORATION: underline
+}
+#footer A:visited {
+	FONT-WEIGHT: normal; COLOR: #fff; BACKGROUND-COLOR: #009999; =
+TEXT-DECORATION: underline
+}
+#footer A:hover {
+	FONT-WEIGHT: normal; COLOR: yellow; BACKGROUND-COLOR: #009999; =
+TEXT-DECORATION: underline
+}
+#footerd A:active {
+	FONT-WEIGHT: normal; COLOR: #006666; BACKGROUND-COLOR: #009999; =
+TEXT-DECORATION: underline
+}
+#footer A[name]:hover {
+=09
+}
+
+------=_NextPart_000_0000_01C95D70.DA685240
+Content-Type: text/css;
+	charset="windows-1255"
+Content-Transfer-Encoding: 7bit
+Content-Location: http://www.buzzardsbay.org/bbp-print.css
+
+A:link {
+	COLOR: #781351
+}
+A:visited {
+	COLOR: #781351
+}
+BODY {
+	FLOAT: none; MARGIN: 0px; FONT: 110% serif; WIDTH: 100%; COLOR: #000
+}
+#container {
+	FLOAT: none; MARGIN: 0px; FONT: 110% serif; WIDTH: 100%
+}
+#container #menu {
+	DISPLAY: none
+}
+#masthead {
+	DISPLAY: none
+}
+#footer {
+	DISPLAY: none
+}
+#content_tertiary {
+	DISPLAY: none
+}
+
+------=_NextPart_000_0000_01C95D70.DA685240
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.buzzardsbay.org/randomimage.js
+
+var mess =3D new Array(
+'<a href=3D"falmouth.htm"><img src=3D"images/web-banner-0.jpg" =
+title=3D"Bluff near Old Silver Beach." alt=3D"Bluff near Old Silver =
+Beach." width=3D"600" height=3D"78"></a>',
+'<a href=3D"falmouth.htm"><img src=3D"images/web-banner-1.jpg" =
+title=3D"West Falmouth Harbor, Falmouth, MA." alt=3D"West Falmouth =
+Harbor, Falmouth, MA." width=3D"600" height=3D"78"></a>',
+'<a href=3D"falmouth.htm"><img src=3D"images/web-banner-2.jpg" =
+title=3D"West Falmouth Harbor, Falmouth, MA." alt=3D"West Falmouth =
+Harbor, Falmouth, MA." width=3D"600" height=3D"78"></a>',
+'<a href=3D"falmouth-gifford.htm"><img src=3D"images/web-banner-3.jpg" =
+title=3D"Falmouth, MA Conservation Commission about 2003." =
+alt=3D"Falmouth, MA Conservation Commission about 2003." width=3D"600" =
+height=3D"78"></a>',
+'<a href=3D"falmouth.htm"><img src=3D"images/web-banner-4.jpg" =
+title=3D"Salt marsh behind Old Silver Beach, Falmouth, MA in the fall." =
+alt=3D"Salt marsh behind Old Silver Beach, Falmouth, MA in the fall." =
+width=3D"600" height=3D"78"></a>',
+'<a href=3D"bourne.htm"><img src=3D"images/web-banner-5.jpg" =
+title=3D"Hen Cove, Bourne, MA." alt=3D"Hen Cove, Bourne, MA." =
+width=3D"600" height=3D"78"></a>',
+'<a href=3D"2004minigrants.htm"><img src=3D"images/web-banner-6.jpg" =
+title=3D"2004 BBNEP municipal grant award ceremony at Hen Cove.  Senator =
+Therese Murray  and State Rep. Susan Williams Gifford at the the =
+podium." alt=3D"2004 BBNEP municipal grant award ceremony at Hen Cove.  =
+Senator Therese Murray  and State Rep. Susan Williams Gifford at the the =
+podium." width=3D"600" height=3D"78"></a>',
+'<a href=3D"climate.htm"><img src=3D"images/web-banner-7.jpg" =
+title=3D"Old Silver Beach, Falmouth, MA, in the winter." alt=3D"Old =
+Silver Beach, Falmouth, MA, in the winter." width=3D"600" =
+height=3D"78"></a>',
+'<a href=3D"smatlasmain.htm"><img src=3D"images/web-banner-8.jpg" =
+title=3D"Winter sunset- view from the rail bed at Sippewisset Marsh, =
+Falmouth." alt=3D"Winter sunset- view from the rail bed at Sippewisset =
+Marsh, Falmouth." width=3D"600" height=3D"78"></a>',
+'<a href=3D"wetlands.htm"><img src=3D"images/web-banner-9.jpg" =
+title=3D"High salt marsh area." alt=3D"High salt marsh area." =
+width=3D"600" height=3D"78"></a>',
+'<a href=3D"smatlasmain.htm"><img src=3D"images/web-banner-10.jpg" =
+title=3D"Government officials visit an impaired Wareham marsh." =
+alt=3D"Government officials visit an impaired Wareham marsh." =
+width=3D"600" height=3D"78"></a>',
+'<a href=3D"bourne.htm"><img src=3D"images/web-banner-11.jpg" =
+title=3D"Back River, Bourne, MA." alt=3D"Back River, Bourne, MA." =
+width=3D"600" height=3D"78"></a>',
+'<a href=3D"fairhaven.htm"><img src=3D"images/web-banner-12.jpg" =
+title=3D"Buzzards Bay tidal flat in Fairhaven, MA." alt=3D"Buzzards Bay =
+tidal flat in Fairhaven, MA." width=3D"600" height=3D"78"></a>',
+'<a href=3D"windfarms.htm"><img src=3D"images/web-banner-13.jpg" =
+title=3D"Aerial view of Mass Maritime Academy (center) along the Cape =
+Cod Canal." alt=3D"Aerial view of Mass Maritime Academy (center) along =
+the Cape Cod Canal." width=3D"600" height=3D"78"></a>',
+'<a href=3D"gosnold.htm"><img src=3D"images/web-banner-14.jpg" =
+title=3D"Eelgrass bed in a well flushed channel off Uncatena Island, =
+Gosnold, MA." alt=3D"Eelgrass bed in a well flushed channel off Uncatena =
+Island, Gosnold, MA." width=3D"600" height=3D"78"></a>',
+'<a href=3D"stormwater-pollution.htm"><img =
+src=3D"images/web-banner-15.jpg" title=3D"Storm pipe in Buttermilk Bay =
+during the 1990s." alt=3D"Storm pipe in Buttermilk Bay during the =
+1990s." width=3D"600" height=3D"78"></a>',
+'<a href=3D"stormwater-pollution.htm"><img =
+src=3D"images/web-banner-16.jpg" title=3D"Stormwater pipes on the =
+Westport River near Hix Bridge." alt=3D"Stormwater pipes on the Westport =
+River near Hix Bridge." width=3D"600" height=3D"78"></a>',
+'<a href=3D"falmouth.htm"><img src=3D"images/web-banner-17.jpg" =
+title=3D"Sippewisset Marsh, Falmouth, MA." alt=3D"Sippewisset Marsh, =
+Falmouth, MA." width=3D"600" height=3D"78"></a>',
+'<a href=3D"mattapoisett.htm"><img src=3D"images/web-banner-18.jpg" =
+title=3D"Intertidal at Ram Island, Mattapoisett, MA." alt=3D"Intertidal =
+at Ram Island, Mattapoisett, MA." width=3D"600" height=3D"78"></a>',
+'<a href=3D"mattapoisett.htm"><img src=3D"images/web-banner-19.jpg" =
+title=3D"View of Mattapoisett River during high water period." =
+alt=3D"View of Mattapoisett River during high water period." =
+width=3D"600" height=3D"78"></a>',
+'<a href=3D"smatlasmain.htm"><img src=3D"images/web-banner-20.jpg" =
+title=3D"Phragmites invaded salt marsh in the Westport River." =
+alt=3D"Phragmites invaded salt marsh in the Westport River." =
+width=3D"600" height=3D"78"></a>',
+'<a href=3D"stormwater-pollution.htm"><img =
+src=3D"images/web-banner-21.jpg" title=3D"=3D"Ducks in a stormwater =
+detention pond." alt=3D"Ducks in a stormwater detention pond." =
+width=3D"600" height=3D"78"></a>',
+'<a href=3D"island-wharf-marina-stormwater.htm"><img =
+src=3D"images/web-banner-22.jpg" title=3D"Construction of a biofilter at =
+Islands Wharf, Marion, MA." alt=3D"Construction of a biofilter at =
+Islands Wharf, Marion, MA." width=3D"600" height=3D"78"></a>',
+'<a href=3D"eelgrass.htm"><img src=3D"images/web-banner-23.jpg" =
+title=3D"Eelgrass and rockweed (Fucus) in the lower intertidal at Ram =
+Island, Mattapoisett, MA." alt=3D"Eelgrass and rockweed (Fucus) in the =
+lower intertidal at Ram Island, Mattapoisett, MA." width=3D"600" =
+height=3D"78"></a>',
+'<a href=3D"oilspill-4-28-03.htm"><img src=3D"images/web-banner-24.jpg" =
+title=3D"Cleanup crew at Barneys Joy Dartmouth, MA after the Bouchard =
+120 oil spill." alt=3D"Cleanup crew at Barneys Joy Dartmouth, MA after =
+the Bouchard 120 oil spill." width=3D"600" height=3D"78"></a>',
+'<a href=3D"stormwater-pollution.htm"><img =
+src=3D"images/web-banner-25.jpg" title=3D"Danger Storm Drain Sign near =
+Onset Bay, Wareham, MA." alt=3D"Danger Storm Drain Sign near Onset Bay, =
+Wareham, MA." width=3D"600" height=3D"78"></a>',
+'<a href=3D"floyd.htm"><img src=3D"images/web-banner-26.jpg" =
+title=3D"Residents collecting bay scallops washed ashore on Surf Drive =
+Falmouth after Hurricane Floyd." alt=3D"Residents collecting bay =
+scallops washed ashore on Surf Drive Falmouth after Hurricane Floyd." =
+width=3D"600" height=3D"78"></a>',
+'<a href=3D"stormsmart-coasts-buzzards-bay.htm"><img =
+src=3D"images/web-banner-27.jpg" title=3D"Armoring of the shoreline near =
+the Knob at Quissett Harbor, Falmouth, MA." alt=3D"Armoring of the =
+shoreline near the Knob at Quissett Harbor, Falmouth, MA." width=3D"600" =
+height=3D"78"></a>',
+'<a href=3D"dartmouth.htm"><img src=3D"images/web-banner-28.jpg" =
+title=3D"The bridge at Little River, South Dartmouth, MA." alt=3D"The =
+bridge at Little River, South Dartmouth, MA." width=3D"600" =
+height=3D"78"></a>',
+'<a href=3D"new-bedford.htm"><img src=3D"images/web-banner-29.jpg" =
+title=3D"Edifice of the new Sea Lab school in New Bedford, MA." =
+alt=3D"Edifice of the new Sea Lab school in New Bedford, MA." =
+width=3D"600" height=3D"78"></a>',
+'<a href=3D"shellfish.htm"><img src=3D"images/web-banner-30.jpg" =
+title=3D"The bay scallop, Argopectin irradiens." alt=3D"The bay scallop, =
+Argopectin irradiens." width=3D"600" height=3D"78"></a>',
+'<a href=3D"etimain.htm"><img src=3D"images/web-banner-31.jpg" =
+title=3D"Groundbreaking Ceremony at the Massachusetts Septic System Test =
+Center, Congressman Delahunt center." alt=3D"Groundbreaking Ceremony at =
+the Massachusetts Septic System Test Center, Congressman Delahunt =
+center." width=3D"600" height=3D"78"></a>',
+'<a href=3D"westport.htm"><img src=3D"images/web-banner-32.jpg" =
+title=3D"Hix Bridge, Westport, MA." alt=3D"Hix Bridge, Westport, MA." =
+width=3D"600" height=3D"78"></a>',
+'<a href=3D"marion.htm"><img src=3D"images/web-banner-33.jpg" =
+title=3D"Sippican Harbor, Marion, MA." alt=3D"Sippican Harbor, Marion, =
+MA." width=3D"600" height=3D"78"></a>',
+'<a href=3D"fishing.htm"><img src=3D"images/web-banner-34.jpg" =
+title=3D"Commercial fishing vessel in Westport Harbor." =
+alt=3D"Commercial fishing vessel in Westport Harbor." width=3D"600" =
+height=3D"78"></a>',
+'<a href=3D"falmouth.htm"><img src=3D"images/web-banner-35.jpg" =
+title=3D"Quissett Harbor, Woods Hole, MA." alt=3D"Quissett Harbor, Woods =
+Hole, MA." width=3D"600" height=3D"78"></a>',
+'<a href=3D"grants-fall-2005.htm"><img src=3D"images/web-banner-36.jpg" =
+title=3D"March 2006 photo of the late Susan Snow Cotter awarding a =
+certificate of appreciation to the late Len Gonsalves, BBAC Director." =
+alt=3D"March 2006 photo of the late Susan Snow Cotter awarding a =
+certificate of appreciation to the late Len Gonsalves, BBAC Director." =
+width=3D"600" height=3D"78"></a>',
+'<a href=3D"nautical.htm"><img src=3D"images/web-banner-37.jpg" =
+title=3D"Mystery Harbor in Buzzards Bay." alt=3D"Mystery Harbor in =
+Buzzards Bay." width=3D"600" height=3D"78"></a>',
+'<a href=3D"wetlandloss.htm"><img src=3D"images/web-banner-38.jpg" =
+title=3D"John Rockwell conducting a wetlands delineation workshop." =
+alt=3D"John Rockwell conducting a wetlands delineation workshop." =
+width=3D"600" height=3D"78"></a>',
+'<a href=3D"slideshow-carver.htm"><img src=3D"images/web-banner-39.jpg" =
+title=3D"Deer in Carver. Photo by Grumpy." alt=3D"Deer in Carver. Photo =
+by Grumpy." width=3D"600" height=3D"78"></a>',
+'<a href=3D"slideshow-carver.htm"><img src=3D"images/web-banner-40.jpg" =
+title=3D"Cranberry Bog Pump house on pond in Carver. Photo by Grumpy." =
+alt=3D"Cranberry Bog Pump house on pond in Carver. Photo by Grumpy." =
+width=3D"600" height=3D"78"></a>',
+'<a href=3D"slideshow-carver.htm"><img src=3D"images/web-banner-41.jpg" =
+title=3D"Box Turtle in Carver. Photo by Grumpy." alt=3D"Box Turtle in =
+Carver. Photo by Grumpy." width=3D"600" height=3D"78"></a>',
+'<a href=3D"slideshow-carver.htm"><img src=3D"images/web-banner-42.jpg" =
+title=3D"Pond Lily in Carver, MA.  Photo by Grumpy." alt=3D"Pond Lily in =
+Carver, MA.  Photo by Grumpy." width=3D"600" height=3D"78"></a>',
+'<a href=3D"citizen-wq-monitoring.htm"><img =
+src=3D"images/web-banner-43.jpg" title=3D"Dead silversides in a marsh, =
+possible victims of strandings in anoxic water." alt=3D"Dead silversides =
+in a marsh, possible victims of strandings in anoxic water." =
+width=3D"600" height=3D"78"></a>',
+'<a href=3D"westport.htm"><img src=3D"images/web-banner-44.jpg" =
+title=3D"Marina in Westport, MA." alt=3D"Marina in Westport, MA." =
+width=3D"600" height=3D"78"></a>',
+'<a href=3D"bourne.htm"><img src=3D"images/web-banner-45.jpg" =
+title=3D"Fuel Delivery at Kingman Marina, Bourne, MA." alt=3D"Fuel =
+Delivery at Kingman Marina, Bourne, MA." width=3D"600" =
+height=3D"78"></a>',
+'<a href=3D"bourne.htm"><img src=3D"images/web-banner-46.jpg" =
+title=3D"Red Brook Harbor, Bourne, MA." alt=3D"Red Brook Harbor, Bourne, =
+MA." width=3D"600" height=3D"78"></a>',
+'<a href=3D"falmouth.htm"><img src=3D"images/web-banner-47.jpg" =
+title=3D"Area behind Old Silver Beach in the winter." alt=3D"Area behind =
+Old Silver Beach in the winter." width=3D"600" height=3D"78"></a>',
+'<a href=3D"falmouth.htm"><img src=3D"images/web-banner-48.jpg" =
+title=3D"View of the Knobb at Quissett Harbor on a foggy early winter =
+day." alt=3D"View of the Knobb at Quissett Harbor on a foggy early =
+winter day." width=3D"600" height=3D"78"></a>',
+'<a href=3D"falmouth.htm"><img src=3D"images/web-banner-49.jpg" =
+title=3D"Boat house along West Falmouth Harbor in the winter." =
+alt=3D"Boat house along West Falmouth Harbor in the winter." =
+width=3D"600" height=3D"78"></a>',
+'<a href=3D"falmouth.htm"><img src=3D"images/web-banner-50.jpg" =
+title=3D"View of the Knobb at Quissett Harbor on a cold winter day." =
+alt=3D"View of the Knobb at Quissett Harbor on a cold winter day." =
+width=3D"600" height=3D"78"></a>',
+'<a href=3D"falmouth.htm"><img src=3D"images/web-banner-51.jpg" =
+title=3D"A portion of Buzzards Bay frozen over.  View from Falmouth." =
+alt=3D"A portion of Buzzards Bay frozen over.  View from Falmouth." =
+width=3D"600" height=3D"78"></a>',
+'<a href=3D"nrda.htm"><img src=3D"images/web-banner-52.jpg" title=3D"The =
+Aquatic Resources NRDA subcommittee meet to discuss impacts of Bouchard =
+120 oil spill." alt=3D"The Aquatic Resources NRDA subcommittee meet to =
+discuss impacts of Bouchard 120 oil spill." width=3D"600" =
+height=3D"78"></a>',
+'<a href=3D"climate.htm"><img src=3D"images/web-banner-53.jpg" =
+title=3D"The Cape Cod Canal near the Bourne Bridge when it was closed in =
+Feb. 2004 during heavy icing." alt=3D"The Cape Cod Canal near the Bourne =
+Bridge when it was closed in Feb. 2004 during heavy icing." =
+width=3D"600" height=3D"78"></a>',
+'<a href=3D"nrda.htm"><img src=3D"images/web-banner-54.jpg" =
+title=3D"Evaluation of intertidal area in Mattapoisett, MA for Bouchard =
+oil spill NRDA Aquatic Resources subcommittee." alt=3D"Evaluation of =
+intertidal area in Mattapoisett, MA for Bouchard oil spill NRDA Aquatic =
+Resources subcommittee." width=3D"600" height=3D"78"></a>',
+'<a href=3D"oilresp.htm"><img src=3D"images/web-banner-55.jpg" =
+title=3D"Meeting with Fire Chiefs regarding area response planning for =
+future oil spills." alt=3D"Meeting with Fire Chiefs regarding area =
+response planning for future oil spills." width=3D"600" =
+height=3D"78"></a>',
+'<a href=3D"mattapoisett.htm"><img src=3D"images/web-banner-56.jpg" =
+title=3D"Southern view from Ram Island, Mattapoisett, MA." =
+alt=3D"Southern view from Ram Island, Mattapoisett, MA." width=3D"600" =
+height=3D"78"></a>',
+'<a href=3D"roseates.htm"><img src=3D"images/web-banner-57.jpg" =
+title=3D"Roseate tern warning sign on Ram Island, Mattapoisett, MA." =
+alt=3D"Roseate tern warning sign on Ram Island, Mattapoisett, MA." =
+width=3D"600" height=3D"78"></a>',
+'<a href=3D"boating.htm"><img src=3D"images/web-banner-58.jpg" =
+title=3D"Taylor Point Marina, Bourne." alt=3D"Taylor Point Marina, =
+Bourne." width=3D"600" height=3D"78"></a>',
+'<a href=3D"wetlands.htm"><img src=3D"images/web-banner-59.jpg" =
+title=3D"Removal of tidal restriction at Mattapoisett Neck." =
+alt=3D"Removal of tidal restriction at Mattapoisett Neck." width=3D"600" =
+height=3D"78"></a>',
+'<a href=3D"wetlands.htm"><img src=3D"images/web-banner-60.jpg" =
+title=3D"Technical assistance to conservation commissions." =
+alt=3D"Technical assistance to conservation commissions." width=3D"600" =
+height=3D"78"></a>',
+'<a href=3D"nuisance-algae-hab.htm"><img =
+src=3D"images/web-banner-61.jpg" title=3D"Photomicrograph of nuisance =
+algae." alt=3D"Photomicrograph of nuisance algae." width=3D"600" =
+height=3D"78"></a>',
+'<a href=3D"shellfish_closures_buzzards_bay.htm"><img =
+src=3D"images/web-banner-62.jpg" title=3D"View of Buttermilk Bay from =
+the Cranberry Highway." alt=3D"View of Buttermilk Bay from the Cranberry =
+Highway." width=3D"600" height=3D"78"></a>',
+'<a href=3D"bourne.htm"><img src=3D"images/web-banner-63.jpg" =
+title=3D"Railroad Bridge in Pocasset." alt=3D"Railroad Bridge in =
+Pocasset." width=3D"600" height=3D"78"></a>',
+'<a href=3D"smatlasmain.htm"><img src=3D"images/web-banner-64.jpg" =
+title=3D"Wetland restoration at Wings Neck, Bourne, MA." alt=3D"Wetland =
+restoration at Wings Neck, Bourne, MA." width=3D"600" =
+height=3D"78"></a>',
+'<a href=3D"boatramps.htm"><img src=3D"images/web-banner-65.jpg" =
+title=3D"Boat ramp at Hens Cove, Bourne, MA." alt=3D"Boat ramp at Hens =
+Cove, Bourne, MA." width=3D"600" height=3D"78"></a>',
+'<a href=3D"boatramps.htm"><img src=3D"images/web-banner-66.jpg" =
+title=3D"View of Red Brook Harbor, Bourne, MA." alt=3D"View of Red Brook =
+Harbor, Bourne, MA." width=3D"600" height=3D"78"></a>',
+'<a href=3D"eelpond-matt.htm"><img src=3D"images/web-banner-67.jpg" =
+title=3D"Ground penetrating radar used at Eel Pon, Mattapoisett." =
+alt=3D"Ground penetrating radar used at Eel Pon, Mattapoisett." =
+width=3D"600" height=3D"78"></a>',
+'<a href=3D"oiltrain.htm"><img src=3D"images/web-banner-68.jpg" =
+title=3D"Oil spill training." alt=3D"Oil spill training." width=3D"600" =
+height=3D"78"></a>',
+'<a href=3D"etimain.htm"><img src=3D"images/web-banner-69.jpg" =
+title=3D"Mass Septic System Test Center." alt=3D"Mass Septic System Test =
+Center." width=3D"600" height=3D"78"></a>',
+'<a href=3D"oiltrain.htm"><img src=3D"images/web-banner-70.jpg" =
+title=3D"Oil spill training." alt=3D"Oil spill training." width=3D"600" =
+height=3D"78"></a>'
+);
+var max =3D mess.length;
+var num =3D Math.floor((Math.random() * max));
+document.writeln(mess[num]);
+------=_NextPart_000_0000_01C95D70.DA685240--

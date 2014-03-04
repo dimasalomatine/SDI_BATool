@@ -1,0 +1,78 @@
+BODY {
+	ffffff: 
+}
+TABLE {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; WIDTH: 100%; BORDER-BOTTOM: 0px; cellspacing: 0; cellpadding: 0
+}
+TR {
+	VERTICAL-ALIGN: top
+}
+TH {
+	PADDING-LEFT: 10px; FONT-SIZE: 20px; PADDING-BOTTOM: 20px; COLOR: #0066cc; FONT-FAMILY: verdana, arial, 'sans serif'; TEXT-ALIGN: left
+}
+TD {
+	PADDING-LEFT: 30px; WIDTH: 30%
+}
+P {
+	FONT-SIZE: 12px; TEXT-INDENT: 1cm; FONT-FAMILY: verdana, arial, 'sans serif'; align: left
+}
+IMG {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px
+}
+H2 {
+	COLOR: #0066cc; FONT-FAMILY: verdana, arial, 'sans serif'; TEXT-ALIGN: center
+}
+H3 {
+	MARGIN-LEFT: 10px; COLOR: #0066cc; FONT-FAMILY: verdana, arial, 'sans serif'; TEXT-ALIGN: left
+}
+LI {
+	FONT-WEIGHT: bold; FONT-SIZE: 13px; FONT-FAMILY: verdana, arial, 'sans serif'; TEXT-DECORATION: underline
+}
+A.main:link {
+	COLOR: #000000
+}
+A.main:visited {
+	COLOR: #0066cc
+}
+A.main:hover {
+	COLOR: #1e90ff
+}
+A.main:active {
+	COLOR: #1e90ff
+}
+A:link {
+	COLOR: #0066cc
+}
+A:visited {
+	COLOR: #a8a8a8
+}
+A:hover {
+	COLOR: #1e90ff
+}
+A:active {
+	COLOR: #1e90ff
+}
+icon {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; WIDTH: 20px; BORDER-BOTTOM: 0px; HEIGHT: 20px
+}
+TABLE.imgcenter {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; WIDTH: 100%; BORDER-BOTTOM: 0px; TEXT-ALIGN: center; cellspacing: 0; cellpadding: 0
+}
+TABLE.twoimgcenter {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; WIDTH: 100%; BORDER-BOTTOM: 0px; cellspacing: 0px; cellpadding: 0px
+}
+TD.twoimgcenter_1 {
+	WIDTH: 50%; TEXT-ALIGN: right
+}
+TD.twoimgcenter_2 {
+	WIDTH: 50%; TEXT-ALIGN: left
+}
+TABLE.description {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; FONT-SIZE: 12px; BORDER-LEFT: 0px; WIDTH: 100%; BORDER-BOTTOM: 0px; FONT-FAMILY: verdana, arial, 'sans serif'; cellspacing: 0; cellpadding: 0
+}
+TD.description {
+	WIDTH: 50%; TEXT-INDENT: 1cm
+}
+TABLE.enumeration {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; FONT-SIZE: 12px; BORDER-LEFT: 0px; WIDTH: 100%; BORDER-BOTTOM: 0px; FONT-FAMILY: verdana, arial, 'sans serif'; cellspacing: 0; cellpadding: 0
+}

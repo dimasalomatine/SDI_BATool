@@ -1,0 +1,38 @@
+#sidebar {
+	display:none;
+	}
+.header .ad, .main .ad {
+	display:none !important;
+	}
+.header .logo,
+.header, .footer  {
+	background:transparent;
+	margin:0;padding:0;
+	}
+.header .search,
+.header .tabs {
+	display:none;
+	}
+.logo #print_logo{
+	display:block !important;
+	height:87px;width:267px;
+	}
+.logo #screen_logo{
+	display:none;
+	}
+
+.main {
+	border:1px solid black;
+  	border-width:1px 0 1px 0;
+	}
+.main .print_link {
+	display:none;
+	}
+.footer .links {
+	display:none;
+	}
+.footer .notes {
+	color:black;
+	page-break-inside:avoid;
+	display:block;
+	}

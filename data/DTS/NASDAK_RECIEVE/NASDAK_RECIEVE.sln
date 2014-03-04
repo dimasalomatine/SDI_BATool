@@ -1,0 +1,17 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{D183A3D8-5FD8-494B-B014-37F57B35E655}") = "NASDAK_RECIEVE", "NASDAK_RECIEVE\NASDAK_RECIEVE.dtproj", "{FB670444-890B-4EDA-A0C2-FD593BA22F5A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB670444-890B-4EDA-A0C2-FD593BA22F5A}.Development|Default.ActiveCfg = Development
+		{FB670444-890B-4EDA-A0C2-FD593BA22F5A}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

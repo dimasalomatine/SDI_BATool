@@ -1,0 +1,56 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0062)http://www.qtinfo.com/help_base/gui/indicators/bb_percent.html -->
+<HTML><HEAD>
+<META http-equiv=Content-Type content="text/html; charset=windows-1255"><LINK 
+href="bb_percent_files/style.css" type=text/css rel=stylesheet>
+<META content="MSHTML 6.00.6001.18157" name=GENERATOR></HEAD>
+<BODY>
+<H2><IMG src="bb_percent_files/indicators_large.png"> <A name=up>Bollinger Bands 
+%</A> </H2>
+<P>"<B>Bollinger Bands %</B>" has two bands plotted around a moving average 
+using the value of standard deviation. An indicator derived from "<B>Bollinger 
+Bands</B>" that we call "<B>Bollinger Bands %</B>" can be of great help, using 
+the same formula that George Lane used for stochastics. The indicator 
+"<B>Bollinger Bands %</B>" tells us where we are within the bands. </P>
+<H3>Calculation</H3>
+<P>First the <B>Moving Average</B> of prices is calculated. This is a <A 
+href="http://www.qtinfo.com/help_base/gui/indicators/sma.html">Simple Moving 
+Average</A>.</P>
+<P><IMG src="bb_percent_files/bb_m_ecuation.png"></P>
+<P>Than the <B>Standard Deviation</B> is calculated by using the following 
+formula:</P>
+<P><IMG src="bb_percent_files/bb_sd_ecuation.png"></P>
+<P>After these, the "<B>Upper Bollinger Band</B>" and the "<B>Lower Bollinger 
+Band</B>" can be calculated by using the following formulas:</P>
+<P><IMG src="bb_percent_files/bb_upper_lower_ecuation.png"></P>
+<P>where: 
+<TABLE class=enumeration>
+  <TBODY>
+  <TR>
+    <TD><BR>"<B>Price</B>" can be: <B>Close</B>, <B>Open</B>, <B>High</B>, 
+      <B>Low</B>, <B>HL MidPoint</B>, <B>HLC MidPoint</B> or <B>HLCO 
+      MidPoint</B> and <BR>"<B>D</B>" is the number of standard deviations (two 
+      deviations) </TD></TR></TBODY></TABLE></P>
+<P>Finally, we can calculate the "<B>Bollinger Bands %</B>" by using the 
+following formula:<BR><BR></P>
+<P><IMG src="bb_percent_files/bb_percent_ecuation.png"></P>
+<P>From "<B>Indicator Properties</B>" you can change the settings for 
+indicator:</P>
+<TABLE class=imgcenter>
+  <TBODY>
+  <TR>
+    <TD><IMG src="bb_percent_files/bb_percent_properties.png"> 
+</TD></TR></TBODY></TABLE>
+<P>In this dialog box, the user can set the line thickness, color and style. The 
+"<B>Price</B>" used in the construction of indicator can be: <B>Close</B>, 
+<B>Open</B>, <B>High</B>, <B>Low</B>, <B>HL MidPoint</B>, <B>HLC MidPoint</B> or 
+<B>HLCO MidPoint</B>. From "<B>Length</B>" you can change the number of points 
+that are used in the moving average.</P>
+<H3>Bollinger Bands % indicator on ESZ07 chart</H3>
+<TABLE class=imgcenter>
+  <TBODY>
+  <TR>
+    <TD><IMG src="bb_percent_files/bb_percent.png"> </TD></TR></TBODY></TABLE><A 
+href="http://www.qtinfo.com/help_base/gui/indicators/bb_percent.html#up"><IMG 
+class=icon alt="Go to the top of page" src="bb_percent_files/up.png"></A> 
+</BODY></HTML>

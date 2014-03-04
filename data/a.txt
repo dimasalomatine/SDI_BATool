@@ -1,0 +1,17 @@
+ Volume in drive C has no label.
+ Volume Serial Number is 1EF4-D6B8
+
+ Directory of C:\SDI_BATool\data
+
+12/08/2008  08:51 AM    <DIR>          .
+12/08/2008  08:51 AM    <DIR>          ..
+12/08/2008  08:51 AM                 0 a.txt
+10/01/2008  04:34 PM    <DIR>          AI
+12/01/2008  05:54 PM           520,192 base.mdb
+10/05/2008  09:00 PM        76,615,680 Copy of data.mdb
+12/08/2008  08:51 AM        44,146,688 data.mdb
+11/30/2008  06:11 PM         1,056,768 systema.mdb
+12/08/2008  08:46 AM    <DIR>          TEMPTASE
+09/26/2008  03:28 PM            13,257 tfo.txt
+               6 File(s)    122,352,585 bytes
+               4 Dir(s)  56,858,009,600 bytes free

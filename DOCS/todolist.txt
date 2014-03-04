@@ -1,0 +1,26 @@
+
+1)
+implement pin to folder button
+2)
+implement and prove
+AI per stok run from begin to specified date
+put result to Graph
+make as event in simulation view
+3)
+implement check constraints in follow list
+4)
+implement send mail in follow list
+5)
+implement simulation on folder
+6)
+complete ppt with approvement
+7)
+implement boilinger
+8)
+implement regression
+9)
+implement veirshtrasse
+10)
+implement macd momentum
+11)implement custom indexes build
+12)hide some options from forms

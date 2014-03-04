@@ -1,0 +1,334 @@
+﻿body {
+}
+
+.TopicTable
+{
+	
+	background-color:#E9F1F4;
+	margin-bottom:1px;
+}
+
+.TitleCell
+{
+	width:600px;
+	font-family:Arial;
+	font-size:12px;
+}
+
+.TitleLink
+{
+	color:Black;
+	font-weight:bold;
+	font-size:13px;
+	font-family:Arial;
+	text-decoration:underline;
+	padding-left:4px;
+	cursor:hand;
+}
+
+.TitleLink:visited
+{
+	color:#000080;
+}
+
+.TopicAuthor
+{
+	font-family:Arial;
+	font-size:12px;
+	color:Black;
+}
+
+.TopicAuthorBold
+{
+	font-family:Arial;
+	font-size:12px;
+	color:Black;
+	font-weight:bold;
+}
+
+.TopicDate
+{
+	direction:rtl;
+	font-family:Arial;
+	font-size:12px;
+	color:Black;
+}
+
+.TopicDateBold
+{
+	direction:rtl;
+	font-family:Arial;
+	font-size:12px;
+	color:#5C9F26;
+	font-weight:bold;
+}
+
+.TopicBodyRow
+{
+    width:769px;
+	background-color:#F4FCFE;
+}
+
+.BodyTable
+{
+	
+}
+
+.TopicBodyCell
+{
+    width:769px;
+	font-family:Arial;
+	font-size:14px;
+	color:Black;
+}
+
+.ButtonsPanel
+{
+	width:671px;
+}
+
+.TopicViewsCell
+{
+	font-family:Arial;
+	font-size:12px;
+	color:#2B6182;
+	font-weight:bold;
+}
+
+.OptionButton2
+{
+	font-family:Arial;
+	font-size:13px;
+	background-image:url('../UserControls/CategoryControlIMG/BgButton.gif');
+    background-repeat:repeat-x;
+    color:Black;
+	text-align:center;
+	text-decoration:none;
+	display:block;
+    border-color:#E6E6E6;
+    border-width:1px;
+    border-style:solid;
+    height:16px
+	}
+
+.OptionButton2:Hover
+{
+	background-image:url('../UserControls/CategoryControlIMG/BgOverButton.gif');
+	}
+	
+
+.OptionButton
+{
+	font-family:Arial;
+	font-size:13px;
+	background-image:url('../UserControls/CategoryControlIMG/BgButton.gif');
+    background-repeat:repeat-x;
+    width:150px;
+    height:20px;
+	color:Black;
+	text-align:center;
+	text-decoration:none;
+	display:block;
+	}
+	
+.RssButton
+{
+	font-family:Arial;
+	font-size:12px;
+	background-image:url('../UserControls/CategoryControlIMG/BgButton.gif');
+    background-repeat:repeat-x;
+    width:150px;
+    height:20px;
+	color:#D28414;
+	text-align:center;
+	text-decoration:none;
+	font-weight:bold;
+	display:block;
+	}
+	
+.OptionButtonSite
+{
+	font-family:Arial;
+	font-size:13px;
+	background-image:url('../UserControls/CategoryControlIMG/BgButton.gif');
+    background-repeat:repeat-x;
+    width:150px;
+    height:20px;
+	color:Black;
+	text-align:center;
+	text-decoration:none;
+	border-color:#D7D7D7;
+	border-style:solid;
+	border:1px;
+	}
+
+.OptionButtonSite:Hover
+{
+	font-family:Arial;
+	font-size:13px;
+	background-image:url('../UserControls/CategoryControlIMG/BgOverButton.gif');
+	background-repeat:repeat-x;
+	width:150px;
+	height:20px;
+	color:Black;
+	text-align:center;
+	text-decoration:none;
+	border-color:#D7D7D7;
+	border-style:solid;
+	border:1px;
+	}
+	
+.OptionButton:Hover
+{
+	font-family:Arial;
+	font-size:13px;
+	background-image:url('../UserControls/CategoryControlIMG/BgOverButton.gif');
+	background-repeat:repeat-x;
+	width:150px;
+	height:20px;
+	color:Black;
+	text-align:center;
+	text-decoration:none;
+	}
+
+.TagLinesLink
+{
+    color:#376A85;
+	text-decoration:none;
+	cursor:hand;
+	font-size:14px;
+	font-family:Arial;
+	text-align:center;
+}
+
+.TagLinesLink:Hover
+{
+    color:#376A85;
+	text-decoration:underline;
+	cursor:hand;
+	font-size:14px;
+	font-family:Arial;
+	text-align:center;
+	font-weight:bold;
+}
+
+/*Forum center page CSS*/
+
+.ForumNameText
+{
+    font-family:Arial;
+    font-size:12px;
+    color:Black;
+    font-weight:bold;
+    vertical-align:middle;
+    text-align:right;
+}
+
+.ForumTopicDate
+{
+    font-family:Arial;
+    font-size:12px;
+    color:Black;
+    font-variant:small-caps;
+}
+
+.ForumTopicLink
+{
+    font-family:Arial;
+    font-size:12px;
+    text-decoration:none;
+    color:Black;
+    font-variant:small-caps;
+    text-align:right;
+}
+
+.ForumTopicLink:Hover
+{
+    font-family:Arial;
+    font-size:12px;
+    text-decoration:underline;
+    color:Black;
+    font-variant:small-caps;
+    text-align:right;
+}
+
+.TopickRelationLink
+{
+    color:#295C77;
+	text-decoration:none;
+	cursor:hand;
+	font-size:11px;
+	font-family:Arial;
+	text-align:center;
+}
+
+.TopickRelationLink:Hover
+{
+    color:#295C77;
+	text-decoration:none;
+	cursor:hand;
+	font-size:11px;
+	font-family:Arial;
+	text-align:center;
+}
+
+.ForumLabel
+{
+    font-family:Arial;
+    font-size:12px;
+    color:Black;
+}
+
+.NoLine
+{
+    text-decoration:none;
+    }
+
+.ManagersName
+{
+    font-family:Arial;
+    font-size:12px;
+    color:#C51616;
+    text-indent:2;
+    font-weight:bold;
+}
+
+.MapPathLink
+{
+    color:#64AC00;
+    font-family:Arial;
+    font-size:14px;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+.MapPathLink:Hover
+{
+    color:#64AC00;
+    font-family:Arial;
+    font-size:14px;
+    font-weight:bold;
+    text-decoration:underline;
+}
+
+.hlTitleImage
+{
+    text-decoration:none;
+    }
+
+
+.ErrMsg1
+{
+    font-family:Arial;
+    color:Red;
+    font-size:12px;
+    }
+    
+    
+  .here
+  {
+    font-family:Arial;
+    color:Red;
+    font-size:11px;
+    }
+    
