@@ -1,15 +1,20 @@
-Ellada 
-Project started in 1998 as learn AI to create predictions for trade system 
-with aspect of ability to measure success in means of probability 
+Ellada
 ======================
+Project started in 1998 as learn AI to create predictions for trade system 
+with aspect of ability to measure success in means of probability. 
 Stock analyse software, that operates on Tel-Aviv StokMarket.
+
 Developed - concept,programmed and tested by HellCreator.
+
 Author :	Salomatine Dmitry
+
 E-mail :	hellcreator.sdi@gmail.com
 
 Version:	1.0 dev.
+
 Release:	03-02-2004
-Features(partially):
+
+Features list(partially):
 
 1)Database management
 	a.Live web database update from different locations-local DB
