@@ -8,7 +8,10 @@ import java.util.Properties;
 //~--- classes ----------------------------------------------------------------
 
 public class SDI_Properties extends Properties {
-    String propfilename = "c:\\\\SDI_BATool\\srv.prop";    // default file
+    String propfilename = 
+            //"c:\\\\SDI_BATool\\"+
+            "@workingdir@\\"+
+            "srv.prop";    // default file
 
     //~--- constructors -------------------------------------------------------
 
@@ -19,11 +22,14 @@ public class SDI_Properties extends Properties {
      */
     public SDI_Properties() {
 
-        // TODO: Add your code here
+        String wd=System.getProperty("user.dir");
+        propfilename=propfilename.replace("@workingdir@", wd);
     }
 
     public SDI_Properties(String fn) {
         propfilename = fn;
+        String wd=System.getProperty("user.dir");
+        propfilename=propfilename.replace("@workingdir@", wd);
     }
 
     //~--- methods ------------------------------------------------------------

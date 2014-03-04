@@ -1,9 +1,9 @@
 #
-#Sun Dec 29 17:30:46 IST 2013
+#Tue Mar 04 08:54:05 IST 2014
 DetectorDefaultSetings.RSI.max=70.0
 DetectorDefaultSetings.MA2.max=0.5
 DetectorDefaultSetings.MA2.period=14
-app.imagsetdir=c\:\\\\SDI_BaTool\\images\\
+app.imagsetdir=@workingdir@\\images\\
 ONserver.voted=28-08-2012
 server.mssqlport=1433
 update.USETASE=false
@@ -29,18 +29,18 @@ DetectorDefaultSetings.RSI.min=30.0
 DetectorDefaultSetings.MA2.min=0.5
 serverdriver.type=mssql
 DetectorDefaultSetings.RSI.period=14
-datasource.datapath=c\:\\\\SDI_BATool\\data\\
+datasource.datapath=@workingdir@\\data\\
 server.host=//127.0.0.1
 server.autologin=true
 update.auto=false
 server.mssqlinstance=dima2000
 server.SERVER=batool
 update.USEYAHOO=true
-datasource.base=base
 update.DTSRUN=DTSRun /~Z0x524A530CAF687DAD440C8A7869C40FC523DA39596BEECEEAEB4CE7C4F69F2A3056A881FD1319E7756DB3AFFFDEC99A54599ADD417B97FD08EEE49F925AE9B2670CA4BDD97090080271EB5412AB52560ED57AB929ADC10B35302EA910473808846DEEEFF5D9C9D5185E257A233DDEFBFF6F10BABB7B4822F216DD83 
+datasource.base=base
 server.mssqlusernamedefault=dimka
 DetectorDefaultSetings.MA3.max=0.5
-DetectorDefaultSetings.MA1.min=0.5
 tabs.RT=true
+DetectorDefaultSetings.MA1.min=0.5
 logger.auto=false
 DetectorDefaultSetings.MA1.period=7

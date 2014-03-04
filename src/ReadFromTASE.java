@@ -106,14 +106,14 @@ public class ReadFromTASE extends DnldURL {
     }
 
     private String localdatapath =
-            BursaAnalizer_Frame.p.getProperty("datasource.datapath")+"\\TEMPTASE";
+            BursaAnalizer_Frame.p.getProperty("datasource.datapath").replace("@workingdir@", System.getProperty("user.dir"))+"\\TEMPTASE";
     
     private String rempath="https://www.tase.co.il/FileDistribution/PackTarget/Full";   
     
     private void FilesExistsLocalyFromTase(CDate start, CDate end,Map mapindexing) {
         //first check if exist on disk local
         //PACKAGE GET FROM TASE ALL IN ONE ZIP
-        //FORMAT LINKTASE/DIST2/PUBLIC/PACK/YYYYMMDD.ZIP
+        //FORMAT LINKTASE/DIST2/PUBLIC/PACK/YYYYMMDD.ZIPuser.dir
         //EXAMPLE
         //https://www.tase.co.il/FileDistribution/PackTarget/Full20060112+0.zip
         CDate tempd=new CDate(start);

@@ -149,6 +149,8 @@ public class BursaAnalizer_Frame extends JFrame {
         p.initpropertiesfile(null);
         uiInterLang=p.getProperty("UILANG", "LANGen");
         timgdir = p.getProperty("app.imagsetdir", timgdir);
+        String wd=System.getProperty("user.dir");
+        timgdir=timgdir.replace("@workingdir@", wd);
         ws      = new WellcomeScreen();
         ws.setUsername(p.getProperty("server.username", "anonym"));
         ws.setPassword(p.getProperty("server.password", "123456"));

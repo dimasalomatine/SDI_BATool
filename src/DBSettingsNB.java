@@ -101,7 +101,7 @@ public class DBSettingsNB extends javax.swing.JFrame {
         });
 
         pathtoaccess.setText(BursaAnalizer_Frame.p.getProperty(
-            "datasource.datapath"));
+            "datasource.datapath").replace("@workingdir@", System.getProperty("user.dir")));
 
     jLabel1.setText("Path to DB folder");
 
@@ -330,7 +330,7 @@ mssqlserver.addActionListener(new java.awt.event.ActionListener() {
 
     jTabbedPane1.addTab("MSSQL settings", jPanel5);
 
-    jPanel4.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Curently used", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 0, 11), new java.awt.Color(51, 51, 255))); // NOI18N
+    jPanel4.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Curently used", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, null, new java.awt.Color(51, 51, 255)));
 
     buttonGroup1.add(mysqlrb);
     mysqlrb.setText("MySQL");
@@ -427,7 +427,7 @@ mssqlserver.addActionListener(new java.awt.event.ActionListener() {
         .add(jPanel1Layout.createSequentialGroup()
             .addContainerGap()
             .add(jPanel1Layout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
-                .add(jTabbedPane1, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, 536, Short.MAX_VALUE)
+                .add(jTabbedPane1)
                 .add(jPanel1Layout.createSequentialGroup()
                     .add(test)
                     .add(16, 16, 16)
